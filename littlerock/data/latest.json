@@ -1,0 +1,821 @@
+[
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 207
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Burglary",
+    "count": 128
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Motor Vehicle Theft",
+    "count": 47
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Murder",
+    "count": 9
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Rape",
+    "count": 15
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Robbery",
+    "count": 35
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Theft",
+    "count": 555
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Aggravated Assault",
+    "count": 200
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Burglary",
+    "count": 113
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Motor Vehicle Theft",
+    "count": 34
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Murder",
+    "count": 8
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Rape",
+    "count": 7
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Robbery",
+    "count": 29
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Theft",
+    "count": 447
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 205
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 145
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 53
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Rape",
+    "count": 15
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 19
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Theft",
+    "count": 534
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Aggravated Assault",
+    "count": 186
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Burglary",
+    "count": 103
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Motor Vehicle Theft",
+    "count": 42
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Rape",
+    "count": 17
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Robbery",
+    "count": 30
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Theft",
+    "count": 497
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Aggravated Assault",
+    "count": 243
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Burglary",
+    "count": 118
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Motor Vehicle Theft",
+    "count": 63
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Rape",
+    "count": 14
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Robbery",
+    "count": 41
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Theft",
+    "count": 540
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Aggravated Assault",
+    "count": 222
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Burglary",
+    "count": 132
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Motor Vehicle Theft",
+    "count": 74
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Murder",
+    "count": 5
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Rape",
+    "count": 13
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Robbery",
+    "count": 31
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Theft",
+    "count": 524
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 229
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 104
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 56
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Murder",
+    "count": 6
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Rape",
+    "count": 11
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 32
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Theft",
+    "count": 563
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 209
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 94
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 57
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Rape",
+    "count": 19
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 30
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Theft",
+    "count": 569
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 188
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 82
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 47
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Rape",
+    "count": 15
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 23
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Theft",
+    "count": 501
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 173
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Burglary",
+    "count": 92
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 47
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Rape",
+    "count": 15
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Robbery",
+    "count": 29
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Theft",
+    "count": 486
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Aggravated Assault",
+    "count": 220
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Burglary",
+    "count": 99
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Motor Vehicle Theft",
+    "count": 61
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Rape",
+    "count": 10
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Robbery",
+    "count": 20
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Theft",
+    "count": 499
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Aggravated Assault",
+    "count": 182
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Burglary",
+    "count": 122
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Motor Vehicle Theft",
+    "count": 55
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Murder",
+    "count": 5
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Rape",
+    "count": 13
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Robbery",
+    "count": 28
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Theft",
+    "count": 467
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 192
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Burglary",
+    "count": 102
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Motor Vehicle Theft",
+    "count": 43
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Rape",
+    "count": 11
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Robbery",
+    "count": 32
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Theft",
+    "count": 448
+  }
+]

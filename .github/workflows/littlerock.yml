@@ -1,0 +1,43 @@
+name: Monthly Little Rock Scrape
+
+on:
+  schedule:
+    # Run on the 15th of every month at 10:00 UTC
+    - cron: '0 10 15 * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: littlerock
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scrape.py --json > data/latest.json
+
+      - name: Archive monthly snapshot
+        run: |
+          MONTH=$(date -u +%Y-%m)
+          cp data/latest.json "data/${MONTH}.json"
+
+      - name: Show results
+        run: python -c "import json; d=json.load(open('data/latest.json')); months=set((r['year'],r['month']) for r in d); print(f'{len(d)} records, {len(months)} months')"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          MONTH=$(date -u +%Y-%m)
+          git diff --cached --quiet || git commit -m "Update Little Rock data ${MONTH}"
+          git push

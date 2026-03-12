@@ -16,6 +16,18 @@ Puppeteer-based scraper for [NYPD CompStat 2.0](https://compstat.nypdonline.org/
 cd compstat && npm install && node scrape.js --json
 ```
 
+### `littlerock/` — Little Rock, AR
+
+Python scraper for [Little Rock Crime Stats](https://littlerock.gov/government/mayors-office/initiatives/crime-reduction-strategy/crime-stats/). Downloads the "Part I Offenses by Month" PDF and extracts monthly counts via pdfplumber.
+
+- **Schedule:** 15th of each month
+- **Agencies:** Little Rock
+- **Output:** `littlerock/data/latest.json`
+
+```bash
+cd littlerock && pip install -r requirements.txt && python scrape.py --json
+```
+
 ### `arjis/` — San Diego Area (ARJIS)
 
 Python scraper for [ARJIS CrimeStats](https://crimestats.arjis.org/). Downloads Excel exports via ASP.NET ViewState postbacks, reshapes wide→long, and aggregates sub-crimes into RTCI offenses.
