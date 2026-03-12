@@ -1,0 +1,15 @@
+{
+  "name": "compstat-scraper",
+  "version": "1.0.0",
+  "description": "Scrape monthly crime data from NYPD CompStat 2.0 dashboard",
+  "main": "scrape.js",
+  "scripts": {
+    "scrape": "node scrape.js",
+    "scrape:json": "node scrape.js --json"
+  },
+  "keywords": ["nypd", "compstat", "crime-data", "scraper"],
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.0.0"
+  }
+}
