@@ -1,2 +1,5 @@
 node_modules/
 *.log
+arjis/monthly_xls/
+__pycache__/
+*.pyc
