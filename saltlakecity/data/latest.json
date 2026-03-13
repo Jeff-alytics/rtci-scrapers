@@ -1,0 +1,1514 @@
+[
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Rape",
+    "count": 23
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 25
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 78
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 81
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Theft",
+    "count": 721
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 74
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Rape",
+    "count": 19
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Robbery",
+    "count": 27
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Aggravated Assault",
+    "count": 80
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Burglary",
+    "count": 82
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Theft",
+    "count": 728
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Motor Vehicle Theft",
+    "count": 51
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Rape",
+    "count": 23
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Robbery",
+    "count": 38
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Aggravated Assault",
+    "count": 78
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Burglary",
+    "count": 90
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Theft",
+    "count": 743
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Motor Vehicle Theft",
+    "count": 86
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Rape",
+    "count": 21
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Robbery",
+    "count": 32
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Aggravated Assault",
+    "count": 88
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Burglary",
+    "count": 108
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Theft",
+    "count": 754
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Motor Vehicle Theft",
+    "count": 83
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Rape",
+    "count": 26
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 43
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 94
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 98
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Theft",
+    "count": 768
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 86
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Rape",
+    "count": 35
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 41
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 110
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 110
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Theft",
+    "count": 798
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 82
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Rape",
+    "count": 28
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 43
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 113
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 124
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Theft",
+    "count": 910
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 95
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Rape",
+    "count": 27
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Robbery",
+    "count": 44
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 76
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Burglary",
+    "count": 122
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Theft",
+    "count": 867
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 87
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Rape",
+    "count": 30
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Robbery",
+    "count": 22
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Aggravated Assault",
+    "count": 61
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Burglary",
+    "count": 113
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Theft",
+    "count": 732
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Motor Vehicle Theft",
+    "count": 86
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Rape",
+    "count": 22
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Robbery",
+    "count": 24
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Aggravated Assault",
+    "count": 68
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Burglary",
+    "count": 90
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Theft",
+    "count": 743
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Motor Vehicle Theft",
+    "count": 108
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Rape",
+    "count": 29
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Robbery",
+    "count": 34
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 58
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Burglary",
+    "count": 91
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Theft",
+    "count": 709
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Motor Vehicle Theft",
+    "count": 81
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Rape",
+    "count": 14
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Robbery",
+    "count": 19
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Aggravated Assault",
+    "count": 53
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Burglary",
+    "count": 74
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Theft",
+    "count": 595
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Motor Vehicle Theft",
+    "count": 76
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Rape",
+    "count": 24
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 25
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 96
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 104
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Theft",
+    "count": 703
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 63
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Rape",
+    "count": 22
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Robbery",
+    "count": 24
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Aggravated Assault",
+    "count": 73
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Burglary",
+    "count": 99
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Theft",
+    "count": 763
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Motor Vehicle Theft",
+    "count": 58
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Rape",
+    "count": 38
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Robbery",
+    "count": 45
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Aggravated Assault",
+    "count": 90
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Burglary",
+    "count": 97
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Theft",
+    "count": 798
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Motor Vehicle Theft",
+    "count": 72
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Rape",
+    "count": 32
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Robbery",
+    "count": 34
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Aggravated Assault",
+    "count": 105
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Burglary",
+    "count": 111
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Theft",
+    "count": 749
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Motor Vehicle Theft",
+    "count": 83
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Rape",
+    "count": 31
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 37
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 109
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 121
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Theft",
+    "count": 811
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 83
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Rape",
+    "count": 38
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 43
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 94
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 76
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Theft",
+    "count": 830
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 63
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Rape",
+    "count": 27
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 33
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 70
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 89
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Theft",
+    "count": 816
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 70
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Rape",
+    "count": 43
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Robbery",
+    "count": 29
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 64
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Burglary",
+    "count": 67
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Theft",
+    "count": 881
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 48
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Rape",
+    "count": 31
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Robbery",
+    "count": 18
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Aggravated Assault",
+    "count": 74
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Burglary",
+    "count": 70
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Theft",
+    "count": 618
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Motor Vehicle Theft",
+    "count": 53
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Rape",
+    "count": 23
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Robbery",
+    "count": 28
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Aggravated Assault",
+    "count": 58
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Burglary",
+    "count": 54
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Theft",
+    "count": 687
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Motor Vehicle Theft",
+    "count": 65
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Rape",
+    "count": 28
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Robbery",
+    "count": 18
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 69
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Burglary",
+    "count": 73
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Theft",
+    "count": 628
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Motor Vehicle Theft",
+    "count": 52
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Rape",
+    "count": 21
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Robbery",
+    "count": 17
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Aggravated Assault",
+    "count": 66
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Burglary",
+    "count": 52
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Theft",
+    "count": 498
+  },
+  {
+    "agency": "Salt Lake City",
+    "state": "UT",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Motor Vehicle Theft",
+    "count": 50
+  }
+]

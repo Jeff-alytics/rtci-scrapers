@@ -1,0 +1,1577 @@
+[
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Murder",
+    "count": 4
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Rape",
+    "count": 40
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 140
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 269
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 724
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Theft",
+    "count": 1788
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 621
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Rape",
+    "count": 22
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Robbery",
+    "count": 129
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Aggravated Assault",
+    "count": 289
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Burglary",
+    "count": 737
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Theft",
+    "count": 1656
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 4,
+    "offense": "Motor Vehicle Theft",
+    "count": 640
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Murder",
+    "count": 7
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Rape",
+    "count": 39
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Robbery",
+    "count": 123
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Aggravated Assault",
+    "count": 294
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Burglary",
+    "count": 731
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Theft",
+    "count": 2047
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 5,
+    "offense": "Motor Vehicle Theft",
+    "count": 612
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Murder",
+    "count": 7
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Rape",
+    "count": 40
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Robbery",
+    "count": 142
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Aggravated Assault",
+    "count": 286
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Burglary",
+    "count": 694
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Theft",
+    "count": 1853
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 6,
+    "offense": "Motor Vehicle Theft",
+    "count": 565
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Murder",
+    "count": 5
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Rape",
+    "count": 40
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 154
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 323
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 800
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Theft",
+    "count": 2096
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 612
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Murder",
+    "count": 8
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Rape",
+    "count": 30
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 148
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 304
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 781
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Theft",
+    "count": 2330
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 623
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Rape",
+    "count": 33
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 170
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 267
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 841
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Theft",
+    "count": 2433
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 692
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Murder",
+    "count": 4
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Rape",
+    "count": 34
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Robbery",
+    "count": 158
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 288
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Burglary",
+    "count": 808
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Theft",
+    "count": 2612
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 678
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Rape",
+    "count": 25
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Robbery",
+    "count": 151
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Aggravated Assault",
+    "count": 255
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Burglary",
+    "count": 706
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Theft",
+    "count": 2314
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 11,
+    "offense": "Motor Vehicle Theft",
+    "count": 623
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Rape",
+    "count": 39
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Robbery",
+    "count": 135
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Aggravated Assault",
+    "count": 246
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Burglary",
+    "count": 720
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Theft",
+    "count": 2244
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2024,
+    "month": 12,
+    "offense": "Motor Vehicle Theft",
+    "count": 552
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Rape",
+    "count": 43
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Robbery",
+    "count": 107
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 209
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Burglary",
+    "count": 633
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Theft",
+    "count": 2051
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Motor Vehicle Theft",
+    "count": 491
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Rape",
+    "count": 28
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Robbery",
+    "count": 108
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Aggravated Assault",
+    "count": 215
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Burglary",
+    "count": 585
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Theft",
+    "count": 1468
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Motor Vehicle Theft",
+    "count": 380
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Rape",
+    "count": 30
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 92
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 267
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 594
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Theft",
+    "count": 1679
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 442
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Rape",
+    "count": 33
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Robbery",
+    "count": 96
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Aggravated Assault",
+    "count": 241
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Burglary",
+    "count": 540
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Theft",
+    "count": 1829
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Motor Vehicle Theft",
+    "count": 417
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Rape",
+    "count": 29
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Robbery",
+    "count": 148
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Aggravated Assault",
+    "count": 279
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Burglary",
+    "count": 606
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Theft",
+    "count": 2101
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Motor Vehicle Theft",
+    "count": 518
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Murder",
+    "count": 4
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Rape",
+    "count": 31
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Robbery",
+    "count": 121
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Aggravated Assault",
+    "count": 320
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Burglary",
+    "count": 560
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Theft",
+    "count": 1862
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Motor Vehicle Theft",
+    "count": 500
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Rape",
+    "count": 48
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 134
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 301
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 621
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Theft",
+    "count": 1870
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 535
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Rape",
+    "count": 27
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 142
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 325
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 661
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Theft",
+    "count": 2066
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 614
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Rape",
+    "count": 38
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 132
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 276
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 667
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Theft",
+    "count": 2033
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 456
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Murder",
+    "count": 5
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Rape",
+    "count": 38
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Robbery",
+    "count": 129
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 255
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Burglary",
+    "count": 715
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Theft",
+    "count": 2078
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 568
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Rape",
+    "count": 38
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Robbery",
+    "count": 132
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Aggravated Assault",
+    "count": 249
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Burglary",
+    "count": 686
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Theft",
+    "count": 1781
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Motor Vehicle Theft",
+    "count": 426
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Rape",
+    "count": 33
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Robbery",
+    "count": 107
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Aggravated Assault",
+    "count": 241
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Burglary",
+    "count": 826
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Theft",
+    "count": 2032
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Motor Vehicle Theft",
+    "count": 446
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Rape",
+    "count": 44
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Robbery",
+    "count": 103
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 248
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Burglary",
+    "count": 736
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Theft",
+    "count": 1926
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Motor Vehicle Theft",
+    "count": 478
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Rape",
+    "count": 27
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Robbery",
+    "count": 100
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Aggravated Assault",
+    "count": 197
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Burglary",
+    "count": 539
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Theft",
+    "count": 1451
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Motor Vehicle Theft",
+    "count": 311
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Rape",
+    "count": 12
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 44
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 79
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 154
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Theft",
+    "count": 423
+  },
+  {
+    "agency": "Seattle",
+    "state": "WA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 98
+  }
+]
