@@ -1,0 +1,5 @@
+curl_cffi
+easyocr
+Pillow
+numpy
+python-dateutil
