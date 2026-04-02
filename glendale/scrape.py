@@ -55,7 +55,7 @@ PAGE_URL = (
 AGENCY = "Glendale"
 STATE = "CA"
 TYPE = "City"
-WINDOW_MONTHS = 12
+WINDOW_MONTHS = 6
 
 MONTH_ABBREVS = {
     "jan": 1, "feb": 2, "mar": 3, "apr": 4,

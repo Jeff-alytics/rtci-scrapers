@@ -41,7 +41,7 @@ BASE_URL = "https://www.sanbernardino.gov"
 AGENCY = "San Bernardino"
 STATE = "CA"
 TYPE = "City"
-WINDOW_MONTHS = 12
+WINDOW_MONTHS = 6
 
 ROOT_FOLDER_ID = 1112
 MODULE_ID = 75

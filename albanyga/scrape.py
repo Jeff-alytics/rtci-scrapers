@@ -40,7 +40,7 @@ BASE_URL = "https://www.albanyga.gov"
 AGENCY = "Albany"
 STATE = "GA"
 TYPE = "City"
-WINDOW_MONTHS = 12
+WINDOW_MONTHS = 6
 
 MONTH_NAMES = [
     "January", "February", "March", "April", "May", "June",
