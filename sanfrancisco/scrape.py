@@ -73,7 +73,7 @@ OFFENSES = ["Murder", "Rape", "Robbery", "Aggravated Assault",
 def rolling_window():
     today = date.today()
     end = date(today.year, today.month, 1)
-    start = end - relativedelta(months=23)
+    start = end - relativedelta(months=11)
     return start, end
 
 
