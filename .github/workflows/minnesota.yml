@@ -1,0 +1,37 @@
+name: Daily Minnesota CDE Scrape
+
+on:
+  schedule:
+    # Run daily at 08:00 UTC (3 AM Central)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: minnesota
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scrape.py
+
+      - name: Show results
+        run: python -c "import json; d=json.load(open('data/latest.json')); agencies=set(r['agency'] for r in d); months=set((r['year'],r['month']) for r in d); print(f'{len(d)} records, {len(agencies)} agencies, {len(months)} months')"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Update Minnesota CDE data $(date -u +%Y-%m-%d)"
+          git push
