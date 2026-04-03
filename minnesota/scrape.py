@@ -24,7 +24,7 @@ PERSON_URL = "https://cde.state.mn.us/views/MNCDE-CrimesAgainstPerson/CrimesAgai
 PROPERTY_URL = "https://cde.state.mn.us/views/MNCDE-CrimesAgainstProperty/CrimesAgainstProperty"
 
 STATE = "MN"
-WINDOW_MONTHS = 24
+WINDOW_MONTHS = 9
 
 OUTPUT_DIR = Path(__file__).parent
 OUT_JSON = OUTPUT_DIR / "data" / "latest.json"
