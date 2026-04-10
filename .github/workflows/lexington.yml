@@ -2,8 +2,8 @@ name: Monthly Lexington Scrape
 
 on:
   schedule:
-    # Run on the 15th of every month at 12:00 UTC
-    - cron: '0 12 15 * *'
+    # Run on the 15th and 16th of every month at 12:00 UTC
+    - cron: '0 12 15,16 * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
