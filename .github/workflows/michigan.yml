@@ -1,0 +1,44 @@
+name: Michigan Crime Dashboard Scrape
+
+on:
+  schedule:
+    # Michigan updates on the 15th-17th monthly
+    # Check twice daily on 15th, 16th, 17th at 10:00 and 18:00 UTC (5 AM / 1 PM Central)
+    - cron: '0 10,18 15-17 * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install playwright
+
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Run Michigan scraper
+        run: python michigan_scraper.py --months 6 --headless
+
+      - name: Show results
+        run: python -c "import json; d=json.load(open('data/latest.json')); agencies=set(r['agency'] for r in d); months=set((r['year'],r['month']) for r in d); print(f'{len(d)} records, {len(agencies)} agencies, {len(months)} months')"
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet data/latest.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ michigan_output.csv
+          git commit -m "Update Michigan data $(date -u +%Y-%m-%d)"
+          git push
