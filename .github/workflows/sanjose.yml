@@ -1,0 +1,43 @@
+name: Monthly San Jose NIBRS Scrape
+
+on:
+  schedule:
+    # SJPD updates monthly — check twice daily on 10th-15th
+    - cron: '0 10,18 10-15 * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install playwright
+
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Run San Jose scraper
+        run: xvfb-run python sanjose/scrape.py
+
+      - name: Show results
+        run: python -c "import json; d=json.load(open('sanjose/data/latest.json')); print(f'{len(d)} records')"
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet sanjose/data/latest.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add sanjose/data/
+          git commit -m "Update San Jose NIBRS data $(date -u +%Y-%m-%d)"
+          git push
