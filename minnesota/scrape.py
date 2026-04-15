@@ -49,7 +49,7 @@ AGENCIES = {
     "Rochester Police Dept (MN0550100)":       ("Rochester", "City"),
     "St Cloud Police Dept (MN0730400)":        ("St. Cloud", "City"),
     "St Paul Police Dept (MN0620900)":         ("St. Paul", "City"),
-    "Woodbury Police Dept (MN0821100)":        ("Woodbury", "City"),
+    "Woodbury Dept of Public Safety (MN0821100)": ("Woodbury", "City"),
     "Wright County Sheriff (MN0860000)":       ("Wright", "County"),
 }
 
