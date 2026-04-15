@@ -26,6 +26,7 @@ TARGET_AGENCIES = {
     "Battle Creek Police Department",
     "Lansing Police Department",
     "Kalamazoo County Sheriff's Office",
+    "Kalamazoo Department of Public Safety",
     "Kent County Sheriff's Office",
     "Grand Rapids Police Department",
     "Wyoming Police Department",
