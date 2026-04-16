@@ -1,0 +1,43 @@
+name: Monthly Omaha Scrape
+
+on:
+  schedule:
+    # Omaha updates monthly — check twice daily on 10th-15th
+    - cron: '0 10,18 10-15 * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install playwright pymupdf
+
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Run Omaha scraper
+        run: xvfb-run python omaha/scrape.py
+
+      - name: Show results
+        run: python -c "import json; d=json.load(open('omaha/data/latest.json')); print(f'{len(d)} records')"
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet omaha/data/latest.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add omaha/data/
+          git commit -m "Update Omaha data $(date -u +%Y-%m-%d)"
+          git push
