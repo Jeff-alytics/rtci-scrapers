@@ -4,14 +4,15 @@ San Francisco, CA — Monthly UCR Part I Crime Counts
 
 Data source:
   Tableau dashboard embedded on the SFPD website. The dashboard's summary table
-  is screenshotted per month and OCR'd via easyocr.
+  is screenshotted per month and OCR'd via easyocr at multiple scales to guard
+  against digit-dropping errors.
 
 Dashboard: https://public.tableau.com/views/CrimeNumbersDashboardFullSize/Crime_Numbers_Full_Size
 
 Output: data/latest.json in RTCI pipeline format:
   [{agency, state, type, year, month, offense, count}, ...]
 
-Window: 24 months ending current month.
+Window: 6 months ending current month.
 
 Usage:
     python scrape.py                # save to data/latest.json
@@ -25,6 +26,7 @@ import sys
 import json
 import time
 import argparse
+from collections import Counter
 from datetime import date
 from pathlib import Path
 
@@ -45,7 +47,7 @@ AGENCY = "San Francisco"
 STATE = "CA"
 TYPE = "City"
 
-# Manual overrides for months where OCR fails to extract a value.
+# Manual overrides for months where OCR consistently fails.
 MONTHLY_OVERRIDES = {
     "2024-06": {"Murder": 4},
 }
@@ -63,7 +65,9 @@ _LABEL_MAP = {
 
 # Table crop region (pixels) — validated against a 1400×900 viewport
 _TABLE_CLIP = {"x": 270, "y": 485, "width": 800, "height": 270}
-_OCR_SCALE = 3
+
+# OCR scales for multi-read voting
+_OCR_SCALES = [2, 3, 4]
 
 OFFENSES = ["Murder", "Rape", "Robbery", "Aggravated Assault",
             "Burglary", "Theft", "Motor Vehicle Theft"]
@@ -95,15 +99,18 @@ def _set_date_range(page, start_str, end_str):
 
 
 def _screenshot_table(page):
+    """Take a screenshot of the summary table region."""
     png_bytes = page.screenshot(clip=_TABLE_CLIP)
-    img = Image.open(io.BytesIO(png_bytes))
-    return img.resize(
-        (img.width * _OCR_SCALE, img.height * _OCR_SCALE), Image.LANCZOS
+    return Image.open(io.BytesIO(png_bytes))
+
+
+def _ocr_at_scale(img, reader, scale):
+    """Run OCR on the table image at a given upscale factor.
+    Returns a dict of {offense: count} for the 'Selected Date Range' column."""
+    scaled = img.resize(
+        (img.width * scale, img.height * scale), Image.LANCZOS
     )
-
-
-def _parse_table(img, reader, month_label):
-    results = reader.readtext(np.array(img), detail=1)
+    results = reader.readtext(np.array(scaled), detail=1)
 
     labels = []
     numbers = []
@@ -117,7 +124,7 @@ def _parse_table(img, reader, month_label):
         y_center = sum(ys) / 4
         text_clean = text.strip().replace(",", "")
 
-        if re.match(r"^\d{1,5}$", text_clean):
+        if re.match(r"^\d{1,6}$", text_clean):
             try:
                 numbers.append((int(text_clean), x_center, y_center))
             except ValueError:
@@ -128,7 +135,7 @@ def _parse_table(img, reader, month_label):
     if not labels or not numbers:
         return {}
 
-    img_width = img.width
+    img_width = scaled.width
     label_y = {}
     label_x_rights = []
     for txt, x_left, x_right, y in labels:
@@ -141,16 +148,18 @@ def _parse_table(img, reader, month_label):
 
     label_col_right = max(label_x_rights)
 
+    # Assign numbers to rows by y-proximity, only numbers right of labels
     row_numbers = {}
     for val, x, y in numbers:
         if x <= label_col_right:
             continue
         closest = min(label_y.items(), key=lambda kv: abs(kv[1] - y))
         lbl_text, lbl_y = closest
-        if abs(lbl_y - y) > _OCR_SCALE * 20:
+        if abs(lbl_y - y) > scale * 20:
             continue
         row_numbers.setdefault(lbl_text, []).append((x, val))
 
+    # Take leftmost number per row (= "Selected Date Range" column)
     row_counts = {
         lbl: min(pairs, key=lambda p: p[0])[1]
         for lbl, pairs in row_numbers.items()
@@ -163,12 +172,58 @@ def _parse_table(img, reader, month_label):
                 counts[col] = val
                 break
 
-    found = sorted(counts.keys())
-    missing = [c for c in _LABEL_MAP.values() if c not in counts]
-    status = "OK" if not missing else f"MISSING: {missing}"
-    print(f"    {month_label}: {status}  {counts}")
-
     return counts
+
+
+def _vote(readings, offense):
+    """Pick the best value from multiple OCR readings for an offense.
+    - If 2+ of 3 agree, use that value.
+    - If all disagree, use the largest (most digits = least likely to have dropped one).
+    """
+    vals = [r.get(offense) for r in readings if offense in r]
+    if not vals:
+        return None
+
+    counter = Counter(vals)
+    best, best_count = counter.most_common(1)[0]
+    if best_count >= 2:
+        return best
+
+    # All disagree — take the largest (most digits wins)
+    return max(vals)
+
+
+def _parse_table_voted(img, reader, month_label):
+    """OCR the table at multiple scales and vote on each offense value."""
+    readings = []
+    for scale in _OCR_SCALES:
+        counts = _ocr_at_scale(img, reader, scale)
+        readings.append(counts)
+
+    # Vote across readings for each offense
+    voted = {}
+    for offense in OFFENSES:
+        val = _vote(readings, offense)
+        if val is not None:
+            voted[offense] = val
+
+    # Log details
+    missing = [c for c in OFFENSES if c not in voted]
+    status = "OK" if not missing else f"MISSING: {missing}"
+
+    # Show per-scale values for any disagreements
+    disagreements = []
+    for offense in OFFENSES:
+        vals = [r.get(offense) for r in readings]
+        if len(set(v for v in vals if v is not None)) > 1:
+            disagreements.append(f"{offense}: {vals} → {voted.get(offense)}")
+
+    print(f"    {month_label}: {status}  {voted}")
+    if disagreements:
+        for d in disagreements:
+            print(f"      VOTE: {d}")
+
+    return voted
 
 
 # ── Main ─────────────────────────────────────────────────────────────────────
@@ -213,13 +268,13 @@ def main():
             _set_date_range(page, s_str, e_str)
 
             img = _screenshot_table(page)
-            counts = _parse_table(img, reader, label)
+            counts = _parse_table_voted(img, reader, label)
 
             if label in MONTHLY_OVERRIDES:
                 for col, val in MONTHLY_OVERRIDES[label].items():
-                    if col not in counts:
-                        counts[col] = val
-                        print(f"    {label}: applied override {col}={val}")
+                    old = counts.get(col)
+                    counts[col] = val
+                    print(f"    {label}: override {col}={val} (was {old})")
 
             if counts:
                 monthly_data[(d.year, d.month)] = counts
