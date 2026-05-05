@@ -113,8 +113,10 @@ def nav_select_single(page, dim_num, search_term, member_name):
     clicked = page.evaluate("""
     (name) => {
         var spans = Array.from(document.querySelectorAll('span.rtIn'));
+        var nl = name.toLowerCase();
         for (var span of spans) {
-            if (span.textContent.trim().toLowerCase() === name.toLowerCase()) {
+            var t = span.textContent.trim().toLowerCase();
+            if (t === nl || t.startsWith(nl + ' ') || t.startsWith(nl + ',')) {
                 var label = span.closest('label');
                 if (!label) return 'no';
                 var chk = label.querySelector('input.rtChk');
@@ -157,8 +159,10 @@ def nav_select_offenses(page, offense_names):
         page.evaluate("""
         (name) => {
             var spans = Array.from(document.querySelectorAll('span.rtIn'));
+            var nl = name.toLowerCase();
             for (var span of spans) {
-                if (span.textContent.trim().toLowerCase() === name.toLowerCase()) {
+                var t = span.textContent.trim().toLowerCase();
+                if (t === nl || t.startsWith(nl)) {
                     var label = span.closest('label');
                     if (label) { var chk = label.querySelector('input.rtChk'); if (chk) chk.click(); }
                     break;

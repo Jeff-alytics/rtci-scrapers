@@ -21,25 +21,25 @@ REPORT_URL = "https://ct.beyond2020.com/CT_public/View/dispview.aspx?ReportId=41
 OUT_JSON = Path(__file__).parent / "data" / "latest.json"
 
 AGENCIES = [
-    {"ori": "CT0001500", "name": "Bridgeport", "type": "City", "b2020": "Bridgeport Police Department"},
-    {"ori": "CT0001700", "name": "Bristol", "type": "City", "b2020": "Bristol Police Department"},
-    {"ori": "CT0003400", "name": "Danbury", "type": "City", "b2020": "Danbury Police Department"},
-    {"ori": "CT0004300", "name": "East Hartford", "type": "City", "b2020": "East Hartford Police Department"},
-    {"ori": "CT0005100", "name": "Fairfield", "type": "City", "b2020": "Fairfield Police Department"},
-    {"ori": "CT0005700", "name": "Greenwich", "type": "City", "b2020": "Greenwich Police Department"},
-    {"ori": "CT0006200", "name": "Hamden", "type": "City", "b2020": "Hamden Police Department"},
-    {"ori": "CT0006400", "name": "Hartford", "type": "City", "b2020": "Hartford Police Department"},
-    {"ori": "CT0007700", "name": "Manchester", "type": "City", "b2020": "Manchester Police Department"},
-    {"ori": "CT0008000", "name": "Meriden", "type": "City", "b2020": "Meriden Police Department"},
-    {"ori": "CT0008400", "name": "Milford", "type": "City", "b2020": "Milford Police Department"},
-    {"ori": "CT0008900", "name": "New Britain", "type": "City", "b2020": "New Britain Police Department"},
-    {"ori": "CT0009300", "name": "New Haven", "type": "City", "b2020": "New Haven Police Department"},
-    {"ori": "CT0010300", "name": "Norwalk", "type": "City", "b2020": "Norwalk Police Department"},
-    {"ori": "CT0013500", "name": "Stamford", "type": "City", "b2020": "Stamford Police Department"},
-    {"ori": "CT0013800", "name": "Stratford", "type": "City", "b2020": "Stratford Police Department"},
-    {"ori": "CT0015100", "name": "Waterbury", "type": "City", "b2020": "Waterbury Police Department"},
-    {"ori": "CT0015500", "name": "West Hartford", "type": "City", "b2020": "West Hartford Police Department"},
-    {"ori": "CT0015600", "name": "West Haven", "type": "City", "b2020": "West Haven Police Department"},
+    {"ori": "CT0001500", "name": "Bridgeport", "type": "City"},
+    {"ori": "CT0001700", "name": "Bristol", "type": "City"},
+    {"ori": "CT0003400", "name": "Danbury", "type": "City"},
+    {"ori": "CT0004300", "name": "East Hartford", "type": "City"},
+    {"ori": "CT0005100", "name": "Fairfield", "type": "City"},
+    {"ori": "CT0005700", "name": "Greenwich", "type": "City"},
+    {"ori": "CT0006200", "name": "Hamden", "type": "City"},
+    {"ori": "CT0006400", "name": "Hartford", "type": "City"},
+    {"ori": "CT0007700", "name": "Manchester", "type": "City"},
+    {"ori": "CT0008000", "name": "Meriden", "type": "City"},
+    {"ori": "CT0008400", "name": "Milford", "type": "City"},
+    {"ori": "CT0008900", "name": "New Britain", "type": "City"},
+    {"ori": "CT0009300", "name": "New Haven", "type": "City"},
+    {"ori": "CT0010300", "name": "Norwalk", "type": "City"},
+    {"ori": "CT0013500", "name": "Stamford", "type": "City"},
+    {"ori": "CT0013800", "name": "Stratford", "type": "City"},
+    {"ori": "CT0015100", "name": "Waterbury", "type": "City"},
+    {"ori": "CT0015500", "name": "West Hartford", "type": "City"},
+    {"ori": "CT0015600", "name": "West Haven", "type": "City"},
 ]
 
 OFFENSE_MAP = {
@@ -129,17 +129,21 @@ def select_agency(page, agency_name):
     clicked = page.evaluate("""
     (name) => {
         var spans = Array.from(document.querySelectorAll('span.rtIn'));
+        var nl = name.toLowerCase();
         for (var span of spans) {
-            if (span.textContent.trim() === name) {
+            var t = span.textContent.trim().toLowerCase();
+            if (t === nl || t.startsWith(nl + ' ') || t.startsWith(nl + ',')) {
                 var label = span.closest('label');
                 if (!label) return 'no label';
                 var chk = label.querySelector('input.rtChk');
                 if (!chk) return 'no rtChk';
                 chk.click();
-                return 'ok';
+                return 'ok:' + span.textContent.trim();
             }
         }
-        return 'not found';
+        // Debug: return first few span texts
+        var samples = spans.slice(0, 5).map(s => s.textContent.trim());
+        return 'not found (samples: ' + samples.join(', ') + ')';
     }
     """, agency_name)
     if not clicked.startswith("ok"):
@@ -204,8 +208,7 @@ def main():
             try:
                 page.goto(REPORT_URL, wait_until="networkidle", timeout=30000)
                 page.wait_for_timeout(2000)
-                b2020 = ag.get("b2020", ag["name"])
-                if not select_agency(page, b2020):
+                if not select_agency(page, ag["name"]):
                     print("FAILED")
                     continue
 
