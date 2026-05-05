@@ -1,9 +1,9 @@
-name: Daily Minnesota CDE Scrape
+name: Daily San Francisco CA Scrape
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # 7 AM CT
-  workflow_dispatch: # Allow manual trigger
+    - cron: '15 13 * * *'  # 8:15 AM CT
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: minnesota
+        working-directory: sanfrancisco
     steps:
       - uses: actions/checkout@v4
 
@@ -24,16 +24,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
       - name: Run scraper
-        run: python scrape.py
+        run: xvfb-run python scrape.py
 
       - name: Show results
-        run: python -c "import json; d=json.load(open('data/latest.json')); agencies=set(r['agency'] for r in d); months=set((r['year'],r['month']) for r in d); print(f'{len(d)} records, {len(agencies)} agencies, {len(months)} months')"
+        run: python -c "import json; d=json.load(open('data/latest.json')); print(f'{len(d)} records from {len(set(r[\"agency\"] for r in d))} agencies')"
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "Update Minnesota CDE data $(date -u +%Y-%m-%d)"
+          git diff --cached --quiet || git commit -m "Update San Francisco CA data $(date -u +%Y-%m-%d)"
           git push
