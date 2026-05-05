@@ -43,7 +43,7 @@ OFFENSE_MAP = {
 
 AGENCIES = [
     {"ori": "NV0020300", "name": "Henderson", "type": "City", "b2020": "Henderson Police Department"},
-    {"ori": "NV0020100", "name": "Las Vegas", "type": "City", "b2020": "Las Vegas Metropolitan Police Department"},
+    # Las Vegas scraped separately via LVMPD ArcGIS API in pipeline
     {"ori": "NV0020200", "name": "North Las Vegas", "type": "City", "b2020": "North Las Vegas Police Department"},
     {"ori": "NV0160100", "name": "Reno", "type": "City", "b2020": "Reno Police Department"},
     {"ori": "NV0160200", "name": "Sparks", "type": "City", "b2020": "Sparks Police Department"},
