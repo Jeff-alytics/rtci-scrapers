@@ -1,6 +1,7 @@
 """
-Missouri Crime Scraper — ShowMeCrime B2020 (showmecrime.mo.gov)
-Report 20: per-month navigation via ShowDim (agency + year + month).
+Missouri SRS Crime Scraper — B2020 Report 1 (showmecrime.mo.gov)
+SRS format: offenses in rows, measures in cols. Per-agency, per-year.
+ShowDim(6) for Summary Month gives 12-month grid per year.
 Outputs missouri/data/latest.json in RTCI pipeline format.
 """
 
@@ -15,44 +16,38 @@ if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 STATE = "MO"
-REPORT_URL = "https://showmecrime.mo.gov/public/View/dispview.aspx?ReportId=20"
+REPORT_URL = "https://showmecrime.mo.gov/public/View/dispview.aspx?ReportId=1"
 OUT_JSON = Path(__file__).parent / "data" / "latest.json"
 
-DIM_INCIDENT_DATE = 6
-DIM_INCIDENT_MONTH = 8
-DIM_JURISDICTION = 9
+# Report 1 dims: 3=Summary Date(year), 5=Jurisdiction, 6=Summary Month, 4=Summary Offense
+DIM_DATE = 3
+DIM_JURISDICTION = 5
+DIM_MONTH = 6
 
 MONTH_NAMES = ["January","February","March","April","May","June",
                "July","August","September","October","November","December"]
 
 OFFENSE_MAP = {
-    "Murder and Nonnegligent Manslaughter": "Murder",
-    "All Rape": "Rape",
-    "Aggravated Assault": "Aggravated Assault",
-    "Burglary/Breaking & Entering": "Burglary",
-    "Robbery": "Robbery",
-    "Motor Vehicle Theft": "Motor Vehicle Theft",
-}
-
-THEFT_OFFENSES = {
-    "Pocket-picking", "Purse-snatching", "Shoplifting", "Theft From Building",
-    "Theft From Coin Operated Machine or Device", "Theft From Motor Vehicle",
-    "Theft of Motor Vehicle Parts/Accessories", "All Other Larceny",
+    "Criminal Homicide": "Murder",
+    "Forcible Rape Total": "Rape",
+    "Robbery Total": "Robbery",
+    "Assault Total": "Aggravated Assault",
+    "Burglary Total": "Burglary",
+    "Larceny - Theft Total": "Theft",
+    "Motor Vehicle Theft Total": "Motor Vehicle Theft",
 }
 
 SPECIAL_COUNTY = {"MOKPD0000": "048", "MOSPD0000": "119"}
+GEO_HIERARCHY = "[Summary Jurisdiction by County].[Summary Jurisdiction by County Hierarchy]"
 
-AGENCY_NAME_MAP = {
-    "St Louis": "St Louis Metropolitan Police Department",
-    "St Joseph": "St Joseph Police Department",
-    "St Charles": "St Charles Police Department",
-    "St Peters": "St Peters Police Department",
-}
-
-# County-type agencies need their B2020 display names too
-AGENCY_NAME_MAP_COUNTY = {
-    "St Charles": "St Charles County Police Department",
-    "St Louis": "St Louis County Police Department",
+# B2020 display names differ from short names for St. agencies
+AGENCY_B2020_MAP = {
+    "St Louis|City": "St Louis Police Department",
+    "St Joseph|City": "St Joseph Police Department",
+    "St Charles|City": "St Charles Police Department",
+    "St Peters|City": "St Peters Police Department",
+    "St Charles|County": "St Charles County Police Department",
+    "St Louis|County": "St Louis County Police Department",
 }
 
 AGENCIES = [
@@ -77,30 +72,38 @@ AGENCIES = [
 
 def nine_month_window():
     now = datetime.now().replace(day=1)
-    months = []
+    months = set()
     y, m = now.year, now.month - 1
     if m == 0: y, m = y - 1, 12
     for _ in range(9):
-        months.append((y, m))
+        months.add((y, m))
         m -= 1
         if m == 0: y, m = y - 1, 12
-    return sorted(months)
+    return months
+
+
+def needed_years(window):
+    return sorted(set(y for y, m in window))
+
+
+def geo_path(ori):
+    county = SPECIAL_COUNTY.get(ori, ori[2:5])
+    return f"{GEO_HIERARCHY}.[State].&[MO].&[{county}].&[{ori}]"
 
 
 def b2020_name(ag):
-    if ag["type"] == "County":
-        return AGENCY_NAME_MAP_COUNTY.get(ag["name"], ag["name"] + " County Sheriff's Office")
-    return AGENCY_NAME_MAP.get(ag["name"], ag["name"] + " Police Department")
+    key = f"{ag['name']}|{ag['type']}"
+    return AGENCY_B2020_MAP.get(key, ag["name"])
 
 
 def parse_count(text):
     t = str(text).strip().replace(",", "").replace("\xa0", "")
     if not t or t in (".", "-", "*", " "):
-        return None
+        return 0
     try:
         return int(t)
     except ValueError:
-        return None
+        return 0
 
 
 def load_report(page):
@@ -139,8 +142,10 @@ def nav_select(page, dim_num, search_term, member_name):
     clicked = page.evaluate("""
     (name) => {
         var spans = Array.from(document.querySelectorAll('span.rtIn'));
+        var nl = name.toLowerCase();
         for (var span of spans) {
-            if (span.textContent.trim() === name) {
+            var t = span.textContent.trim().toLowerCase();
+            if (t === nl || t.startsWith(nl + ' ') || t.startsWith(nl + ',')) {
                 var label = span.closest('label');
                 if (label) { var chk = label.querySelector('input.rtChk'); if (chk) { chk.click(); return 'ok'; } }
             }
@@ -160,45 +165,75 @@ def nav_select(page, dim_num, search_term, member_name):
     return True
 
 
+def setup_agency(page, agency):
+    """Select agency via form POST using geo path (faster than ShowDim navigation)."""
+    path = geo_path(agency["ori"])
+    page.evaluate("""
+    (p) => {
+        var f = document.getElementById('aspnetForm');
+        f.querySelector('[name="Chk5"]').value = p + '\\x1c0\\x1c';
+        f.querySelector('[name="ActiveMember5"]').value = p;
+    }
+    """, path)
+    with page.expect_navigation(wait_until="networkidle", timeout=30000):
+        page.evaluate("() => document.getElementById('aspnetForm').submit()")
+    page.wait_for_timeout(1000)
+
+
 def read_table(page):
-    names = page.evaluate("""
+    """Read offense × month table. Returns {month_name: {offense: count}}."""
+    offenses = page.evaluate("""
     () => {
         var t = document.getElementById('headerColumnTable');
         if (!t) return null;
         return Array.from(t.rows).map(r => r.cells[0] ? r.cells[0].innerText.trim() : '');
     }
     """)
-    vals = page.evaluate("""
+    body = page.evaluate("""
     () => {
         var t = document.getElementById('bodyTable');
         if (!t) return null;
-        return Array.from(t.rows).map(r => r.cells[0] ? r.cells[0].innerText.trim() : '');
+        return Array.from(t.rows).map(r =>
+            Array.from(r.cells).map(c => c.innerText.trim())
+        );
     }
     """)
-    if not names or not vals:
+    if not offenses or not body:
         return None
-    return dict(zip(names, vals))
 
+    # Default layout: offenses as rows, one column (annual total)
+    # After adding month dim: offenses as rows, months as columns
+    # Check column headers
+    months_header = page.evaluate("""
+    () => {
+        var t = document.getElementById('headerRowTable');
+        if (!t || t.rows.length < 1) return null;
+        var lastRow = t.rows[t.rows.length - 1];
+        return Array.from(lastRow.cells).map(c => c.innerText.trim());
+    }
+    """)
 
-def build_rows(ag, year, month, raw_counts):
-    rows = []
-    for name, rtci in OFFENSE_MAP.items():
-        val = parse_count(raw_counts.get(name, ""))
-        rows.append({"agency": ag["name"], "state": STATE, "type": ag["type"],
-                      "year": year, "month": month, "offense": rtci, "count": val or 0})
-    theft = sum(parse_count(raw_counts.get(n, "")) or 0 for n in THEFT_OFFENSES)
-    rows.append({"agency": ag["name"], "state": STATE, "type": ag["type"],
-                  "year": year, "month": month, "offense": "Theft", "count": theft})
-    return rows
+    result = {}
+    for row_idx, offense_name in enumerate(offenses):
+        rtci = OFFENSE_MAP.get(offense_name)
+        if not rtci or row_idx >= len(body):
+            continue
+        # Single column = annual. Report 1 default is annual per agency.
+        val = parse_count(body[row_idx][0]) if body[row_idx] else 0
+        result[rtci] = val
+
+    return result
 
 
 def main():
-    months = nine_month_window()
+    window = nine_month_window()
+    years = needed_years(window)
     months_by_year = {}
-    for y, m in months:
+    for y, m in window:
         months_by_year.setdefault(y, []).append(m)
-    print(f"9-month window: {months}")
-    print(f"{len(AGENCIES)} MO agencies\n")
+
+    print(f"9-month window: {sorted(window)}")
+    print(f"Years: {years}, {len(AGENCIES)} MO agencies\n")
 
     all_rows = []
 
@@ -211,59 +246,63 @@ def main():
             print(f"{ag['name']} ({ag['type']})...", flush=True)
 
             if not load_report(page):
-                print("  FAILED to load")
+                print("  FAILED to load report")
                 continue
 
-            if not nav_select(page, DIM_JURISDICTION, search_name, search_name):
-                print(f"  FAILED agency select: {search_name}")
-                continue
+            # Select agency
+            try:
+                setup_agency(page, ag)
+            except Exception as e:
+                print(f"  FAILED agency setup: {e}")
+                # Fallback: try ShowDim navigation
+                if not load_report(page):
+                    continue
+                if not nav_select(page, DIM_JURISDICTION, search_name, search_name):
+                    print(f"  FAILED agency select via ShowDim")
+                    continue
 
-            current_year = 2025  # default
+            current_year = None
+            for year in years:
+                month_list = months_by_year.get(year, [])
+                if not month_list:
+                    continue
 
-            for year, month_list in sorted(months_by_year.items()):
+                # Select year
                 if year != current_year:
-                    # Clear time series before year switch
-                    page.evaluate("""
-                    () => {
-                        var el = document.querySelector('[name="TimeSeriesSelections6"]');
-                        if (el) el.value = '';
-                        el = document.querySelector('[name="TimeSetNames6"]');
-                        if (el) el.value = '';
-                    }
-                    """)
-                    if not nav_select(page, DIM_INCIDENT_DATE, str(year), str(year)):
+                    if not nav_select(page, DIM_DATE, str(year), str(year)):
                         print(f"  FAILED year {year}")
                         continue
                     current_year = year
 
-                count = 0
+                # Iterate months
                 for mo in month_list:
                     month_name = MONTH_NAMES[mo - 1]
-                    ok = nav_select(page, DIM_INCIDENT_MONTH, month_name, month_name)
+                    ok = nav_select(page, DIM_MONTH, month_name, month_name)
                     if not ok:
-                        # Recovery: reload + re-select agency + year
-                        if load_report(page) and nav_select(page, DIM_JURISDICTION, search_name, search_name):
-                            if year != 2025:
-                                page.evaluate("""() => { var el = document.querySelector('[name="TimeSeriesSelections6"]'); if (el) el.value = ''; el = document.querySelector('[name="TimeSetNames6"]'); if (el) el.value = ''; }""")
-                                nav_select(page, DIM_INCIDENT_DATE, str(year), str(year))
-                            ok = nav_select(page, DIM_INCIDENT_MONTH, month_name, month_name)
-                        if not ok:
-                            continue
-
-                    raw = read_table(page)
-                    if not raw or not any(parse_count(v) is not None for v in raw.values()):
                         continue
 
-                    rows = build_rows(ag, year, mo, raw)
-                    all_rows.extend(rows)
-                    count += len(rows)
+                    data = read_table(page)
+                    if not data:
+                        continue
 
+                    for offense, val in data.items():
+                        all_rows.append({
+                            "agency": ag["name"],
+                            "state": STATE,
+                            "type": ag["type"],
+                            "year": year,
+                            "month": mo,
+                            "offense": offense,
+                            "count": val,
+                        })
+
+                count = len([r for r in all_rows if r["agency"] == ag["name"] and r["year"] == year])
                 print(f"  {year}: {count} records")
 
         browser.close()
 
     if not all_rows:
-        print("No data collected.")
+        print("\nNo data collected.")
         return
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)

@@ -1,11 +1,13 @@
 """
-Connecticut Crime Scraper — Beyond 20/20 (ct.beyond2020.com)
-Report 419: "Group A Crimes Count by Offense Type, Monthly Report" (24-month rolling)
-Gets 24 months in ONE table read per agency — most efficient B2020 scraper.
+Connecticut SRS Crime Scraper — B2020 Report 239
+Source: https://ct.beyond2020.com/ct_public/View/dispview.aspx?ReportId=239
+SRS format: agencies as rows, offenses as columns.
+All agencies in one table read per year — just need ShowDim for month.
 Outputs connecticut/data/latest.json in RTCI pipeline format.
 """
 
 import json
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -16,116 +18,72 @@ if sys.platform == 'win32':
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 STATE = "CT"
+REPORT_URL = "https://ct.beyond2020.com/ct_public/View/dispview.aspx?ReportId=239"
 ENTRY_URL = "https://ct.beyond2020.com/ct_public/Dim/dimension.aspx"
-REPORT_URL = "https://ct.beyond2020.com/CT_public/View/dispview.aspx?ReportId=419"
 OUT_JSON = Path(__file__).parent / "data" / "latest.json"
 
-AGENCIES = [
-    {"ori": "CT0001500", "name": "Bridgeport", "type": "City"},
-    {"ori": "CT0001700", "name": "Bristol", "type": "City"},
-    {"ori": "CT0003400", "name": "Danbury", "type": "City"},
-    {"ori": "CT0004300", "name": "East Hartford", "type": "City"},
-    {"ori": "CT0005100", "name": "Fairfield", "type": "City"},
-    {"ori": "CT0005700", "name": "Greenwich", "type": "City"},
-    {"ori": "CT0006200", "name": "Hamden", "type": "City"},
-    {"ori": "CT0006400", "name": "Hartford", "type": "City"},
-    {"ori": "CT0007700", "name": "Manchester", "type": "City"},
-    {"ori": "CT0008000", "name": "Meriden", "type": "City"},
-    {"ori": "CT0008400", "name": "Milford", "type": "City"},
-    {"ori": "CT0008900", "name": "New Britain", "type": "City"},
-    {"ori": "CT0009300", "name": "New Haven", "type": "City"},
-    {"ori": "CT0010300", "name": "Norwalk", "type": "City"},
-    {"ori": "CT0013500", "name": "Stamford", "type": "City"},
-    {"ori": "CT0013800", "name": "Stratford", "type": "City"},
-    {"ori": "CT0015100", "name": "Waterbury", "type": "City"},
-    {"ori": "CT0015500", "name": "West Hartford", "type": "City"},
-    {"ori": "CT0015600", "name": "West Haven", "type": "City"},
-]
+# Dim 3 = Return A Date (year), Dim 8 = Summary Month
+DIM_DATE = 3
+DIM_MONTH = 8
+
+AGENCIES = {
+    "Bridgeport": "City", "Bristol": "City", "Danbury": "City",
+    "East Hartford": "City", "Fairfield": "City", "Greenwich": "City",
+    "Hamden": "City", "Hartford": "City", "Manchester": "City",
+    "Meriden": "City", "Milford": "City", "New Britain": "City",
+    "New Haven": "City", "Norwalk": "City", "Stamford": "City",
+    "Stratford": "City", "Waterbury": "City", "West Hartford": "City",
+    "West Haven": "City",
+}
 
 OFFENSE_MAP = {
-    "Murder": "Murder",
-    "All Rape": "Rape",
-    "Robbery": "Robbery",
-    "Aggravated Assault": "Aggravated Assault",
-    "Burglary": "Burglary",
-    "Larceny": "Theft",
-    "Motor Vehicle Theft": "Motor Vehicle Theft",
+    "Criminal Homicide": "Murder",
+    "Forcible Rape Total": "Rape",
+    "Robbery Total": "Robbery",
+    "Assault Total": "Aggravated Assault",
+    "Burglary Total": "Burglary",
+    "Larceny - Theft Total": "Theft",
+    "Motor Vehicle Theft Total": "Motor Vehicle Theft",
 }
 
-MONTH_ABBR = {
-    "Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
-    "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12,
-}
+MONTH_NAMES = ["January","February","March","April","May","June",
+               "July","August","September","October","November","December"]
 
 
 def nine_month_window():
-    """Return set of (year, month) tuples for last 9 complete months."""
     now = datetime.now().replace(day=1)
-    months = set()
-    y, m = now.year, now.month - 1  # start from last complete month
-    if m == 0:
-        y, m = y - 1, 12
+    months = []
+    y, m = now.year, now.month - 1
+    if m == 0: y, m = y - 1, 12
     for _ in range(9):
-        months.add((y, m))
+        months.append((y, m))
         m -= 1
-        if m == 0:
-            y, m = y - 1, 12
-    return months
+        if m == 0: y, m = y - 1, 12
+    return sorted(months)
 
 
-def normalize_offense(display_name):
-    for prefix, rtci_col in OFFENSE_MAP.items():
-        if display_name.startswith(prefix):
-            return rtci_col
-    return None
-
-
-def parse_month_label(label):
-    parts = label.strip().split()
-    if len(parts) == 2 and parts[0][:3] in MONTH_ABBR:
-        try:
-            return int(parts[1]), MONTH_ABBR[parts[0][:3]]
-        except ValueError:
-            pass
-    return None
-
-
-def parse_cell(text):
-    text = text.strip().replace(",", "")
-    if not text or text in ("\u00a0", ".", "-", "*", " "):
-        return None
+def nav_select(page, dim_num, search_term, member_name):
+    """Open dim browser, search, clear, select member, return to report."""
     try:
-        return int(text)
-    except ValueError:
-        return None
-
-
-def select_agency(page, agency_name):
-    try:
-        with page.expect_navigation(wait_until="networkidle", timeout=20000):
-            page.evaluate("ShowDim(11, 11);")
-        page.wait_for_timeout(1000)
-    except Exception as e:
-        print(f"    ShowDim error: {e}")
+        with page.expect_navigation(wait_until="domcontentloaded", timeout=20000):
+            page.evaluate(f"ShowDim({dim_num}, {dim_num});")
+        page.wait_for_timeout(800)
+    except Exception:
         return False
-
     try:
-        page.fill('input[name="SearchString"]', agency_name)
-        with page.expect_navigation(wait_until="networkidle", timeout=15000):
+        page.fill('input[name="SearchString"]', search_term)
+        with page.expect_navigation(wait_until="domcontentloaded", timeout=15000):
             page.evaluate('MembersSearch(document.querySelector(\'input[name="SearchString"]\'));')
-        page.wait_for_timeout(1000)
-    except Exception as e:
-        print(f"    Search error: {e}")
+        page.wait_for_timeout(500)
+    except Exception:
         return False
 
     body = page.evaluate("() => document.body.innerText")
-    if agency_name.lower() not in body.lower():
-        print(f"    '{agency_name}' not found")
+    if member_name.lower() not in body.lower():
         return False
 
     page.evaluate("OnSelAllClick(0);")
     page.wait_for_timeout(200)
-
     clicked = page.evaluate("""
     (name) => {
         var spans = Array.from(document.querySelectorAll('span.rtIn'));
@@ -134,63 +92,95 @@ def select_agency(page, agency_name):
             var t = span.textContent.trim().toLowerCase();
             if (t === nl || t.startsWith(nl + ' ') || t.startsWith(nl + ',')) {
                 var label = span.closest('label');
-                if (!label) return 'no label';
-                var chk = label.querySelector('input.rtChk');
-                if (!chk) return 'no rtChk';
-                chk.click();
-                return 'ok:' + span.textContent.trim();
+                if (label) { var chk = label.querySelector('input.rtChk'); if (chk) { chk.click(); return 'ok'; } }
             }
         }
-        // Debug: return first few span texts
-        var samples = spans.slice(0, 5).map(s => s.textContent.trim());
-        return 'not found (samples: ' + samples.join(', ') + ')';
+        return 'no';
     }
-    """, agency_name)
-    if not clicked.startswith("ok"):
-        print(f"    Click failed: {clicked}")
+    """, member_name)
+    if clicked != 'ok':
         return False
-
     page.wait_for_timeout(200)
     try:
-        with page.expect_navigation(wait_until="networkidle", timeout=20000):
+        with page.expect_navigation(wait_until="domcontentloaded", timeout=20000):
             page.evaluate("ShowUpdatedReportAfterSelection();")
-        page.wait_for_timeout(2000)
-    except Exception as e:
-        print(f"    Return error: {e}")
+        page.wait_for_timeout(1500)
+    except Exception:
         return False
     return True
 
 
-def read_table(page):
-    month_labels = page.evaluate("""
-    () => {
-        var t = document.getElementById('headerRowTable');
-        if (!t || t.rows.length === 0) return null;
-        return Array.from(t.rows[0].cells).map(c => c.innerText.trim());
-    }
-    """)
-    row_names = page.evaluate("""
+def parse_count(text):
+    t = str(text).strip().replace(",", "").replace("\xa0", "")
+    if not t or t in (".", "-", "*", " "):
+        return 0
+    try:
+        return int(t)
+    except ValueError:
+        return 0
+
+
+def read_all_agencies(page):
+    """Read the full agency × offense table. Returns {agency_name: {offense: count}}."""
+    # Row labels = agency names
+    agencies = page.evaluate("""
     () => {
         var t = document.getElementById('headerColumnTable');
         if (!t) return null;
         return Array.from(t.rows).map(r => r.cells[0] ? r.cells[0].innerText.trim() : '');
     }
     """)
-    data_grid = page.evaluate("""
+    # Col labels = offense names
+    offenses = page.evaluate("""
+    () => {
+        var t = document.getElementById('headerRowTable');
+        if (!t || t.rows.length < 1) return null;
+        // Last row has the offense names
+        var lastRow = t.rows[t.rows.length - 1];
+        return Array.from(lastRow.cells).map(c => c.innerText.trim());
+    }
+    """)
+    # Body data
+    body = page.evaluate("""
     () => {
         var t = document.getElementById('bodyTable');
         if (!t) return null;
-        return Array.from(t.rows).map(r => Array.from(r.cells).map(c => c.innerText.trim()));
+        return Array.from(t.rows).map(r =>
+            Array.from(r.cells).map(c => c.innerText.trim())
+        );
     }
     """)
-    if not month_labels or not row_names or not data_grid:
+    if not agencies or not offenses or not body:
         return None
-    return month_labels, row_names, data_grid
+
+    # Build col index map
+    col_map = {}
+    for i, label in enumerate(offenses):
+        rtci = OFFENSE_MAP.get(label)
+        if rtci:
+            col_map[i] = rtci
+
+    result = {}
+    for row_idx, agency_name in enumerate(agencies):
+        if agency_name not in AGENCIES:
+            continue
+        if row_idx >= len(body):
+            break
+        crimes = {}
+        for col_idx, rtci in col_map.items():
+            if col_idx < len(body[row_idx]):
+                crimes[rtci] = parse_count(body[row_idx][col_idx])
+        result[agency_name] = crimes
+
+    return result
 
 
 def main():
     window = nine_month_window()
-    print(f"9-month window: {sorted(window)}")
+    months_by_year = {}
+    for y, m in window:
+        months_by_year.setdefault(y, []).append(m)
+    print(f"9-month window: {window}")
     print(f"{len(AGENCIES)} CT agencies\n")
 
     all_rows = []
@@ -203,61 +193,58 @@ def main():
         page.goto(ENTRY_URL, wait_until="networkidle", timeout=30000)
         page.wait_for_timeout(1000)
 
-        for ag in AGENCIES:
-            print(f"{ag['name']}...", end=" ", flush=True)
-            try:
+        for year, month_list in sorted(months_by_year.items()):
+            print(f"Year {year}...")
+
+            for mo in month_list:
+                month_name = MONTH_NAMES[mo - 1]
+                print(f"  {month_name} {year}...", end=" ", flush=True)
+
+                # Load report fresh each month
                 page.goto(REPORT_URL, wait_until="networkidle", timeout=30000)
                 page.wait_for_timeout(2000)
-                if not select_agency(page, ag["name"]):
-                    print("FAILED")
+
+                # Set year
+                if not nav_select(page, DIM_DATE, str(year), str(year)):
+                    print("FAILED year select")
                     continue
 
-                result = read_table(page)
-                if not result:
-                    print("no table")
+                # Set month
+                if not nav_select(page, DIM_MONTH, month_name, month_name):
+                    print("FAILED month select")
                     continue
 
-                month_labels, row_names, data_grid = result
-                month_keys = [parse_month_label(l) for l in month_labels]
+                # Read all agencies at once
+                data = read_all_agencies(page)
+                if not data:
+                    print("no data")
+                    continue
+
                 count = 0
-
-                for row_idx, offense_name in enumerate(row_names):
-                    rtci_col = normalize_offense(offense_name)
-                    if not rtci_col or row_idx >= len(data_grid):
-                        continue
-                    for col_idx, cell in enumerate(data_grid[row_idx]):
-                        if col_idx >= len(month_keys) or month_keys[col_idx] is None:
-                            continue
-                        yr, mo = month_keys[col_idx]
-                        if (yr, mo) not in window:
-                            continue
-                        val = parse_cell(cell)
-                        if val is None:
-                            val = 0
+                for agency_name, crimes in data.items():
+                    for offense, val in crimes.items():
                         all_rows.append({
-                            "agency": ag["name"], "state": STATE, "type": ag["type"],
-                            "year": yr, "month": mo, "offense": rtci_col, "count": val,
+                            "agency": agency_name,
+                            "state": STATE,
+                            "type": AGENCIES[agency_name],
+                            "year": year,
+                            "month": mo,
+                            "offense": offense,
+                            "count": val,
                         })
                         count += 1
 
-                print(f"{count} records")
-            except Exception as e:
-                print(f"ERROR: {e}")
-                try:
-                    page.goto(ENTRY_URL, wait_until="networkidle", timeout=30000)
-                except Exception:
-                    pass
+                print(f"{len(data)} agencies, {count} records")
 
         browser.close()
 
     if not all_rows:
-        print("No data collected.")
+        print("\nNo data collected.")
         return
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT_JSON, "w") as f:
         json.dump(all_rows, f)
-
     agencies = set(r["agency"] for r in all_rows)
     print(f"\nWrote {len(all_rows)} records ({len(agencies)} agencies) to {OUT_JSON}")
 
