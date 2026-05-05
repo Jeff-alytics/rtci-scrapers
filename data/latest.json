@@ -2,2022 +2,6 @@
   {
     "agency": "Battle Creek Police Department",
     "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Battle Creek Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 7,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Battle Creek Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 4,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Battle Creek Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 36,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Battle Creek Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 14,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Battle Creek Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 95,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Battle Creek Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 24,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 12,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 11,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 57,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 19,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 112,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Lansing Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 25,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Kalamazoo County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 1,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kalamazoo County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 2,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kalamazoo County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 3,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kalamazoo County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 19,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kalamazoo County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 13,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kalamazoo County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 128,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kalamazoo County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 15,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kalamazoo Department of Public Safety",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Kalamazoo Department of Public Safety",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 8,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Kalamazoo Department of Public Safety",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 5,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Kalamazoo Department of Public Safety",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 41,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Kalamazoo Department of Public Safety",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 17,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Kalamazoo Department of Public Safety",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 127,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Kalamazoo Department of Public Safety",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 23,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Grand Rapids Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Grand Rapids Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 14,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Grand Rapids Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 19,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Grand Rapids Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 110,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Grand Rapids Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 36,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Grand Rapids Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 346,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Grand Rapids Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 37,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Kent County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kent County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 9,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kent County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 1,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kent County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 21,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kent County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 11,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kent County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 136,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Kent County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 12,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Wyoming Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Wyoming Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Wyoming Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 7,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Wyoming Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 32,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Wyoming Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 13,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Wyoming Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 120,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Wyoming Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 19,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Livingston County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Livingston County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 1,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Livingston County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 0,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Livingston County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 8,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Livingston County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 0,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Livingston County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 24,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Livingston County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 2,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Clinton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Clinton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Clinton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Clinton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 16,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Clinton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 7,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Clinton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 79,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Clinton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 19,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Macomb County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Macomb County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 6,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Macomb County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 1,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Macomb County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 16,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Macomb County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 4,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Macomb County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 47,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Macomb County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 17,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Saint Clair Shores Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Saint Clair Shores Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Saint Clair Shores Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Saint Clair Shores Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 11,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Saint Clair Shores Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 4,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Saint Clair Shores Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 41,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Saint Clair Shores Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Shelby Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Shelby Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Shelby Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Shelby Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 9,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Shelby Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Shelby Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 29,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Shelby Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 5,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Sterling Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Sterling Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Sterling Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Sterling Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 24,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Sterling Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 14,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Sterling Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 110,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Sterling Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 13,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Warren Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Warren Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 4,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Warren Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Warren Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 39,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Warren Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 29,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Warren Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 123,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Warren Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 48,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Farmington Hills Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Farmington Hills Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Farmington Hills Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Farmington Hills Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 8,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Farmington Hills Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 4,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Farmington Hills Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 29,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Farmington Hills Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 5,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Novi Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Novi Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Novi Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Novi Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 4,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Novi Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Novi Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 28,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Novi Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Royal Oak Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Royal Oak Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Royal Oak Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Royal Oak Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 6,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Royal Oak Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Royal Oak Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 41,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Royal Oak Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 5,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Southfield Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Southfield Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Southfield Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Southfield Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 26,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Southfield Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 20,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Southfield Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 96,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Southfield Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 29,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Troy Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Troy Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Troy Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Troy Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Troy Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Troy Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 45,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Troy Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 5,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Waterford Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Waterford Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Waterford Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Waterford Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 11,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Waterford Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 13,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Waterford Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 34,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Waterford Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "West Bloomfield Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "West Bloomfield Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "West Bloomfield Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "West Bloomfield Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "West Bloomfield Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "West Bloomfield Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 13,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "West Bloomfield Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Ottawa County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Ottawa County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 14,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Ottawa County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 2,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Ottawa County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 37,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Ottawa County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 13,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Ottawa County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 133,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Ottawa County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 10,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Ann Arbor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Ann Arbor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 6,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Ann Arbor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Ann Arbor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 28,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Ann Arbor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 17,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Ann Arbor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 182,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Ann Arbor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 13,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Washtenaw County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Washtenaw County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 2,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Washtenaw County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 4,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Washtenaw County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 16,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Washtenaw County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 12,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Washtenaw County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 54,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Washtenaw County Sheriff's Office",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 16,
-    "state": "MI",
-    "type": "County"
-  },
-  {
-    "agency": "Canton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Canton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Canton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Canton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 10,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Canton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 2,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Canton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 72,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Canton Township Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 13,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 6,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 43,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Heights Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 11,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 18,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 6,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 152,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Dearborn Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 28,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Detroit Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 12,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Detroit Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 35,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Detroit Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 69,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Detroit Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 609,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Detroit Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 393,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Detroit Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 1348,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Detroit Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 497,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Livonia Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Livonia Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Livonia Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Livonia Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 12,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Livonia Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 5,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Livonia Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 69,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Livonia Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 9,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Taylor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Taylor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Taylor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 3,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Taylor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 21,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Taylor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 13,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Taylor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 72,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Taylor Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 13,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Westland Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 0,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Westland Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 5,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Westland Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 1,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Westland Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 25,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Westland Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 12,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Westland Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 59,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Westland Police Department",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 9,
-    "state": "MI",
-    "type": "City"
-  },
-  {
-    "agency": "Battle Creek Police Department",
-    "year": 2025,
     "month": 11,
     "offense": "Murder",
     "count": 0,
@@ -2173,7 +157,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Aggravated Assault",
-    "count": 54,
+    "count": 55,
     "state": "MI",
     "type": "City"
   },
@@ -2200,7 +184,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Motor Vehicle Theft",
-    "count": 24,
+    "count": 25,
     "state": "MI",
     "type": "City"
   },
@@ -2929,7 +913,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Aggravated Assault",
-    "count": 38,
+    "count": 39,
     "state": "MI",
     "type": "City"
   },
@@ -3703,7 +1687,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Theft",
-    "count": 57,
+    "count": 58,
     "state": "MI",
     "type": "City"
   },
@@ -4189,7 +2173,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Aggravated Assault",
-    "count": 60,
+    "count": 61,
     "state": "MI",
     "type": "City"
   },
@@ -4207,7 +2191,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 97,
+    "count": 98,
     "state": "MI",
     "type": "City"
   },
@@ -4324,7 +2308,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Burglary",
-    "count": 33,
+    "count": 34,
     "state": "MI",
     "type": "City"
   },
@@ -4963,7 +2947,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 111,
+    "count": 112,
     "state": "MI",
     "type": "City"
   },
@@ -5341,7 +3325,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 29,
+    "count": 30,
     "state": "MI",
     "type": "City"
   },
@@ -5827,7 +3811,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Aggravated Assault",
-    "count": 487,
+    "count": 486,
     "state": "MI",
     "type": "City"
   },
@@ -6205,7 +4189,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
-    "count": 39,
+    "count": 44,
     "state": "MI",
     "type": "City"
   },
@@ -6214,7 +4198,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 19,
+    "count": 21,
     "state": "MI",
     "type": "City"
   },
@@ -6232,7 +4216,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
-    "count": 31,
+    "count": 32,
     "state": "MI",
     "type": "City"
   },
@@ -6853,7 +4837,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 31,
+    "count": 32,
     "state": "MI",
     "type": "City"
   },
@@ -7105,7 +5089,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 19,
+    "count": 18,
     "state": "MI",
     "type": "City"
   },
@@ -7231,7 +5215,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 81,
+    "count": 82,
     "state": "MI",
     "type": "City"
   },
@@ -7294,7 +5278,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 71,
+    "count": 72,
     "state": "MI",
     "type": "City"
   },
@@ -7321,7 +5305,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Rape",
-    "count": 2,
+    "count": 3,
     "state": "MI",
     "type": "City"
   },
@@ -7483,7 +5467,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 134,
+    "count": 135,
     "state": "MI",
     "type": "City"
   },
@@ -7609,7 +5593,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 50,
+    "count": 49,
     "state": "MI",
     "type": "City"
   },
@@ -7672,7 +5656,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 22,
+    "count": 23,
     "state": "MI",
     "type": "City"
   },
@@ -7762,7 +5746,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Rape",
-    "count": 48,
+    "count": 47,
     "state": "MI",
     "type": "City"
   },
@@ -7807,7 +5791,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
-    "count": 314,
+    "count": 313,
     "state": "MI",
     "type": "City"
   },
@@ -8032,7 +6016,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 35,
+    "count": 36,
     "state": "MI",
     "type": "City"
   },
@@ -8158,7 +6142,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 41,
+    "count": 45,
     "state": "MI",
     "type": "City"
   },
@@ -8284,7 +6268,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 35,
+    "count": 36,
     "state": "MI",
     "type": "City"
   },
@@ -8293,7 +6277,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Burglary",
-    "count": 23,
+    "count": 24,
     "state": "MI",
     "type": "City"
   },
@@ -8302,7 +6286,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 88,
+    "count": 90,
     "state": "MI",
     "type": "City"
   },
@@ -8311,7 +6295,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 21,
+    "count": 22,
     "state": "MI",
     "type": "City"
   },
@@ -8491,7 +6475,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 87,
+    "count": 88,
     "state": "MI",
     "type": "City"
   },
@@ -8743,7 +6727,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 23,
+    "count": 27,
     "state": "MI",
     "type": "City"
   },
@@ -8932,7 +6916,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 107,
+    "count": 108,
     "state": "MI",
     "type": "City"
   },
@@ -9004,7 +6988,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 2,
+    "count": 1,
     "state": "MI",
     "type": "City"
   },
@@ -9058,7 +7042,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 26,
+    "count": 24,
     "state": "MI",
     "type": "City"
   },
@@ -9247,7 +7231,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 58,
+    "count": 59,
     "state": "MI",
     "type": "City"
   },
@@ -9310,7 +7294,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 16,
+    "count": 17,
     "state": "MI",
     "type": "City"
   },
@@ -9445,7 +7429,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 5,
+    "count": 6,
     "state": "MI",
     "type": "City"
   },
@@ -9499,7 +7483,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 35,
+    "count": 37,
     "state": "MI",
     "type": "County"
   },
@@ -9508,7 +7492,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 11,
+    "count": 12,
     "state": "MI",
     "type": "County"
   },
@@ -9562,7 +7546,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 56,
+    "count": 58,
     "state": "MI",
     "type": "City"
   },
@@ -9688,7 +7672,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 125,
+    "count": 126,
     "state": "MI",
     "type": "City"
   },
@@ -9715,7 +7699,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Rape",
-    "count": 34,
+    "count": 33,
     "state": "MI",
     "type": "City"
   },
@@ -9724,7 +7708,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Robbery",
-    "count": 54,
+    "count": 53,
     "state": "MI",
     "type": "City"
   },
@@ -9733,7 +7717,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 437,
+    "count": 436,
     "state": "MI",
     "type": "City"
   },
@@ -9814,7 +7798,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 46,
+    "count": 47,
     "state": "MI",
     "type": "City"
   },
@@ -9940,7 +7924,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 51,
+    "count": 55,
     "state": "MI",
     "type": "City"
   },
@@ -9967,7 +7951,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 3,
+    "count": 5,
     "state": "MI",
     "type": "City"
   },
@@ -9985,7 +7969,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 29,
+    "count": 30,
     "state": "MI",
     "type": "City"
   },
@@ -10003,7 +7987,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 74,
+    "count": 81,
     "state": "MI",
     "type": "City"
   },
@@ -10012,7 +7996,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 6,
+    "count": 7,
     "state": "MI",
     "type": "City"
   },
@@ -10057,7 +8041,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 0,
+    "count": 1,
     "state": "MI",
     "type": "City"
   },
@@ -10111,7 +8095,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 57,
+    "count": 58,
     "state": "MI",
     "type": "City"
   },
@@ -10129,7 +8113,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 111,
+    "count": 112,
     "state": "MI",
     "type": "City"
   },
@@ -10204,6 +8188,69 @@
     "count": 12,
     "state": "MI",
     "type": "County"
+  },
+  {
+    "agency": "Kalamazoo Department of Public Safety",
+    "year": 2026,
+    "month": 3,
+    "offense": "Murder",
+    "count": 0,
+    "state": "MI",
+    "type": "City"
+  },
+  {
+    "agency": "Kalamazoo Department of Public Safety",
+    "year": 2026,
+    "month": 3,
+    "offense": "Rape",
+    "count": 2,
+    "state": "MI",
+    "type": "City"
+  },
+  {
+    "agency": "Kalamazoo Department of Public Safety",
+    "year": 2026,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 0,
+    "state": "MI",
+    "type": "City"
+  },
+  {
+    "agency": "Kalamazoo Department of Public Safety",
+    "year": 2026,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 17,
+    "state": "MI",
+    "type": "City"
+  },
+  {
+    "agency": "Kalamazoo Department of Public Safety",
+    "year": 2026,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 11,
+    "state": "MI",
+    "type": "City"
+  },
+  {
+    "agency": "Kalamazoo Department of Public Safety",
+    "year": 2026,
+    "month": 3,
+    "offense": "Theft",
+    "count": 36,
+    "state": "MI",
+    "type": "City"
+  },
+  {
+    "agency": "Kalamazoo Department of Public Safety",
+    "year": 2026,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 14,
+    "state": "MI",
+    "type": "City"
   },
   {
     "agency": "Grand Rapids Police Department",
@@ -10381,7 +8428,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 96,
+    "count": 97,
     "state": "MI",
     "type": "City"
   },
@@ -10507,7 +8554,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 24,
+    "count": 25,
     "state": "MI",
     "type": "City"
   },
@@ -10660,7 +8707,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 2,
+    "count": 3,
     "state": "MI",
     "type": "City"
   },
@@ -10696,7 +8743,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 74,
+    "count": 76,
     "state": "MI",
     "type": "City"
   },
@@ -10705,7 +8752,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 22,
+    "count": 23,
     "state": "MI",
     "type": "City"
   },
@@ -10759,7 +8806,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 24,
+    "count": 26,
     "state": "MI",
     "type": "City"
   },
@@ -10822,7 +8869,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 21,
+    "count": 22,
     "state": "MI",
     "type": "City"
   },
@@ -10912,7 +8959,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 2,
+    "count": 3,
     "state": "MI",
     "type": "City"
   },
@@ -10930,7 +8977,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 19,
+    "count": 20,
     "state": "MI",
     "type": "City"
   },
@@ -10948,7 +8995,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 92,
+    "count": 95,
     "state": "MI",
     "type": "City"
   },
@@ -11002,7 +9049,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 3,
+    "count": 2,
     "state": "MI",
     "type": "City"
   },
@@ -11011,7 +9058,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 52,
+    "count": 55,
     "state": "MI",
     "type": "City"
   },
@@ -11137,7 +9184,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 13,
+    "count": 14,
     "state": "MI",
     "type": "City"
   },
@@ -11200,7 +9247,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 150,
+    "count": 151,
     "state": "MI",
     "type": "City"
   },
@@ -11263,7 +9310,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 64,
+    "count": 66,
     "state": "MI",
     "type": "County"
   },
@@ -11272,7 +9319,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 18,
+    "count": 19,
     "state": "MI",
     "type": "County"
   },
@@ -11308,7 +9355,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 5,
+    "count": 6,
     "state": "MI",
     "type": "City"
   },
@@ -11326,7 +9373,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 61,
+    "count": 63,
     "state": "MI",
     "type": "City"
   },
@@ -11335,7 +9382,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 2,
+    "count": 4,
     "state": "MI",
     "type": "City"
   },
@@ -11488,7 +9535,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Robbery",
-    "count": 63,
+    "count": 61,
     "state": "MI",
     "type": "City"
   },
@@ -11497,7 +9544,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 529,
+    "count": 528,
     "state": "MI",
     "type": "City"
   },
@@ -11524,7 +9571,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 485,
+    "count": 483,
     "state": "MI",
     "type": "City"
   },
@@ -11578,7 +9625,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 51,
+    "count": 56,
     "state": "MI",
     "type": "City"
   },
@@ -11641,7 +9688,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 48,
+    "count": 49,
     "state": "MI",
     "type": "City"
   },
@@ -11704,7 +9751,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 52,
+    "count": 54,
     "state": "MI",
     "type": "City"
   },
