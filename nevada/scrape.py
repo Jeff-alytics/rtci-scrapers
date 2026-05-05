@@ -42,12 +42,12 @@ OFFENSE_MAP = {
 }
 
 AGENCIES = [
-    {"ori": "NV0020300", "name": "Henderson", "type": "City"},
-    {"ori": "NV0020100", "name": "Las Vegas", "type": "City"},
-    {"ori": "NV0020200", "name": "North Las Vegas", "type": "City"},
-    {"ori": "NV0160100", "name": "Reno", "type": "City"},
-    {"ori": "NV0160200", "name": "Sparks", "type": "City"},
-    {"ori": "NV0160000", "name": "Washoe", "type": "County"},
+    {"ori": "NV0020300", "name": "Henderson", "type": "City", "b2020": "Henderson Police Department"},
+    {"ori": "NV0020100", "name": "Las Vegas", "type": "City", "b2020": "Las Vegas Metropolitan Police Department"},
+    {"ori": "NV0020200", "name": "North Las Vegas", "type": "City", "b2020": "North Las Vegas Police Department"},
+    {"ori": "NV0160100", "name": "Reno", "type": "City", "b2020": "Reno Police Department"},
+    {"ori": "NV0160200", "name": "Sparks", "type": "City", "b2020": "Sparks Police Department"},
+    {"ori": "NV0160000", "name": "Washoe", "type": "County", "b2020": "Washoe County Sheriff's Office"},
 ]
 
 
@@ -226,8 +226,9 @@ def main():
                 print("  FAILED to load")
                 continue
 
-            search = ag["name"].split()[0]
-            if not nav_select_single(page, DIM_JURISDICTION, search, ag["name"]):
+            b2020 = ag.get("b2020", ag["name"])
+            search = b2020.split()[0]
+            if not nav_select_single(page, DIM_JURISDICTION, search, b2020):
                 print("  FAILED agency select")
                 continue
             if not nav_select_offenses(page, TARGET_OFFENSES):
