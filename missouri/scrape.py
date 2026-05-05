@@ -31,7 +31,8 @@ OFFENSE_MAP = {
     "Criminal Homicide": "Murder",
     "Forcible Rape Total": "Rape",
     "Robbery Total": "Robbery",
-    "Assault Total": "Aggravated Assault",
+    # "Assault Total" includes Simple — must drill down for Aggravated
+    # "Aggravated Assault Total": "Aggravated Assault",  (handled by drill-down)
     "Burglary Total": "Burglary",
     "Larceny - Theft Total": "Theft",
     "Motor Vehicle Theft Total": "Motor Vehicle Theft",
@@ -180,8 +181,51 @@ def setup_agency(page, agency):
     page.wait_for_timeout(1000)
 
 
+def drill_agg_assault(page):
+    """Drill into 'Assault Total' to get 'Aggravated Assault Total'."""
+    link = page.locator("a:has-text('Assault Total')").first
+    if not link.count():
+        return None
+    try:
+        with page.expect_navigation(wait_until="networkidle", timeout=30000):
+            link.click()
+        page.wait_for_timeout(1500)
+    except Exception:
+        return None
+
+    offenses = page.evaluate("""
+    () => {
+        var t = document.getElementById('headerColumnTable');
+        if (!t) return [];
+        return Array.from(t.rows).map(r => r.cells[0] ? r.cells[0].innerText.trim() : '');
+    }
+    """)
+    body = page.evaluate("""
+    () => {
+        var t = document.getElementById('bodyTable');
+        if (!t) return [];
+        return Array.from(t.rows).map(r => Array.from(r.cells).map(c => c.innerText.trim()));
+    }
+    """)
+
+    val = None
+    for i, name in enumerate(offenses):
+        if name == "Aggravated Assault Total" and i < len(body) and body[i]:
+            val = parse_count(body[i][0])
+            break
+
+    # Go back to main table
+    try:
+        page.go_back(wait_until="networkidle", timeout=15000)
+        page.wait_for_timeout(1000)
+    except Exception:
+        pass
+
+    return val
+
+
 def read_table(page):
-    """Read offense × month table. Returns {month_name: {offense: count}}."""
+    """Read offense rows for the current agency/year/month. Returns {offense: count}."""
     offenses = page.evaluate("""
     () => {
         var t = document.getElementById('headerColumnTable');
@@ -201,26 +245,18 @@ def read_table(page):
     if not offenses or not body:
         return None
 
-    # Default layout: offenses as rows, one column (annual total)
-    # After adding month dim: offenses as rows, months as columns
-    # Check column headers
-    months_header = page.evaluate("""
-    () => {
-        var t = document.getElementById('headerRowTable');
-        if (!t || t.rows.length < 1) return null;
-        var lastRow = t.rows[t.rows.length - 1];
-        return Array.from(lastRow.cells).map(c => c.innerText.trim());
-    }
-    """)
-
     result = {}
     for row_idx, offense_name in enumerate(offenses):
         rtci = OFFENSE_MAP.get(offense_name)
         if not rtci or row_idx >= len(body):
             continue
-        # Single column = annual. Report 1 default is annual per agency.
         val = parse_count(body[row_idx][0]) if body[row_idx] else 0
         result[rtci] = val
+
+    # Drill into Assault Total to get Aggravated Assault
+    agg = drill_agg_assault(page)
+    if agg is not None:
+        result["Aggravated Assault"] = agg
 
     return result
 
