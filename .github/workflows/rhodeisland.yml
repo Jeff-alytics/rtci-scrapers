@@ -1,0 +1,36 @@
+name: Daily Rhode Island NIBRS Scrape
+
+on:
+  schedule:
+    - cron: '55 12 * * *'  # 7:55 AM CT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run scraper
+        run: python rhodeisland/scrape.py
+
+      - name: Show results
+        run: python -c "import json; d=json.load(open('rhodeisland/data/latest.json')); print(f'{len(d)} records from {len(set(r[\"agency\"] for r in d))} agencies')"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rhodeisland/data/
+          git diff --cached --quiet || git commit -m "Update Rhode Island NIBRS data $(date -u +%Y-%m-%d)"
+          git push
