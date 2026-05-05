@@ -33,4 +33,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add illinois/data/
           git diff --cached --quiet || git commit -m "Update Illinois NIBRS data $(date -u +%Y-%m-%d)"
-          git push
+          git pull --rebase origin master && git push

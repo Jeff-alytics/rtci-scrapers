@@ -43,4 +43,4 @@ jobs:
           git add data/
           MONTH=$(date -u +%Y-%m)
           git diff --cached --quiet || git commit -m "Update ARJIS data ${MONTH}"
-          git push
+          git pull --rebase origin master && git push
