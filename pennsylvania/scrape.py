@@ -55,7 +55,7 @@ PA_AGENCIES = [
     {"ori": "PA0140300", "name": "State College Police Department", "type": "City"},
     {"ori": "PA0220200", "name": "Harrisburg Police Department", "type": "City"},
     {"ori": "PA0220400", "name": "Lower Paxton Township Police Department", "type": "City"},
-    {"ori": "PA0231400", "name": "Haverford Township Police Department", "type": "City"},
+    {"ori": "PA0231400", "name": "Haverford Police Department", "type": "City"},
     {"ori": "PA0233700", "name": "Upper Darby Township Police Department", "type": "City"},
     {"ori": "PA0250200", "name": "Erie Police Department", "type": "City"},
     {"ori": "PA0250300", "name": "Millcreek Township, Erie County", "type": "City"},
@@ -175,12 +175,26 @@ def main():
     print(f"Loading {STATE} agencies…")
     sample = load_agencies_from_csv()
     # Use short names for pipeline compatibility
+    # Short names for pipeline compatibility (must match Feb CSV)
+    NAME_OVERRIDES = {
+        "PA0090100": "Bensalem",
+        "PA0220400": "Lower Paxton",
+        "PA0231400": "Haverford",
+        "PA0233700": "Upper Darby",
+        "PA0250300": "Millcreek",
+        "PA0460100": "Abington",
+        "PA0461400": "Lower Merion",
+        "PAPPD0000": "Pittsburgh",
+    }
     for ag in sample:
-        ag["name"] = (ag["name"]
-                      .replace(" Police Department", "")
-                      .replace(" Sheriff's Office", "")
-                      .replace(" County Sheriff's Office", "")
-                      .strip())
+        if ag["ori"] in NAME_OVERRIDES:
+            ag["name"] = NAME_OVERRIDES[ag["ori"]]
+        else:
+            ag["name"] = (ag["name"]
+                          .replace(" Police Department", "")
+                          .replace(" Sheriff's Office", "")
+                          .replace(" County Sheriff's Office", "")
+                          .strip())
     print(f"  {len(sample)} included agencies")
 
     print("Fetching platform agency list…")
