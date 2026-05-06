@@ -37,14 +37,25 @@ AGENCIES = {
 }
 
 OFFENSE_MAP = {
-    "Criminal Homicide": "Murder",
+    "Murder and Nonnegligent Homicide": "Murder",
     "Forcible Rape Total": "Rape",
     "Robbery Total": "Robbery",
-    "Assault Total": "Aggravated Assault",
+    "Aggravated Assault Total": "Aggravated Assault",
     "Burglary Total": "Burglary",
     "Larceny - Theft Total": "Theft",
     "Motor Vehicle Theft Total": "Motor Vehicle Theft",
 }
+
+# Offenses to select in B2020 dim 4 (replaces Criminal Homicide / Assault Total with sub-members)
+SELECT_OFFENSES = [
+    ("Murder", "Murder and Nonnegligent Homicide"),
+    ("Forcible Rape", "Forcible Rape Total"),
+    ("Robbery", "Robbery Total"),
+    ("Aggravated", "Aggravated Assault Total"),
+    ("Burglary", "Burglary Total"),
+    ("Larceny", "Larceny - Theft Total"),
+    ("Motor Vehicle", "Motor Vehicle Theft Total"),
+]
 
 MONTH_NAMES = ["January","February","March","April","May","June",
                "July","August","September","October","November","December"]
@@ -118,6 +129,47 @@ def parse_count(text):
         return int(t)
     except ValueError:
         return 0
+
+
+def setup_offenses(page):
+    """Select correct sub-offenses (Murder not Criminal Homicide, Agg Assault not Assault Total)."""
+    try:
+        with page.expect_navigation(wait_until="domcontentloaded", timeout=20000):
+            page.evaluate("ShowDim(4, 4);")
+        page.wait_for_timeout(800)
+    except Exception:
+        return False
+    page.evaluate("OnSelAllClick(0);")
+    page.wait_for_timeout(200)
+    for search_term, exact_name in SELECT_OFFENSES:
+        try:
+            page.fill('input[name="SearchString"]', search_term)
+            with page.expect_navigation(wait_until="domcontentloaded", timeout=15000):
+                page.evaluate('MembersSearch(document.querySelector(\'input[name="SearchString"]\'));')
+            page.wait_for_timeout(400)
+        except Exception:
+            continue
+        page.evaluate("""
+        (name) => {
+            var spans = Array.from(document.querySelectorAll('span.rtIn'));
+            var nl = name.toLowerCase();
+            for (var span of spans) {
+                if (span.textContent.trim().toLowerCase() === nl) {
+                    var chk = span.closest('label')?.querySelector('input.rtChk');
+                    if (chk) chk.click();
+                    break;
+                }
+            }
+        }
+        """, exact_name)
+        page.wait_for_timeout(150)
+    try:
+        with page.expect_navigation(wait_until="domcontentloaded", timeout=20000):
+            page.evaluate("ShowUpdatedReportAfterSelection();")
+        page.wait_for_timeout(1500)
+        return True
+    except Exception:
+        return False
 
 
 def read_all_agencies(page):
@@ -203,6 +255,9 @@ def main():
                 # Load report fresh each month
                 page.goto(REPORT_URL, wait_until="networkidle", timeout=30000)
                 page.wait_for_timeout(2000)
+
+                # Select correct sub-offenses (Murder not Criminal Homicide, etc.)
+                setup_offenses(page)
 
                 # Set year
                 if not nav_select(page, DIM_DATE, str(year), str(year)):

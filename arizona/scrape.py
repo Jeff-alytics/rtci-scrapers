@@ -47,7 +47,7 @@ AGENCIES = [
 ]
 
 OFFENSE_MAP = {
-    "Criminal Homicide": "Murder",
+    # "Criminal Homicide" includes Negligent Manslaughter — handled by drill-down
     "Forcible Rape Total": "Rape",
     "Robbery Total": "Robbery",
     "Burglary Total": "Burglary",
@@ -166,6 +166,47 @@ def parse_table(page):
     return rows
 
 
+def parse_murder(page):
+    """Drill into 'Criminal Homicide' to get 'Murder and Nonnegligent Homicide' only."""
+    if not page.locator("a:has-text('Criminal Homicide')").count():
+        return []
+    try:
+        with page.expect_navigation(wait_until="networkidle", timeout=30000):
+            page.locator("a:has-text('Criminal Homicide')").first.click()
+        page.wait_for_timeout(1500)
+    except Exception:
+        return []
+    values = page.evaluate("""
+    () => {
+        var hdr = document.getElementById('headerColumnTable');
+        var body = document.getElementById('bodyTable');
+        if (!hdr || !body) return null;
+        var rows = Array.from(hdr.rows);
+        for (var i = 0; i < rows.length; i++) {
+            var t = rows[i].cells[0].innerText.trim();
+            if (t.indexOf('Murder') >= 0 && t.indexOf('Nonnegligent') >= 0) {
+                return Array.from(body.rows[i].cells).map(function(c) {
+                    var t = c.innerText.trim().replace(/,/g, '');
+                    if (!t || t === '\\u00a0' || t === '.' || t === '-') return null;
+                    var n = parseInt(t, 10);
+                    return isNaN(n) ? null : n;
+                });
+            }
+        }
+        return null;
+    }
+    """)
+    try:
+        page.go_back(wait_until="networkidle", timeout=15000)
+        page.wait_for_timeout(1000)
+    except Exception:
+        pass
+    if not values:
+        return []
+    return [{"offense": "Murder", "month": m + 1, "value": values[m]}
+            for m in range(min(12, len(values)))]
+
+
 def parse_agg_assault(page):
     if not page.locator("a:has-text('Assault Total')").count():
         return []
@@ -230,6 +271,9 @@ def main():
                             continue
 
                     rows = parse_table(page)
+                    murder = parse_murder(page)
+                    if murder:
+                        rows = (rows or []) + murder
                     agg = parse_agg_assault(page)
                     if agg:
                         rows = (rows or []) + agg

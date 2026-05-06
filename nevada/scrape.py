@@ -26,13 +26,13 @@ MONTH_NAMES = ["January","February","March","April","May","June",
                "July","August","September","October","November","December"]
 
 TARGET_OFFENSES = [
-    "Criminal Homicide", "Forcible Rape Total", "Robbery Total",
+    "Murder and Nonnegligent Homicide", "Forcible Rape Total", "Robbery Total",
     "Aggravated Assault Total", "Burglary Total", "Larceny - Theft Total",
     "Motor Vehicle Theft Total",
 ]
 
 OFFENSE_MAP = {
-    "Criminal Homicide": "Murder",
+    "Murder and Nonnegligent Homicide": "Murder",
     "Forcible Rape Total": "Rape",
     "Robbery Total": "Robbery",
     "Aggravated Assault Total": "Aggravated Assault",

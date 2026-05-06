@@ -28,7 +28,8 @@ MONTH_NAMES = ["January","February","March","April","May","June",
                "July","August","September","October","November","December"]
 
 OFFENSE_MAP = {
-    "Criminal Homicide": "Murder",
+    # "Criminal Homicide" includes Negligent Manslaughter — must drill down
+    # "Murder and Nonnegligent Homicide": "Murder",  (handled by drill-down)
     "Forcible Rape Total": "Rape",
     "Robbery Total": "Robbery",
     # "Assault Total" includes Simple — must drill down for Aggravated
@@ -181,6 +182,48 @@ def setup_agency(page, agency):
     page.wait_for_timeout(1000)
 
 
+def drill_homicide(page):
+    """Drill into 'Criminal Homicide' to get 'Murder and Nonnegligent Homicide'."""
+    link = page.locator("a:has-text('Criminal Homicide')").first
+    if not link.count():
+        return None
+    try:
+        with page.expect_navigation(wait_until="networkidle", timeout=30000):
+            link.click()
+        page.wait_for_timeout(1500)
+    except Exception:
+        return None
+
+    offenses = page.evaluate("""
+    () => {
+        var t = document.getElementById('headerColumnTable');
+        if (!t) return [];
+        return Array.from(t.rows).map(r => r.cells[0] ? r.cells[0].innerText.trim() : '');
+    }
+    """)
+    body = page.evaluate("""
+    () => {
+        var t = document.getElementById('bodyTable');
+        if (!t) return [];
+        return Array.from(t.rows).map(r => Array.from(r.cells).map(c => c.innerText.trim()));
+    }
+    """)
+
+    val = None
+    for i, name in enumerate(offenses):
+        if "Murder" in name and "Nonnegligent" in name and i < len(body) and body[i]:
+            val = parse_count(body[i][0])
+            break
+
+    try:
+        page.go_back(wait_until="networkidle", timeout=15000)
+        page.wait_for_timeout(1000)
+    except Exception:
+        pass
+
+    return val
+
+
 def drill_agg_assault(page):
     """Drill into 'Assault Total' to get 'Aggravated Assault Total'."""
     link = page.locator("a:has-text('Assault Total')").first
@@ -252,6 +295,11 @@ def read_table(page):
             continue
         val = parse_count(body[row_idx][0]) if body[row_idx] else 0
         result[rtci] = val
+
+    # Drill into Criminal Homicide to get Murder only (exclude Negligent Manslaughter)
+    murder = drill_homicide(page)
+    if murder is not None:
+        result["Murder"] = murder
 
     # Drill into Assault Total to get Aggravated Assault
     agg = drill_agg_assault(page)
