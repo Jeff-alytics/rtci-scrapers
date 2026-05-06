@@ -4,132 +4,6 @@
     "state": "GA",
     "type": "City",
     "year": 2025,
-    "month": 9,
-    "offense": "Murder",
-    "count": 1
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 9,
-    "offense": "Rape",
-    "count": 6
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 9,
-    "offense": "Robbery",
-    "count": 5
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 9,
-    "offense": "Aggravated Assault",
-    "count": 57
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 9,
-    "offense": "Burglary",
-    "count": 35
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 9,
-    "offense": "Theft",
-    "count": 179
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 9,
-    "offense": "Motor Vehicle Theft",
-    "count": 21
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 10,
-    "offense": "Murder",
-    "count": 2
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 10,
-    "offense": "Rape",
-    "count": 1
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 10,
-    "offense": "Robbery",
-    "count": 10
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 10,
-    "offense": "Aggravated Assault",
-    "count": 37
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 10,
-    "offense": "Burglary",
-    "count": 42
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 10,
-    "offense": "Theft",
-    "count": 175
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
-    "month": 10,
-    "offense": "Motor Vehicle Theft",
-    "count": 15
-  },
-  {
-    "agency": "Albany",
-    "state": "GA",
-    "type": "City",
-    "year": 2025,
     "month": 11,
     "offense": "Murder",
     "count": 4
@@ -376,5 +250,68 @@
     "month": 2,
     "offense": "Motor Vehicle Theft",
     "count": 18
+  },
+  {
+    "agency": "Albany",
+    "state": "GA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Albany",
+    "state": "GA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Albany",
+    "state": "GA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 6
+  },
+  {
+    "agency": "Albany",
+    "state": "GA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 46
+  },
+  {
+    "agency": "Albany",
+    "state": "GA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 30
+  },
+  {
+    "agency": "Albany",
+    "state": "GA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Theft",
+    "count": 159
+  },
+  {
+    "agency": "Albany",
+    "state": "GA",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 24
   }
 ]
