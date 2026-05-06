@@ -1,8 +1,8 @@
-name: Daily South Dakota Scrape
+name: Monthly South Dakota Scrape
 
 on:
   schedule:
-    - cron: '0 13 * * *'
+    - cron: '30 12 15,16 * *'
   workflow_dispatch:
 
 permissions:
