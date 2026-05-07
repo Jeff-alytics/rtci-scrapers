@@ -2301,7 +2301,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 26
+    "count": 27
   },
   {
     "agency": "Duluth",
@@ -4398,7 +4398,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 61
+    "count": 62
   },
   {
     "agency": "Maple Grove",
@@ -4857,7 +4857,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 517
+    "count": 518
   },
   {
     "agency": "Minneapolis",
@@ -4920,7 +4920,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 494
+    "count": 493
   },
   {
     "agency": "Minneapolis",
@@ -4956,7 +4956,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 958
+    "count": 959
   },
   {
     "agency": "Minnetonka",
@@ -6207,7 +6207,7 @@
     "year": 2025,
     "month": 9,
     "offense": "Theft",
-    "count": 118
+    "count": 117
   },
   {
     "agency": "St. Cloud",
@@ -6225,7 +6225,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Burglary",
-    "count": 19
+    "count": 18
   },
   {
     "agency": "St. Cloud",
@@ -6279,7 +6279,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Burglary",
-    "count": 18
+    "count": 19
   },
   {
     "agency": "St. Cloud",
@@ -6342,7 +6342,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Motor Vehicle Theft",
-    "count": 7
+    "count": 15
   },
   {
     "agency": "St. Cloud",
@@ -6378,7 +6378,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 112
+    "count": 114
   },
   {
     "agency": "St. Cloud",
@@ -6405,7 +6405,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
-    "count": 11
+    "count": 10
   },
   {
     "agency": "St. Cloud",
@@ -6450,7 +6450,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Burglary",
-    "count": 17
+    "count": 18
   },
   {
     "agency": "St. Cloud",
@@ -6459,7 +6459,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 11
+    "count": 12
   },
   {
     "agency": "St. Cloud",
@@ -6486,7 +6486,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 92
+    "count": 95
   },
   {
     "agency": "St. Cloud",
@@ -6504,7 +6504,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 12
+    "count": 13
   },
   {
     "agency": "St. Cloud",
@@ -6521,7 +6521,7 @@
     "type": "City",
     "year": 2026,
     "month": 3,
-    "offense": "Robbery",
+    "offense": "Rape",
     "count": 1
   },
   {
@@ -6530,8 +6530,17 @@
     "type": "City",
     "year": 2026,
     "month": 3,
+    "offense": "Robbery",
+    "count": 2
+  },
+  {
+    "agency": "St. Cloud",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
     "offense": "Theft",
-    "count": 86
+    "count": 114
   },
   {
     "agency": "St. Paul",
@@ -6693,7 +6702,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Rape",
-    "count": 10
+    "count": 11
   },
   {
     "agency": "St. Paul",
@@ -6990,7 +6999,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 112
+    "count": 113
   },
   {
     "agency": "St. Paul",
