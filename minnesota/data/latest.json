@@ -303,7 +303,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 52
+    "count": 53
   },
   {
     "agency": "Apple Valley",
@@ -2129,6 +2129,15 @@
     "type": "City",
     "year": 2025,
     "month": 11,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "Coon Rapids",
+    "state": "MN",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
     "offense": "Theft",
     "count": 70
   },
@@ -2877,7 +2886,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Burglary",
-    "count": 9
+    "count": 10
   },
   {
     "agency": "Eagan",
@@ -4830,7 +4839,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 806
+    "count": 807
   },
   {
     "agency": "Minneapolis",
@@ -4875,7 +4884,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Rape",
-    "count": 30
+    "count": 31
   },
   {
     "agency": "Minneapolis",
@@ -4938,7 +4947,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 33
+    "count": 35
   },
   {
     "agency": "Minneapolis",
@@ -5793,7 +5802,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Motor Vehicle Theft",
-    "count": 6
+    "count": 7
   },
   {
     "agency": "Rochester",
@@ -6036,7 +6045,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 95
+    "count": 96
   },
   {
     "agency": "Rochester",
@@ -6999,7 +7008,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 113
+    "count": 112
   },
   {
     "agency": "St. Paul",
