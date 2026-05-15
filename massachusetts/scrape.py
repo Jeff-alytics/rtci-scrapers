@@ -201,13 +201,33 @@ def scrape_agency_month(page, ori_val, period_val, retries=2):
     """Load report for one agency/month combo.  Returns parsed crimes dict or None."""
     for attempt in range(retries + 1):
         try:
+            # Capture current report text so we can detect when it changes
+            old_text = extract_report_text(page) or ""
+
             page.select_option(ORI_SELECT, ori_val)
             sleep(0.3)
             page.select_option(PERIOD_SELECT, period_val)
             sleep(0.3)
             page.click(VIEW_BUTTON)
-            page.wait_for_selector("text=Grand Total", timeout=30000)
-            sleep(0.8)
+
+            # Wait for report to actually refresh — poll until Grand Total
+            # text changes or appears fresh (old text was from previous query)
+            deadline = 30
+            elapsed = 0
+            while elapsed < deadline:
+                sleep(0.5)
+                elapsed += 0.5
+                try:
+                    new_text = extract_report_text(page)
+                    if new_text and new_text != old_text:
+                        break
+                except Exception:
+                    pass
+            else:
+                # Timed out waiting for change — try extracting anyway
+                new_text = extract_report_text(page)
+
+            sleep(0.3)
             report_text = extract_report_text(page)
             return parse_report_text(report_text)
         except Exception as e:

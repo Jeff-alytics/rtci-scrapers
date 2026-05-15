@@ -44,35 +44,26 @@ class LinkParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.links = []
-        self._href = None
 
     def handle_starttag(self, tag, attrs):
         if tag == "a":
             d = dict(attrs)
             href = d.get("href", "")
-            if ".pdf" in href.lower():
-                self._href = href
-            else:
-                self._href = None
-
-    def handle_data(self, data):
-        if self._href:
-            text = data.strip()
+            if ".pdf" not in href.lower():
+                return
+            # Parse month/year from URL filename (link text may be empty)
+            decoded = urllib.request.url2pathname(href.split("/")[-1])
             m = re.search(
                 r"\b(January|February|March|April|May|June|July|August|"
                 r"September|October|November|December)\s+(20\d{2})\b",
-                text, re.IGNORECASE,
+                decoded, re.IGNORECASE,
             )
-            if m and re.search(r"NIBRS|Crime\s*Data", text, re.IGNORECASE):
+            if m and re.search(r"NIBRS|Crime\s*Data", decoded, re.IGNORECASE):
                 mo = MONTH_MAP[m.group(1).lower()]
                 yr = int(m.group(2))
-                url = self._href if self._href.startswith("http") else \
-                    "https://www.lexingtonky.gov" + self._href
-                self.links.append({"url": url, "text": text, "year": yr, "month": mo})
-
-    def handle_endtag(self, tag):
-        if tag == "a":
-            self._href = None
+                url = href if href.startswith("http") else \
+                    "https://www.lexingtonky.gov" + href
+                self.links.append({"url": url, "text": decoded, "year": yr, "month": mo})
 
 
 def discover_pdfs():
