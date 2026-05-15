@@ -1,0 +1,284 @@
+ori,Agency Name,State,Type
+AL0010200,Birmingham,AL,City
+AL0020100,Mobile,AL,City
+AR0040100,Bentonville,AR,City
+AR0230100,Conway,AR,City
+AR0720100,Fayetteville,AR,City
+AR0660100,Fort Smith,AR,City
+AR0160100,Jonesboro,AR,City
+AR0600300,North Little Rock,AR,City
+CA0010100,Alameda,CA,City
+CA0010000,Alameda,CA,County
+CA030490X,Aliso Viejo,CA,City
+CA0300100,Anaheim,CA,City
+CA0190200,Arcadia,CA,City
+CA0150200,Bakersfield,CA,City
+CA0190600,Baldwin Park,CA,City
+CA0330200,Beaumont,CA,City
+CA0010300,Berkeley,CA,City
+CA0070200,Brentwood,CA,City
+CA0300300,Buena Park,CA,City
+CA0191200,Burbank,CA,City
+CA0560100,Camarillo,CA,City
+CA0040200,Chico,CA,City
+CA0360200,Chino,CA,City
+CA0349600,Citrus Heights,CA,City
+CA0100100,Clovis,CA,City
+CA0331500,Corona,CA,City
+CA0410600,Daly City,CA,City
+CA0570100,Davis,CA,City
+CA0090000,El Dorado,CA,County
+CA0192200,El Monte,CA,City
+CA0340H00,Elk Grove,CA,City
+CA0480300,Fairfield,CA,City
+CA0340100,Folsom,CA,City
+CA0300700,Fountain Valley,CA,City
+CA0100500,Fresno,CA,City
+CA0300800,Fullerton,CA,City
+CA0192400,Gardena,CA,City
+CA0430400,Gilroy,CA,City
+CA0010600,Hayward,CA,City
+CA0302600,Irvine,CA,City
+CA030390X,Laguna Niguel,CA,City
+CA0310300,Lincoln,CA,City
+CA0010700,Livermore,CA,City
+CA0194200,Los Angeles,CA,City
+CA0200200,Madera,CA,City
+CA0390300,Manteca,CA,City
+CA0240600,Merced,CA,City
+CA030350X,Mission Viejo,CA,City
+CA0194800,Monterey Park,CA,City
+CA0270000,Monterey,CA,County
+CA0431100,Mountain View,CA,City
+CA0280200,Napa,CA,City
+CA0301400,Newport Beach,CA,City
+CA0210600,Novato,CA,City
+CA0560400,Oxnard,CA,City
+CA0431200,Palo Alto,CA,City
+CA0195300,Pasadena,CA,City
+CA0490800,Petaluma,CA,City
+CA0310000,Placer,CA,County
+CA0011100,Pleasanton,CA,City
+CA0195500,Pomona,CA,City
+CA0540500,Porterville,CA,City
+CA0195600,Redondo Beach,CA,City
+CA0411300,Redwood City,CA,City
+CA0331300,Riverside,CA,City
+CA0310400,Rocklin,CA,City
+CA0310500,Roseville,CA,City
+CA0340000,Sacramento,CA,County
+CA0411600,San Mateo,CA,City
+CA0410000,San Mateo,CA,County
+CA0210900,San Rafael,CA,City
+CA0431400,Santa Clara,CA,City
+CA0440200,Santa Cruz,CA,City
+CA0440000,Santa Cruz,CA,County
+CA0420400,Santa Maria,CA,City
+CA0196500,Santa Monica,CA,City
+CA0490500,Santa Rosa,CA,City
+CA0560900,Simi Valley,CA,City
+CA0411700,South San Francisco,CA,City
+CA0431600,Sunnyvale,CA,City
+CA0560700,Thousand Oaks,CA,City
+CA0197200,Torrance,CA,City
+CA0540600,Tulare,CA,City
+CA0540000,Tulare,CA,County
+CA0302200,Tustin,CA,City
+CA0480600,Vacaville,CA,City
+CA0560800,Ventura,CA,City
+CA0540700,Visalia,CA,City
+CA0071200,Walnut Creek,CA,City
+CA0197500,West Covina,CA,City
+CA0302500,Yorba Linda,CA,City
+FL0160000,Jacksonville,FL,City
+GA0600400,Alpharetta,GA,City
+GA0447200,Brookhaven,GA,City
+GA0580000,Forsyth,GA,County
+GA0690000,Hall,GA,County
+GA0750500,Henry,GA,County
+GA0605800,Johns Creek,GA,City
+GA0330300,Marietta,GA,City
+GA1100000,Paulding,GA,County
+GA0600500,Roswell,GA,City
+GA0760200,Warner Robins,GA,City
+IA0850100,Ames,IA,City
+IA0770100,Ankeny,IA,City
+IA0570100,Cedar Rapids,IA,City
+IA0780100,Council Bluffs,IA,City
+IA0820200,Davenport,IA,City
+IA0770300,Des Moines,IA,City
+IA0310100,Dubuque,IA,City
+IA0520200,Iowa City,IA,City
+IA0970100,Sioux City,IA,City
+IA0070300,Waterloo,IA,City
+IA0770500,West Des Moines,IA,City
+IN0480200,Anderson,IN,City
+IN0530100,Bloomington,IN,City
+IN0290100,Carmel,IN,City
+IN0200100,Elkhart,IN,City
+IN0820100,Evansville,IN,City
+IN0290700,Fishers,IN,City
+IN0410300,Greenwood,IN,City
+IN0450700,Hammond,IN,City
+IN0100300,Jeffersonville,IN,City
+IN0340100,Kokomo,IN,City
+IN0180100,Muncie,IN,City
+IN0290200,Noblesville,IN,City
+IN0710000,St Joseph,IN,County
+IN0840100,Terre Haute,IN,City
+IN0290400,Westfield,IN,City
+KS0461000,Lenexa,KS,City
+KS0460900,Shawnee,KS,City
+KY0080000,Boone,KY,County
+KY1140100,Bowling Green,KY,City
+KY0300100,Owensboro,KY,City
+LA0080100,Bossier City,LA,City
+LA0170000,East Baton Rouge,LA,County
+LA0280300,Lafayette,LA,City
+LA0100200,Lake Charles,LA,City
+LA0320000,Livingston,LA,County
+LA0090100,Shreveport,LA,City
+MD0174100,Bowie,MD,City
+MD0140100,Howard,MD,County
+MD0190000,St. Mary's,MD,County
+MD0220000,Washington,MD,County
+MI8121800,Ann Arbor,MI,City
+MI1323700,Battle Creek,MI,City
+MI8290800,Canton Township,MI,City
+MI5084900,Clinton Township,MI,City
+MI8234300,Dearborn,MI,City
+MI8234400,Dearborn Heights,MI,City
+MI8234900,Detroit,MI,City
+MI6338900,Farmington Hills,MI,City
+MI4143600,Grand Rapids,MI,City
+MI3949900,Kalamazoo,MI,City
+MI3913900,Kalamazoo,MI,County
+MI4114100,Kent,MI,County
+MI4185000,Kentwood,MI,City
+MI3351900,Lansing,MI,City
+MI4714700,Livingston,MI,County
+MI8253800,Livonia,MI,City
+MI5015000,Macomb,MI,County
+MI6362700,Novi,MI,City
+MI7017000,Ottawa,MI,County
+MI631900X,Pontiac,MI,City
+MI631910X,Rochester Hills,MI,City
+MI6371400,Royal Oak,MI,City
+MI5074000,Shelby Township,MI,City
+MI6375100,Southfield,MI,City
+MI5072200,St. Clair Shores,MI,City
+MI5076500,Sterling Heights,MI,City
+MI8277500,Taylor,MI,City
+MI6378400,Troy,MI,City
+MI5080600,Warren,MI,City
+MI8118100,Washtenaw,MI,County
+MI6380800,Waterford Township,MI,City
+MI6381500,West Bloomfield Township,MI,City
+MI8281700,Westland,MI,City
+MI4183400,Wyoming,MI,City
+MT0320100,Missoula,MT,City
+MT0560100,Billings,MT,City
+MT0160100,Bozeman,MT,City
+MT0070100,Great Falls,MT,City
+MT0320100,Missoula,MT,City
+NH0063400,Manchester,NH,City
+NJ0070200,Bloomfield,NJ,City
+NJ0041200,Cherry Hill Township,NJ,City
+NJ0160200,Clifton,NJ,City
+NJ0200400,Elizabeth,NJ,City
+NJ0011200,Hamilton Township,NJ,City
+NJ0090500,Hoboken,NJ,City
+NJ0090600,Jersey City,NJ,City
+NJNPD0000,Newark,NJ,City
+NJ0160800,Paterson,NJ,City
+NJ0161400,Wayne Township,NJ,City
+NJ0091200,West New York,NJ,City
+NY0010100,Albany,NY,City
+NY0015300,Colonie Town,NY,City
+NY0290600,Hempstead Village,NY,City
+NY0590300,Mount Vernon,NY,City
+NY0290000,Nassau,NY,County
+NY0590400,New Rochelle,NY,City
+NY0270100,Rochester,NY,City
+NY0450000,Saratoga,NY,County
+NY0460100,Schenectady,NY,City
+NY0320200,Utica,NY,City
+OK0720100,Broken Arrow,OK,City
+OK0550300,Edmond,OK,City
+OK0240100,Enid,OK,City
+OK0550400,Midwest City,OK,City
+OK0140100,Moore,OK,City
+OK0550600,Oklahoma City,OK,City
+OK0720500,Tulsa,OK,City
+SC0020000,Aiken,SC,County
+SC0040000,Anderson,SC,County
+SC0070000,Beaufort,SC,County
+SC0080000,Berkeley,SC,County
+SC0100100,Charleston,SC,City
+SC0230200,Greenville,SC,City
+SC0230000,Greenville,SC,County
+SC0260400,Horry,SC,County
+SC0290000,Lancaster,SC,County
+SC0320000,Lexington,SC,County
+SC0100300,Mount Pleasant,SC,City
+SC0100800,North Charleston,SC,City
+SC0460300,Rock Hill,SC,City
+TN0790600,Bartlett,TN,City
+TN0330100,Chattanooga,TN,City
+TN0630100,Clarksville,TN,City
+TN0790100,Collierville,TN,City
+TN0940100,Franklin,TN,City
+TN0330000,Hamilton,TN,County
+TN0830400,Hendersonville,TN,City
+TN0570100,Jackson,TN,City
+TN0900100,Johnson City,TN,City
+TN0820200,Kingsport,TN,City
+TN0470100,Knoxville,TN,City
+TN0470000,Knox,TN,County
+TNMPD0000,Memphis,TN,City
+TN0750100,Murfreesboro,TN,City
+TN0190100,Nashville,TN,City
+TN0750000,Rutherford,TN,County
+TN0790000,Shelby,TN,County
+TN0750200,Smyrna,TN,City
+TN0600300,Spring Hill,TN,City
+UT0181200,Draper,UT,City
+UT0060300,Layton,UT,City
+UT0030100,Logan,UT,City
+UT0290100,Ogden,UT,City
+UT0250300,Orem,UT,City
+UT0250600,Provo,UT,City
+UT0180500,Sandy,UT,City
+UT0252200,Saratoga Springs,UT,City
+UT0181800,South Jordan,UT,City
+UT0270100,St. George,UT,City
+UT0180600,West Jordan,UT,City
+UT0182500,West Valley,UT,City
+VA0020300,Albemarle,VA,County
+VA0990000,Alexandria,VA,City
+VA0070100,Arlington,VA,County
+VA1030000,Chesapeake,VA,City
+VA0210100,Chesterfield,VA,County
+VA0290100,Fairfax,VA,County
+VA1110000,Hampton,VA,City
+VA0420000,Hanover,VA,County
+VA1120000,Harrisonburg,VA,City
+VA0430100,Henrico,VA,County
+VA0530000,Loudoun,VA,County
+VA1140000,Lynchburg,VA,City
+VA1160000,Newport News,VA,City
+VA1170000,Norfolk,VA,City
+VA1200000,Portsmouth,VA,City
+VA0750300,Prince William,VA,County
+VA1230000,Roanoke,VA,City
+VA0880000,Spotsylvania,VA,County
+VA0890000,Stafford,VA,County
+VA1270000,Suffolk,VA,City
+VA1280000,Virginia Beach,VA,City
+VT0040100,Burlington,VT,City
+WA0171200,Redmond,WA,City
+WA0030200,Richland,WA,City
+WA0321500,Spokane Valley,WA,City
+WA0340000,Thurston,WA,County
+WA0390500,Yakima,WA,City
+WY0110100,Cheyenne,WY,City
