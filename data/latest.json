@@ -427,7 +427,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Theft",
-    "count": 91,
+    "count": 90,
     "state": "MI",
     "type": "County"
   },
@@ -1804,7 +1804,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Burglary",
-    "count": 352,
+    "count": 353,
     "state": "MI",
     "type": "City"
   },
@@ -1813,7 +1813,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Theft",
-    "count": 1169,
+    "count": 1173,
     "state": "MI",
     "type": "City"
   },
@@ -2173,7 +2173,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Aggravated Assault",
-    "count": 61,
+    "count": 64,
     "state": "MI",
     "type": "City"
   },
@@ -2182,7 +2182,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Burglary",
-    "count": 25,
+    "count": 26,
     "state": "MI",
     "type": "City"
   },
@@ -2974,7 +2974,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Rape",
-    "count": 0,
+    "count": 1,
     "state": "MI",
     "type": "City"
   },
@@ -3811,7 +3811,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Aggravated Assault",
-    "count": 486,
+    "count": 487,
     "state": "MI",
     "type": "City"
   },
@@ -3820,7 +3820,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Burglary",
-    "count": 314,
+    "count": 316,
     "state": "MI",
     "type": "City"
   },
@@ -3829,7 +3829,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 1148,
+    "count": 1149,
     "state": "MI",
     "type": "City"
   },
@@ -3838,7 +3838,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Motor Vehicle Theft",
-    "count": 406,
+    "count": 408,
     "state": "MI",
     "type": "City"
   },
@@ -4171,7 +4171,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Rape",
-    "count": 7,
+    "count": 8,
     "state": "MI",
     "type": "City"
   },
@@ -4189,7 +4189,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
-    "count": 44,
+    "count": 51,
     "state": "MI",
     "type": "City"
   },
@@ -4450,7 +4450,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 10,
+    "count": 12,
     "state": "MI",
     "type": "County"
   },
@@ -5152,7 +5152,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 36,
+    "count": 37,
     "state": "MI",
     "type": "City"
   },
@@ -5746,7 +5746,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Rape",
-    "count": 47,
+    "count": 48,
     "state": "MI",
     "type": "City"
   },
@@ -5764,7 +5764,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
-    "count": 477,
+    "count": 476,
     "state": "MI",
     "type": "City"
   },
@@ -5773,7 +5773,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 274,
+    "count": 275,
     "state": "MI",
     "type": "City"
   },
@@ -5782,7 +5782,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 1019,
+    "count": 1024,
     "state": "MI",
     "type": "City"
   },
@@ -5791,7 +5791,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
-    "count": 313,
+    "count": 314,
     "state": "MI",
     "type": "City"
   },
@@ -6034,7 +6034,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 67,
+    "count": 68,
     "state": "MI",
     "type": "City"
   },
@@ -6043,7 +6043,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 5,
+    "count": 6,
     "state": "MI",
     "type": "City"
   },
@@ -6124,7 +6124,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Rape",
-    "count": 8,
+    "count": 9,
     "state": "MI",
     "type": "City"
   },
@@ -6142,7 +6142,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 45,
+    "count": 46,
     "state": "MI",
     "type": "City"
   },
@@ -6412,7 +6412,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 106,
+    "count": 108,
     "state": "MI",
     "type": "County"
   },
@@ -6475,7 +6475,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 88,
+    "count": 89,
     "state": "MI",
     "type": "City"
   },
@@ -7042,7 +7042,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 24,
+    "count": 25,
     "state": "MI",
     "type": "City"
   },
@@ -7294,7 +7294,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 17,
+    "count": 18,
     "state": "MI",
     "type": "City"
   },
@@ -7690,7 +7690,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Murder",
-    "count": 13,
+    "count": 14,
     "state": "MI",
     "type": "City"
   },
@@ -7699,7 +7699,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Rape",
-    "count": 33,
+    "count": 34,
     "state": "MI",
     "type": "City"
   },
@@ -7717,7 +7717,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 436,
+    "count": 437,
     "state": "MI",
     "type": "City"
   },
@@ -7726,7 +7726,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Burglary",
-    "count": 256,
+    "count": 260,
     "state": "MI",
     "type": "City"
   },
@@ -7735,7 +7735,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 904,
+    "count": 912,
     "state": "MI",
     "type": "City"
   },
@@ -7744,7 +7744,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 414,
+    "count": 415,
     "state": "MI",
     "type": "City"
   },
@@ -7969,7 +7969,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 30,
+    "count": 29,
     "state": "MI",
     "type": "City"
   },
@@ -7987,7 +7987,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 81,
+    "count": 83,
     "state": "MI",
     "type": "City"
   },
@@ -8113,7 +8113,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 112,
+    "count": 113,
     "state": "MI",
     "type": "City"
   },
@@ -8212,7 +8212,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Robbery",
-    "count": 0,
+    "count": 1,
     "state": "MI",
     "type": "City"
   },
@@ -8239,7 +8239,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 36,
+    "count": 50,
     "state": "MI",
     "type": "City"
   },
@@ -8248,7 +8248,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 14,
+    "count": 15,
     "state": "MI",
     "type": "City"
   },
@@ -8329,7 +8329,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 1,
+    "count": 4,
     "state": "MI",
     "type": "County"
   },
@@ -8356,7 +8356,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 6,
+    "count": 7,
     "state": "MI",
     "type": "County"
   },
@@ -8365,7 +8365,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 11,
+    "count": 22,
     "state": "MI",
     "type": "County"
   },
@@ -8374,7 +8374,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 1,
+    "count": 3,
     "state": "MI",
     "type": "County"
   },
@@ -8428,7 +8428,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 97,
+    "count": 98,
     "state": "MI",
     "type": "City"
   },
@@ -8617,7 +8617,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 25,
+    "count": 26,
     "state": "MI",
     "type": "City"
   },
@@ -8644,7 +8644,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 4,
+    "count": 3,
     "state": "MI",
     "type": "City"
   },
@@ -8959,7 +8959,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 3,
+    "count": 2,
     "state": "MI",
     "type": "City"
   },
@@ -8977,7 +8977,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 20,
+    "count": 21,
     "state": "MI",
     "type": "City"
   },
@@ -9121,7 +9121,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 22,
+    "count": 23,
     "state": "MI",
     "type": "City"
   },
@@ -9247,7 +9247,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 151,
+    "count": 150,
     "state": "MI",
     "type": "City"
   },
@@ -9256,7 +9256,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 8,
+    "count": 9,
     "state": "MI",
     "type": "City"
   },
@@ -9274,7 +9274,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 6,
+    "count": 5,
     "state": "MI",
     "type": "County"
   },
@@ -9310,7 +9310,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 66,
+    "count": 67,
     "state": "MI",
     "type": "County"
   },
@@ -9373,7 +9373,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 63,
+    "count": 64,
     "state": "MI",
     "type": "City"
   },
@@ -9499,7 +9499,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 126,
+    "count": 127,
     "state": "MI",
     "type": "City"
   },
@@ -9526,7 +9526,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 39,
+    "count": 42,
     "state": "MI",
     "type": "City"
   },
@@ -9535,7 +9535,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Robbery",
-    "count": 61,
+    "count": 62,
     "state": "MI",
     "type": "City"
   },
@@ -9544,7 +9544,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 528,
+    "count": 531,
     "state": "MI",
     "type": "City"
   },
@@ -9553,7 +9553,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 269,
+    "count": 281,
     "state": "MI",
     "type": "City"
   },
@@ -9562,7 +9562,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 967,
+    "count": 1011,
     "state": "MI",
     "type": "City"
   },
@@ -9571,7 +9571,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 483,
+    "count": 495,
     "state": "MI",
     "type": "City"
   },
@@ -9607,7 +9607,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 14,
+    "count": 15,
     "state": "MI",
     "type": "City"
   },
@@ -9625,7 +9625,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 56,
+    "count": 55,
     "state": "MI",
     "type": "City"
   },
@@ -9751,7 +9751,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 54,
+    "count": 55,
     "state": "MI",
     "type": "City"
   },
