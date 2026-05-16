@@ -1,0 +1,947 @@
+[
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 170
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Burglary",
+    "count": 65
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Motor Vehicle Theft",
+    "count": 70
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Robbery",
+    "count": 5
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 1,
+    "offense": "Theft",
+    "count": 268
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Aggravated Assault",
+    "count": 156
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Burglary",
+    "count": 41
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Motor Vehicle Theft",
+    "count": 37
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Robbery",
+    "count": 5
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 2,
+    "offense": "Theft",
+    "count": 222
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 211
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 51
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 23
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 6
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 3,
+    "offense": "Theft",
+    "count": 200
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Aggravated Assault",
+    "count": 190
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Burglary",
+    "count": 42
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Motor Vehicle Theft",
+    "count": 38
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Robbery",
+    "count": 6
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 4,
+    "offense": "Theft",
+    "count": 215
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Aggravated Assault",
+    "count": 231
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Burglary",
+    "count": 47
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Motor Vehicle Theft",
+    "count": 33
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Robbery",
+    "count": 5
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 5,
+    "offense": "Theft",
+    "count": 214
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Aggravated Assault",
+    "count": 205
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Burglary",
+    "count": 53
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Motor Vehicle Theft",
+    "count": 50
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Robbery",
+    "count": 6
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 6,
+    "offense": "Theft",
+    "count": 237
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 207
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 61
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 34
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 3
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 7,
+    "offense": "Theft",
+    "count": 243
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 200
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 55
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 26
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 9
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 8,
+    "offense": "Theft",
+    "count": 281
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 192
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 63
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 28
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 7
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
+    "offense": "Theft",
+    "count": 246
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 189
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Burglary",
+    "count": 41
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 30
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Robbery",
+    "count": 4
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Theft",
+    "count": 258
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Aggravated Assault",
+    "count": 148
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Burglary",
+    "count": 43
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Motor Vehicle Theft",
+    "count": 19
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Robbery",
+    "count": 4
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Theft",
+    "count": 210
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Aggravated Assault",
+    "count": 163
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Burglary",
+    "count": 55
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Motor Vehicle Theft",
+    "count": 26
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Robbery",
+    "count": 2
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Theft",
+    "count": 199
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 152
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Burglary",
+    "count": 35
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Motor Vehicle Theft",
+    "count": 15
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Theft",
+    "count": 191
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Aggravated Assault",
+    "count": 192
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Burglary",
+    "count": 40
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Motor Vehicle Theft",
+    "count": 11
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Robbery",
+    "count": 3
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Theft",
+    "count": 160
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 159
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Burglary",
+    "count": 40
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 15
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Robbery",
+    "count": 6
+  },
+  {
+    "agency": "Santa Fe",
+    "state": "NM",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Theft",
+    "count": 174
+  }
+]
