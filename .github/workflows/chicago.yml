@@ -1,0 +1,37 @@
+name: Monthly Chicago Scrape
+
+on:
+  schedule:
+    - cron: '0 13 15,16 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r chicago/requirements.txt
+
+      - name: Run scraper
+        run: python chicago/scrape.py
+
+      - name: Show results
+        run: python -c "import json; d=json.load(open('chicago/data/latest.json')); print(f'{len(d)} records, {len(set((r[\"year\"],r[\"month\"]) for r in d))} months')"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add chicago/data/
+          git diff --cached --quiet || git commit -m "Update Chicago data $(date -u +%Y-%m-%d)"
+          git pull --rebase origin master && git push
