@@ -48,15 +48,18 @@ NEG_MAP = {"}": 0, "J": -1, "K": -2, "L": -3, "M": -4,
 
 # Offense field indices within each card's 28 fields (5 chars each)
 # We only need the "Actual Offenses" card (Card 1)
+# NOTE: Index 10 (Assault Total) includes BOTH aggravated and simple assault.
+# For aggravated assault, sum indices 11-14 (gun + knife + other + hands/feet).
 OFFENSE_INDICES = {
     "Murder": 0,
     "Rape": 2,          # Rape Total
     "Robbery": 5,       # Robbery Total
-    "Aggravated Assault": 10,  # Assault Total (Aggravated)
     "Burglary": 16,     # Burglary Total
     "Theft": 20,        # Larceny Total
     "Motor Vehicle Theft": 21,  # MV Theft Total
 }
+# Aggravated assault subcategory indices (sum these for true agg assault)
+AGG_ASSAULT_INDICES = [11, 12, 13, 14]  # Gun, Knife, Other Weapon, Hands/Feet
 
 PIPELINE_HEADERS = [
     "ori", "Agency Name", "Murder", "Rape", "Robbery",
@@ -187,7 +190,13 @@ def parse_reta_zip(zip_bytes, target_oris, target_months):
                     for offense_name, field_idx in OFFENSE_INDICES.items():
                         start = card1_base + (field_idx * 5)
                         val = parse_reta_num(line[start:start + 5])
-                        crimes[offense_name] = max(val, 0)  # Floor at 0
+                        crimes[offense_name] = max(val, 0)
+                    # Aggravated assault = sum of subcategories (not index 10 which includes simple)
+                    aa = 0
+                    for idx in AGG_ASSAULT_INDICES:
+                        start = card1_base + (idx * 5)
+                        aa += max(parse_reta_num(line[start:start + 5]), 0)
+                    crimes["Aggravated Assault"] = aa
 
                     rows.append({
                         "ori": agency_info.get("source_ori", ori),
