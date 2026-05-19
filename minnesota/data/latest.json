@@ -1248,7 +1248,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 198
+    "count": 199
   },
   {
     "agency": "Brooklyn Park",
@@ -5018,6 +5018,15 @@
     "type": "City",
     "year": 2026,
     "month": 4,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Maple Grove",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 4,
     "offense": "Theft",
     "count": 70
   },
@@ -5082,7 +5091,7 @@
     "year": 2025,
     "month": 8,
     "offense": "Theft",
-    "count": 1250
+    "count": 1251
   },
   {
     "agency": "Minneapolis",
@@ -5541,7 +5550,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 204
+    "count": 205
   },
   {
     "agency": "Minneapolis",
@@ -5550,7 +5559,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 447
+    "count": 448
   },
   {
     "agency": "Minneapolis",
@@ -6819,7 +6828,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 6
+    "count": 7
   },
   {
     "agency": "Rochester",
@@ -6855,7 +6864,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 74
+    "count": 75
   },
   {
     "agency": "St. Cloud",
@@ -7809,7 +7818,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 109
+    "count": 110
   },
   {
     "agency": "St. Paul",
