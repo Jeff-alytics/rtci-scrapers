@@ -933,7 +933,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Motor Vehicle Theft",
-    "count": 10
+    "count": 11
   },
   {
     "agency": "Bloomington",
@@ -2561,6 +2561,15 @@
     "type": "City",
     "year": 2026,
     "month": 3,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Coon Rapids",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
     "offense": "Robbery",
     "count": 2
   },
@@ -2616,7 +2625,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 60
+    "count": 61
   },
   {
     "agency": "Duluth",
@@ -3417,7 +3426,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 45
+    "count": 44
   },
   {
     "agency": "Eagan",
@@ -5046,7 +5055,7 @@
     "year": 2025,
     "month": 8,
     "offense": "Burglary",
-    "count": 262
+    "count": 263
   },
   {
     "agency": "Minneapolis",
@@ -5091,7 +5100,7 @@
     "year": 2025,
     "month": 8,
     "offense": "Theft",
-    "count": 1252
+    "count": 1253
   },
   {
     "agency": "Minneapolis",
@@ -5298,7 +5307,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Burglary",
-    "count": 143
+    "count": 144
   },
   {
     "agency": "Minneapolis",
@@ -5433,7 +5442,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 518
+    "count": 519
   },
   {
     "agency": "Minneapolis",
@@ -5532,7 +5541,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 964
+    "count": 965
   },
   {
     "agency": "Minneapolis",
@@ -5550,7 +5559,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 207
+    "count": 208
   },
   {
     "agency": "Minneapolis",
@@ -5595,7 +5604,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 995
+    "count": 996
   },
   {
     "agency": "Minnetonka",
@@ -6387,7 +6396,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 37
+    "count": 38
   },
   {
     "agency": "Rochester",
