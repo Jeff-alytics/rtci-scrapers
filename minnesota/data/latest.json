@@ -699,7 +699,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 39
+    "count": 40
   },
   {
     "agency": "Blaine",
@@ -3507,7 +3507,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 66
+    "count": 67
   },
   {
     "agency": "Eden Prairie",
@@ -5027,17 +5027,8 @@
     "type": "City",
     "year": 2026,
     "month": 4,
-    "offense": "Rape",
-    "count": 1
-  },
-  {
-    "agency": "Maple Grove",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 4,
     "offense": "Theft",
-    "count": 70
+    "count": 71
   },
   {
     "agency": "Minneapolis",
@@ -5568,7 +5559,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 449
+    "count": 450
   },
   {
     "agency": "Minneapolis",
