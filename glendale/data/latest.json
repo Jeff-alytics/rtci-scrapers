@@ -4,69 +4,6 @@
     "state": "CA",
     "type": "City",
     "year": 2025,
-    "month": 11,
-    "offense": "Murder",
-    "count": 0
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2025,
-    "month": 11,
-    "offense": "Rape",
-    "count": 1
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2025,
-    "month": 11,
-    "offense": "Robbery",
-    "count": 7
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2025,
-    "month": 11,
-    "offense": "Aggravated Assault",
-    "count": 26
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2025,
-    "month": 11,
-    "offense": "Burglary",
-    "count": 33
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2025,
-    "month": 11,
-    "offense": "Theft",
-    "count": 233
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2025,
-    "month": 11,
-    "offense": "Motor Vehicle Theft",
-    "count": 26
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2025,
     "month": 12,
     "offense": "Murder",
     "count": 0
