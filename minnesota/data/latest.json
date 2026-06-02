@@ -636,7 +636,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "Blaine",
@@ -1032,7 +1032,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 9
+    "count": 8
   },
   {
     "agency": "Bloomington",
@@ -3155,6 +3155,15 @@
     "type": "City",
     "year": 2025,
     "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 2
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2025,
+    "month": 9,
     "offense": "Theft",
     "count": 48
   },
@@ -3166,6 +3175,15 @@
     "month": 10,
     "offense": "Burglary",
     "count": 4
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 2
   },
   {
     "agency": "Eden Prairie",
@@ -3272,6 +3290,15 @@
     "type": "City",
     "year": 2026,
     "month": 1,
+    "offense": "Motor Vehicle Theft",
+    "count": 3
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
     "offense": "Rape",
     "count": 1
   },
@@ -3327,7 +3354,16 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 3
+    "count": 4
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 2
   },
   {
     "agency": "Eden Prairie",
@@ -3362,8 +3398,17 @@
     "type": "City",
     "year": 2026,
     "month": 4,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 4,
     "offense": "Theft",
-    "count": 56
+    "count": 57
   },
   {
     "agency": "Edina",
@@ -3678,7 +3723,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 48
+    "count": 49
   },
   {
     "agency": "Edina",
@@ -3705,7 +3750,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 6
+    "count": 8
   },
   {
     "agency": "Edina",
@@ -3723,7 +3768,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 42
+    "count": 44
   },
   {
     "agency": "Lakeville",
@@ -4929,7 +4974,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 1000
+    "count": 1001
   },
   {
     "agency": "Minnetonka",
@@ -5847,7 +5892,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 125
+    "count": 126
   },
   {
     "agency": "Rochester",
