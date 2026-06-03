@@ -527,6 +527,15 @@
     "type": "City",
     "year": 2026,
     "month": 2,
+    "offense": "Aggravated Assault",
+    "count": 196
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
     "offense": "Burglary",
     "count": 263
   },
