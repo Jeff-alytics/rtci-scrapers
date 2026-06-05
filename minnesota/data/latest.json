@@ -4533,7 +4533,7 @@
     "year": 2025,
     "month": 9,
     "offense": "Theft",
-    "count": 1145
+    "count": 1146
   },
   {
     "agency": "Minneapolis",
@@ -4938,7 +4938,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 450
+    "count": 451
   },
   {
     "agency": "Minneapolis",
@@ -4974,7 +4974,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 1002
+    "count": 1003
   },
   {
     "agency": "Minnetonka",
@@ -6009,7 +6009,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 13
+    "count": 12
   },
   {
     "agency": "Rochester",
@@ -7017,7 +7017,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 77
+    "count": 75
   },
   {
     "agency": "St. Paul",
