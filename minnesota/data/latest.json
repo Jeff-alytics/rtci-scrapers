@@ -1068,7 +1068,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 167
+    "count": 168
   },
   {
     "agency": "Bloomington",
@@ -1122,7 +1122,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 202
+    "count": 201
   },
   {
     "agency": "Brooklyn Park",
@@ -1815,7 +1815,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 61
+    "count": 62
   },
   {
     "agency": "Burnsville",
@@ -5676,7 +5676,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 44
+    "count": 46
   },
   {
     "agency": "Rochester",
@@ -7503,7 +7503,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Motor Vehicle Theft",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Wright",
@@ -7674,7 +7674,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 35
+    "count": 36
   },
   {
     "agency": "Wright",
@@ -7710,6 +7710,6 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 14
+    "count": 15
   }
 ]
