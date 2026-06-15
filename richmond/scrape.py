@@ -20,6 +20,16 @@ OUT_JSON = OUTPUT_DIR / "data" / "latest.json"
 
 URL = "https://www.ci.richmond.ca.us/4010/Crime-Stat-Reports"
 
+# The site returns a 404 to the default python-requests User-Agent;
+# a browser User-Agent is required to get the real page (200).
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    )
+}
+
 OFFENSE_MAP = {
     'Murder': 'Murder',
     'Sexual Assault': 'Rape',
@@ -41,7 +51,7 @@ MONTH_NUM['sept'] = 9
 
 def scrape():
     print(f"Fetching {URL}...")
-    resp = requests.get(URL, timeout=30)
+    resp = requests.get(URL, headers=HEADERS, timeout=30)
     resp.raise_for_status()
     html = resp.text
 

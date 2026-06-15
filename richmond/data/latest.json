@@ -31,6 +31,24 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 4,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Rape",
     "count": 11
@@ -52,6 +70,24 @@
     "month": 3,
     "offense": "Rape",
     "count": 15
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 4,
+    "offense": "Rape",
+    "count": 12
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Rape",
+    "count": 11
   },
   {
     "agency": "Richmond",
@@ -85,6 +121,24 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 4,
+    "offense": "Robbery",
+    "count": 16
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Robbery",
+    "count": 16
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
     "count": 70
@@ -106,6 +160,24 @@
     "month": 3,
     "offense": "Aggravated Assault",
     "count": 83
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 4,
+    "offense": "Aggravated Assault",
+    "count": 52
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Aggravated Assault",
+    "count": 77
   },
   {
     "agency": "Richmond",
@@ -139,6 +211,24 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 4,
+    "offense": "Burglary",
+    "count": 24
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Burglary",
+    "count": 19
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Theft",
     "count": 145
@@ -166,6 +256,24 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 4,
+    "offense": "Theft",
+    "count": 125
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Theft",
+    "count": 129
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
     "count": 96
@@ -187,5 +295,23 @@
     "month": 3,
     "offense": "Motor Vehicle Theft",
     "count": 110
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 4,
+    "offense": "Motor Vehicle Theft",
+    "count": 98
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Motor Vehicle Theft",
+    "count": 90
   }
 ]

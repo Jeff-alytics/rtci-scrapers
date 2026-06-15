@@ -116,6 +116,69 @@ def parse_page(text):
     return records
 
 
+def parse_page_from_words(page):
+    """Parse a page where pdfplumber renders each character individually.
+    Groups nearby characters into tokens using x-position gaps."""
+    from collections import defaultdict
+
+    words = page.extract_words(keep_blank_chars=False, x_tolerance=2, y_tolerance=3)
+    if not words:
+        return None, {}
+
+    # Group words by y (row bands)
+    rows = defaultdict(list)
+    for w in words:
+        y = round(w["top"] / 10) * 10
+        rows[y].append(w)
+
+    year = None
+    crime_data = {}
+
+    for y in sorted(rows.keys()):
+        row_words = sorted(rows[y], key=lambda x: x["x0"])
+
+        # Cluster adjacent characters into tokens (gap < 15px = same token)
+        tokens = []
+        cur = row_words[0]["text"]
+        cur_x1 = row_words[0]["x1"]
+        for w in row_words[1:]:
+            gap = w["x0"] - cur_x1
+            if gap < 15:
+                cur += w["text"]
+            else:
+                tokens.append(cur)
+                cur = w["text"]
+            cur_x1 = w["x1"]
+        tokens.append(cur)
+
+        # Year row: single 4-digit number
+        if len(tokens) == 1 and tokens[0].isdigit() and len(tokens[0]) == 4:
+            year = int(tokens[0])
+            continue
+
+        # Crime row: label followed by numbers
+        label = tokens[0]
+        nums = []
+        for t in tokens[1:]:
+            # Strip "Delegate" / "CLR" watermarks that merge with digits
+            t = re.sub(r"(?i)delegate|CLR|Share", "", t).replace(",", "").strip()
+            if t.isdigit():
+                nums.append(int(t))
+
+        if not nums:
+            continue
+
+        # Normalize label: strip all non-alphanumeric, lowercase
+        norm = re.sub(r"[^a-z]", "", label.lower())
+        for pdf_label in CRIME_MAP:
+            expected = re.sub(r"[^a-z]", "", pdf_label.lower())
+            if norm == expected:
+                crime_data[pdf_label] = nums[:-1] if len(nums) > 1 else nums
+                break
+
+    return year, crime_data
+
+
 def scrape():
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
 
@@ -130,7 +193,29 @@ def scrape():
                 if not text:
                     print(f"WARNING: No text on page {pg_idx + 1}", file=sys.stderr)
                     continue
+
                 records = parse_page(text)
+                if not records:
+                    # Text parser failed — try word-position parser (handles
+                    # PDFs where each character is individually placed)
+                    print(f"  Page {pg_idx + 1}: text parse failed, trying word-position parser…", file=sys.stderr)
+                    year, crime_data = parse_page_from_words(page)
+                    if year and crime_data:
+                        num_months = max((len(v) for v in crime_data.values()), default=0)
+                        for m in range(num_months):
+                            for pdf_label, offense in CRIME_MAP.items():
+                                values = crime_data.get(pdf_label, [])
+                                count = values[m] if m < len(values) else 0
+                                records.append({
+                                    "agency": "Little Rock",
+                                    "state": "AR",
+                                    "type": "City",
+                                    "year": year,
+                                    "month": m + 1,
+                                    "offense": offense,
+                                    "count": count,
+                                })
+
                 all_records.extend(records)
                 year = records[0]["year"] if records else "?"
                 months = len(set(r["month"] for r in records))

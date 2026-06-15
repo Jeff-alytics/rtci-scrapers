@@ -124,8 +124,12 @@ async function scrape() {
       )
       .catch(() => {});
 
-    // Read exact values from aria-label attributes on SVG circles
-    const chartData = await page.evaluate(() => {
+    // Read month labels + title and how many data points exist.
+    // NOTE: As of mid-2026 the Kendo chart no longer exposes values via
+    // circle aria-label attributes (those are now null). Instead we hover
+    // each point and read the value from the Kendo tooltip
+    // (format: "<value><Crime><Mon>", e.g. "16MurderJan").
+    const chartMeta = await page.evaluate(() => {
       const chart = document.querySelectorAll(".k-chart")[1];
       if (!chart) return null;
       const svg = chart.querySelector("svg");
@@ -135,17 +139,52 @@ async function scrape() {
         (t) => t.textContent
       );
       const months = texts.filter((t) => /^[A-Z][a-z]{2}$/.test(t));
-      const circles = Array.from(svg.querySelectorAll("circle"));
-      const title =
-        texts.find((t) => t.includes("Citywide")) || "";
+      const numCircles = svg.querySelectorAll("circle").length;
+      const title = texts.find((t) => t.includes("Citywide")) || "";
 
-      const points = circles.map((c, i) => ({
-        month: months[i] || `M${i + 1}`,
-        value: parseInt(c.getAttribute("aria-label")),
-      }));
-
-      return { points, title };
+      return { months, numCircles, title };
     });
+
+    const chartData =
+      chartMeta && chartMeta.numCircles
+        ? { points: [], title: chartMeta.title }
+        : null;
+
+    if (chartData) {
+      for (let ci = 0; ci < chartMeta.numCircles; ci++) {
+        // Locate the circle's center on screen
+        const box = await page.evaluate((idx) => {
+          const chart = document.querySelectorAll(".k-chart")[1];
+          const c = chart.querySelectorAll("circle")[idx];
+          if (!c) return null;
+          const r = c.getBoundingClientRect();
+          return { x: r.x + r.width / 2, y: r.y + r.height / 2 };
+        }, ci);
+        if (!box) continue;
+
+        // Move away first so the tooltip re-renders for this point
+        await page.mouse.move(box.x - 40, box.y);
+        await page.mouse.move(box.x, box.y);
+        await new Promise((r) => setTimeout(r, 450));
+
+        const tipText = await page.evaluate(() => {
+          const t = document.querySelector(".k-chart-tooltip");
+          return t ? t.textContent.trim() : null;
+        });
+
+        // Parse leading integer (the value) and trailing 3-letter month
+        let value = NaN;
+        let month = chartMeta.months[ci] || `M${ci + 1}`;
+        if (tipText) {
+          const numMatch = tipText.match(/^(\d[\d,]*)/);
+          if (numMatch) value = parseInt(numMatch[1].replace(/,/g, ""), 10);
+          const monMatch = tipText.match(/([A-Z][a-z]{2})$/);
+          if (monMatch) month = monMatch[1];
+        }
+
+        chartData.points.push({ month, value });
+      }
+    }
 
     if (!chartData || !chartData.points.length) {
       process.stderr.write(`  WARNING: No chart data for "${crime}"\n`);
