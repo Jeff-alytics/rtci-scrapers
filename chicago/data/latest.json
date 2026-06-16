@@ -132,7 +132,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Aggravated Assault",
-    "count": 1181
+    "count": 1180
   },
   {
     "agency": "Chicago",
@@ -555,7 +555,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Robbery",
-    "count": 330
+    "count": 329
   },
   {
     "agency": "Chicago",
@@ -564,6 +564,6 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 3610
+    "count": 3613
   }
 ]
