@@ -2182,7 +2182,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 24,
+    "count": 25,
     "state": "MI",
     "type": "City"
   },
@@ -3820,7 +3820,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 277,
+    "count": 275,
     "state": "MI",
     "type": "City"
   },
@@ -4081,7 +4081,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 68,
+    "count": 69,
     "state": "MI",
     "type": "City"
   },
@@ -6412,7 +6412,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 90,
+    "count": 91,
     "state": "MI",
     "type": "County"
   },
