@@ -933,7 +933,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Burglary",
-    "count": 22
+    "count": 24
   },
   {
     "agency": "Bloomington",
@@ -1041,7 +1041,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 17
+    "count": 18
   },
   {
     "agency": "Bloomington",
@@ -1068,7 +1068,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 159
+    "count": 163
   },
   {
     "agency": "Bloomington",
@@ -1113,7 +1113,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 160
+    "count": 161
   },
   {
     "agency": "Bloomington",
@@ -1599,7 +1599,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 93
+    "count": 94
   },
   {
     "agency": "Brooklyn Park",
@@ -1743,7 +1743,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Rape",
-    "count": 5
+    "count": 6
   },
   {
     "agency": "Brooklyn Park",
@@ -1761,7 +1761,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 90
+    "count": 91
   },
   {
     "agency": "Burnsville",
@@ -3516,7 +3516,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 65
+    "count": 66
   },
   {
     "agency": "Eden Prairie",
@@ -5046,7 +5046,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 64
+    "count": 65
   },
   {
     "agency": "Minneapolis",
@@ -5505,7 +5505,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 209
+    "count": 208
   },
   {
     "agency": "Minneapolis",
@@ -5550,7 +5550,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 1006
+    "count": 1008
   },
   {
     "agency": "Minneapolis",
@@ -5577,7 +5577,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 510
+    "count": 513
   },
   {
     "agency": "Minneapolis",
@@ -5613,7 +5613,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1144
+    "count": 1146
   },
   {
     "agency": "Minnetonka",
@@ -6378,7 +6378,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Robbery",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Plymouth",
@@ -6882,7 +6882,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 91
+    "count": 92
   },
   {
     "agency": "St. Cloud",
@@ -7935,7 +7935,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 462
+    "count": 464
   },
   {
     "agency": "Woodbury",
@@ -8322,7 +8322,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 77
+    "count": 76
   },
   {
     "agency": "Wright",
