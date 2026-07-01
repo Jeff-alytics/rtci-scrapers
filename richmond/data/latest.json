@@ -49,6 +49,15 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 6,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Rape",
     "count": 11
@@ -88,6 +97,15 @@
     "month": 5,
     "offense": "Rape",
     "count": 11
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Rape",
+    "count": 15
   },
   {
     "agency": "Richmond",
@@ -139,6 +157,15 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 6,
+    "offense": "Robbery",
+    "count": 12
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
     "count": 70
@@ -178,6 +205,15 @@
     "month": 5,
     "offense": "Aggravated Assault",
     "count": 77
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Aggravated Assault",
+    "count": 39
   },
   {
     "agency": "Richmond",
@@ -229,6 +265,15 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 6,
+    "offense": "Burglary",
+    "count": 28
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Theft",
     "count": 145
@@ -274,6 +319,15 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 6,
+    "offense": "Theft",
+    "count": 57
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
     "count": 96
@@ -313,5 +367,14 @@
     "month": 5,
     "offense": "Motor Vehicle Theft",
     "count": 90
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Motor Vehicle Theft",
+    "count": 71
   }
 ]
