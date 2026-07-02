@@ -159,7 +159,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Robbery",
-    "count": 12
+    "count": 11
   },
   {
     "agency": "Richmond",
@@ -213,7 +213,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 39
+    "count": 42
   },
   {
     "agency": "Richmond",
@@ -267,7 +267,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 28
+    "count": 27
   },
   {
     "agency": "Richmond",
@@ -321,7 +321,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 57
+    "count": 108
   },
   {
     "agency": "Richmond",
@@ -375,6 +375,6 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 71
+    "count": 84
   }
 ]
