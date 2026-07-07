@@ -4785,7 +4785,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 233
+    "count": 234
   },
   {
     "agency": "Minneapolis",
@@ -4830,7 +4830,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Robbery",
-    "count": 58
+    "count": 57
   },
   {
     "agency": "Minneapolis",
@@ -5748,7 +5748,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Theft",
-    "count": 112
+    "count": 111
   },
   {
     "agency": "Rochester",
@@ -5802,7 +5802,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 125
+    "count": 124
   },
   {
     "agency": "Rochester",
@@ -5820,7 +5820,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 17
+    "count": 16
   },
   {
     "agency": "Rochester",
@@ -6036,7 +6036,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 15
+    "count": 14
   },
   {
     "agency": "Rochester",
@@ -6081,7 +6081,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 97
+    "count": 96
   },
   {
     "agency": "St. Cloud",
@@ -6171,7 +6171,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Rape",
-    "count": 6
+    "count": 7
   },
   {
     "agency": "St. Cloud",
@@ -6270,7 +6270,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 16
+    "count": 18
   },
   {
     "agency": "St. Cloud",
@@ -6360,7 +6360,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 95
+    "count": 96
   },
   {
     "agency": "St. Cloud",
@@ -6378,7 +6378,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 13
+    "count": 14
   },
   {
     "agency": "St. Cloud",
@@ -6432,7 +6432,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 14
+    "count": 16
   },
   {
     "agency": "St. Cloud",
@@ -6468,7 +6468,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 109
+    "count": 116
   },
   {
     "agency": "St. Cloud",
@@ -6477,7 +6477,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Aggravated Assault",
-    "count": 15
+    "count": 13
   },
   {
     "agency": "St. Cloud",
@@ -6486,7 +6486,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 10
+    "count": 13
   },
   {
     "agency": "St. Cloud",
@@ -6495,7 +6495,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 8
+    "count": 9
   },
   {
     "agency": "St. Cloud",
@@ -6512,8 +6512,17 @@
     "type": "City",
     "year": 2026,
     "month": 5,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "St. Cloud",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
     "offense": "Theft",
-    "count": 76
+    "count": 96
   },
   {
     "agency": "St. Paul",
