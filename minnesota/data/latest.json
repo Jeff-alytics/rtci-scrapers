@@ -222,7 +222,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 3
+    "count": 2
   },
   {
     "agency": "Apple Valley",
@@ -303,7 +303,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 60
+    "count": 61
   },
   {
     "agency": "Apple Valley",
@@ -1068,7 +1068,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 202
+    "count": 201
   },
   {
     "agency": "Bloomington",
@@ -1401,7 +1401,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 94
+    "count": 95
   },
   {
     "agency": "Brooklyn Park",
@@ -1527,7 +1527,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 14
+    "count": 15
   },
   {
     "agency": "Brooklyn Park",
@@ -1563,7 +1563,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 92
+    "count": 93
   },
   {
     "agency": "Burnsville",
@@ -4650,7 +4650,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 865
+    "count": 866
   },
   {
     "agency": "Minneapolis",
@@ -4776,7 +4776,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 841
+    "count": 842
   },
   {
     "agency": "Minneapolis",
@@ -4848,7 +4848,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Aggravated Assault",
-    "count": 248
+    "count": 250
   },
   {
     "agency": "Minneapolis",
@@ -4911,7 +4911,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Aggravated Assault",
-    "count": 286
+    "count": 287
   },
   {
     "agency": "Minneapolis",
@@ -4965,7 +4965,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1154
+    "count": 1155
   },
   {
     "agency": "Minnetonka",
@@ -5694,7 +5694,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Theft",
-    "count": 154
+    "count": 153
   },
   {
     "agency": "Rochester",
@@ -6072,7 +6072,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Robbery",
-    "count": 2
+    "count": 1
   },
   {
     "agency": "Rochester",
@@ -7026,7 +7026,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 476
+    "count": 477
   },
   {
     "agency": "Woodbury",
