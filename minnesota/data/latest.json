@@ -267,7 +267,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Apple Valley",
@@ -356,6 +356,15 @@
     "type": "City",
     "year": 2025,
     "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 8
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
     "offense": "Burglary",
     "count": 4
   },
@@ -367,6 +376,15 @@
     "month": 10,
     "offense": "Motor Vehicle Theft",
     "count": 6
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2025,
+    "month": 10,
+    "offense": "Rape",
+    "count": 3
   },
   {
     "agency": "Blaine",
@@ -403,6 +421,15 @@
     "month": 11,
     "offense": "Motor Vehicle Theft",
     "count": 8
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
+    "offense": "Rape",
+    "count": 2
   },
   {
     "agency": "Blaine",
@@ -455,6 +482,15 @@
     "type": "City",
     "year": 2026,
     "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 1
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
     "offense": "Burglary",
     "count": 3
   },
@@ -466,6 +502,15 @@
     "month": 1,
     "offense": "Motor Vehicle Theft",
     "count": 3
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
+    "offense": "Rape",
+    "count": 2
   },
   {
     "agency": "Blaine",
@@ -509,6 +554,15 @@
     "type": "City",
     "year": 2026,
     "month": 2,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
     "offense": "Robbery",
     "count": 2
   },
@@ -520,6 +574,15 @@
     "month": 2,
     "offense": "Theft",
     "count": 40
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 3
   },
   {
     "agency": "Blaine",
@@ -545,6 +608,15 @@
     "type": "City",
     "year": 2026,
     "month": 3,
+    "offense": "Rape",
+    "count": 2
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
     "offense": "Robbery",
     "count": 1
   },
@@ -563,6 +635,15 @@
     "type": "City",
     "year": 2026,
     "month": 4,
+    "offense": "Aggravated Assault",
+    "count": 1
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 4,
     "offense": "Burglary",
     "count": 1
   },
@@ -581,8 +662,26 @@
     "type": "City",
     "year": 2026,
     "month": 4,
+    "offense": "Rape",
+    "count": 2
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 4,
     "offense": "Theft",
     "count": 55
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Aggravated Assault",
+    "count": 5
   },
   {
     "agency": "Blaine",
@@ -600,6 +699,15 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Rape",
     "count": 1
   },
   {
@@ -645,7 +753,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Rape",
-    "count": 4
+    "count": 3
   },
   {
     "agency": "Bloomington",
@@ -699,7 +807,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Rape",
-    "count": 3
+    "count": 2
   },
   {
     "agency": "Bloomington",
@@ -996,7 +1104,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Rape",
-    "count": 4
+    "count": 3
   },
   {
     "agency": "Bloomington",
@@ -2148,7 +2256,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 40
+    "count": 38
   },
   {
     "agency": "Coon Rapids",
@@ -2238,7 +2346,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 51
+    "count": 52
   },
   {
     "agency": "Duluth",
@@ -4308,7 +4416,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 72
+    "count": 73
   },
   {
     "agency": "Maple Grove",
@@ -4353,7 +4461,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 71
+    "count": 72
   },
   {
     "agency": "Minneapolis",
