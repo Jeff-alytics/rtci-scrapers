@@ -1,228 +1,4 @@
 agency,state,type,year,month,offense,count
-Battle Creek Police Department,MI,City,2025,12,Murder,0
-Battle Creek Police Department,MI,City,2025,12,Rape,3
-Battle Creek Police Department,MI,City,2025,12,Robbery,2
-Battle Creek Police Department,MI,City,2025,12,Aggravated Assault,26
-Battle Creek Police Department,MI,City,2025,12,Burglary,11
-Battle Creek Police Department,MI,City,2025,12,Theft,87
-Battle Creek Police Department,MI,City,2025,12,Motor Vehicle Theft,9
-Lansing Police Department,MI,City,2025,12,Murder,0
-Lansing Police Department,MI,City,2025,12,Rape,0
-Lansing Police Department,MI,City,2025,12,Robbery,0
-Lansing Police Department,MI,City,2025,12,Aggravated Assault,5
-Lansing Police Department,MI,City,2025,12,Burglary,1
-Lansing Police Department,MI,City,2025,12,Theft,3
-Lansing Police Department,MI,City,2025,12,Motor Vehicle Theft,2
-Lansing Police Department,MI,City,2025,12,Murder,0
-Lansing Police Department,MI,City,2025,12,Rape,11
-Lansing Police Department,MI,City,2025,12,Robbery,6
-Lansing Police Department,MI,City,2025,12,Aggravated Assault,72
-Lansing Police Department,MI,City,2025,12,Burglary,32
-Lansing Police Department,MI,City,2025,12,Theft,105
-Lansing Police Department,MI,City,2025,12,Motor Vehicle Theft,26
-Kalamazoo County Sheriff's Office,MI,County,2025,12,Murder,0
-Kalamazoo County Sheriff's Office,MI,County,2025,12,Rape,1
-Kalamazoo County Sheriff's Office,MI,County,2025,12,Robbery,4
-Kalamazoo County Sheriff's Office,MI,County,2025,12,Aggravated Assault,24
-Kalamazoo County Sheriff's Office,MI,County,2025,12,Burglary,15
-Kalamazoo County Sheriff's Office,MI,County,2025,12,Theft,123
-Kalamazoo County Sheriff's Office,MI,County,2025,12,Motor Vehicle Theft,21
-Kalamazoo Department of Public Safety,MI,City,2025,12,Murder,0
-Kalamazoo Department of Public Safety,MI,City,2025,12,Rape,6
-Kalamazoo Department of Public Safety,MI,City,2025,12,Robbery,6
-Kalamazoo Department of Public Safety,MI,City,2025,12,Aggravated Assault,39
-Kalamazoo Department of Public Safety,MI,City,2025,12,Burglary,34
-Kalamazoo Department of Public Safety,MI,City,2025,12,Theft,100
-Kalamazoo Department of Public Safety,MI,City,2025,12,Motor Vehicle Theft,25
-Grand Rapids Police Department,MI,City,2025,12,Murder,1
-Grand Rapids Police Department,MI,City,2025,12,Rape,12
-Grand Rapids Police Department,MI,City,2025,12,Robbery,10
-Grand Rapids Police Department,MI,City,2025,12,Aggravated Assault,98
-Grand Rapids Police Department,MI,City,2025,12,Burglary,18
-Grand Rapids Police Department,MI,City,2025,12,Theft,283
-Grand Rapids Police Department,MI,City,2025,12,Motor Vehicle Theft,26
-Kent County Sheriff's Office,MI,County,2025,12,Murder,0
-Kent County Sheriff's Office,MI,County,2025,12,Rape,6
-Kent County Sheriff's Office,MI,County,2025,12,Robbery,1
-Kent County Sheriff's Office,MI,County,2025,12,Aggravated Assault,14
-Kent County Sheriff's Office,MI,County,2025,12,Burglary,29
-Kent County Sheriff's Office,MI,County,2025,12,Theft,109
-Kent County Sheriff's Office,MI,County,2025,12,Motor Vehicle Theft,15
-Wyoming Police Department,MI,City,2025,12,Murder,0
-Wyoming Police Department,MI,City,2025,12,Rape,5
-Wyoming Police Department,MI,City,2025,12,Robbery,6
-Wyoming Police Department,MI,City,2025,12,Aggravated Assault,23
-Wyoming Police Department,MI,City,2025,12,Burglary,1
-Wyoming Police Department,MI,City,2025,12,Theft,105
-Wyoming Police Department,MI,City,2025,12,Motor Vehicle Theft,7
-Livingston County Sheriff's Office,MI,County,2025,12,Murder,0
-Livingston County Sheriff's Office,MI,County,2025,12,Rape,0
-Livingston County Sheriff's Office,MI,County,2025,12,Robbery,0
-Livingston County Sheriff's Office,MI,County,2025,12,Aggravated Assault,2
-Livingston County Sheriff's Office,MI,County,2025,12,Burglary,2
-Livingston County Sheriff's Office,MI,County,2025,12,Theft,18
-Livingston County Sheriff's Office,MI,County,2025,12,Motor Vehicle Theft,0
-Clinton Township Police Department,MI,City,2025,12,Murder,0
-Clinton Township Police Department,MI,City,2025,12,Rape,4
-Clinton Township Police Department,MI,City,2025,12,Robbery,3
-Clinton Township Police Department,MI,City,2025,12,Aggravated Assault,17
-Clinton Township Police Department,MI,City,2025,12,Burglary,7
-Clinton Township Police Department,MI,City,2025,12,Theft,97
-Clinton Township Police Department,MI,City,2025,12,Motor Vehicle Theft,14
-Macomb County Sheriff's Office,MI,County,2025,12,Murder,0
-Macomb County Sheriff's Office,MI,County,2025,12,Rape,2
-Macomb County Sheriff's Office,MI,County,2025,12,Robbery,0
-Macomb County Sheriff's Office,MI,County,2025,12,Aggravated Assault,12
-Macomb County Sheriff's Office,MI,County,2025,12,Burglary,3
-Macomb County Sheriff's Office,MI,County,2025,12,Theft,33
-Macomb County Sheriff's Office,MI,County,2025,12,Motor Vehicle Theft,9
-Saint Clair Shores Police Department,MI,City,2025,12,Murder,0
-Saint Clair Shores Police Department,MI,City,2025,12,Rape,1
-Saint Clair Shores Police Department,MI,City,2025,12,Robbery,4
-Saint Clair Shores Police Department,MI,City,2025,12,Aggravated Assault,7
-Saint Clair Shores Police Department,MI,City,2025,12,Burglary,4
-Saint Clair Shores Police Department,MI,City,2025,12,Theft,22
-Saint Clair Shores Police Department,MI,City,2025,12,Motor Vehicle Theft,6
-Shelby Township Police Department,MI,City,2025,12,Murder,0
-Shelby Township Police Department,MI,City,2025,12,Rape,0
-Shelby Township Police Department,MI,City,2025,12,Robbery,1
-Shelby Township Police Department,MI,City,2025,12,Aggravated Assault,11
-Shelby Township Police Department,MI,City,2025,12,Burglary,2
-Shelby Township Police Department,MI,City,2025,12,Theft,24
-Shelby Township Police Department,MI,City,2025,12,Motor Vehicle Theft,2
-Sterling Heights Police Department,MI,City,2025,12,Murder,0
-Sterling Heights Police Department,MI,City,2025,12,Rape,6
-Sterling Heights Police Department,MI,City,2025,12,Robbery,0
-Sterling Heights Police Department,MI,City,2025,12,Aggravated Assault,13
-Sterling Heights Police Department,MI,City,2025,12,Burglary,5
-Sterling Heights Police Department,MI,City,2025,12,Theft,92
-Sterling Heights Police Department,MI,City,2025,12,Motor Vehicle Theft,18
-Warren Police Department,MI,City,2025,12,Murder,1
-Warren Police Department,MI,City,2025,12,Rape,6
-Warren Police Department,MI,City,2025,12,Robbery,3
-Warren Police Department,MI,City,2025,12,Aggravated Assault,32
-Warren Police Department,MI,City,2025,12,Burglary,14
-Warren Police Department,MI,City,2025,12,Theft,113
-Warren Police Department,MI,City,2025,12,Motor Vehicle Theft,23
-Farmington Hills Police Department,MI,City,2025,12,Murder,0
-Farmington Hills Police Department,MI,City,2025,12,Rape,1
-Farmington Hills Police Department,MI,City,2025,12,Robbery,1
-Farmington Hills Police Department,MI,City,2025,12,Aggravated Assault,4
-Farmington Hills Police Department,MI,City,2025,12,Burglary,5
-Farmington Hills Police Department,MI,City,2025,12,Theft,23
-Farmington Hills Police Department,MI,City,2025,12,Motor Vehicle Theft,2
-Novi Police Department,MI,City,2025,12,Murder,0
-Novi Police Department,MI,City,2025,12,Rape,1
-Novi Police Department,MI,City,2025,12,Robbery,0
-Novi Police Department,MI,City,2025,12,Aggravated Assault,4
-Novi Police Department,MI,City,2025,12,Burglary,3
-Novi Police Department,MI,City,2025,12,Theft,36
-Novi Police Department,MI,City,2025,12,Motor Vehicle Theft,1
-Royal Oak Police Department,MI,City,2025,12,Murder,0
-Royal Oak Police Department,MI,City,2025,12,Rape,0
-Royal Oak Police Department,MI,City,2025,12,Robbery,0
-Royal Oak Police Department,MI,City,2025,12,Aggravated Assault,5
-Royal Oak Police Department,MI,City,2025,12,Burglary,2
-Royal Oak Police Department,MI,City,2025,12,Theft,32
-Royal Oak Police Department,MI,City,2025,12,Motor Vehicle Theft,1
-Southfield Police Department,MI,City,2025,12,Murder,1
-Southfield Police Department,MI,City,2025,12,Rape,4
-Southfield Police Department,MI,City,2025,12,Robbery,2
-Southfield Police Department,MI,City,2025,12,Aggravated Assault,27
-Southfield Police Department,MI,City,2025,12,Burglary,7
-Southfield Police Department,MI,City,2025,12,Theft,113
-Southfield Police Department,MI,City,2025,12,Motor Vehicle Theft,30
-Troy Police Department,MI,City,2025,12,Murder,0
-Troy Police Department,MI,City,2025,12,Rape,3
-Troy Police Department,MI,City,2025,12,Robbery,0
-Troy Police Department,MI,City,2025,12,Aggravated Assault,5
-Troy Police Department,MI,City,2025,12,Burglary,2
-Troy Police Department,MI,City,2025,12,Theft,79
-Troy Police Department,MI,City,2025,12,Motor Vehicle Theft,1
-Waterford Township Police Department,MI,City,2025,12,Murder,0
-Waterford Township Police Department,MI,City,2025,12,Rape,2
-Waterford Township Police Department,MI,City,2025,12,Robbery,0
-Waterford Township Police Department,MI,City,2025,12,Aggravated Assault,10
-Waterford Township Police Department,MI,City,2025,12,Burglary,4
-Waterford Township Police Department,MI,City,2025,12,Theft,30
-Waterford Township Police Department,MI,City,2025,12,Motor Vehicle Theft,2
-West Bloomfield Township Police Department,MI,City,2025,12,Murder,0
-West Bloomfield Township Police Department,MI,City,2025,12,Rape,0
-West Bloomfield Township Police Department,MI,City,2025,12,Robbery,0
-West Bloomfield Township Police Department,MI,City,2025,12,Aggravated Assault,5
-West Bloomfield Township Police Department,MI,City,2025,12,Burglary,0
-West Bloomfield Township Police Department,MI,City,2025,12,Theft,16
-West Bloomfield Township Police Department,MI,City,2025,12,Motor Vehicle Theft,0
-Ottawa County Sheriff's Office,MI,County,2025,12,Murder,0
-Ottawa County Sheriff's Office,MI,County,2025,12,Rape,9
-Ottawa County Sheriff's Office,MI,County,2025,12,Robbery,1
-Ottawa County Sheriff's Office,MI,County,2025,12,Aggravated Assault,18
-Ottawa County Sheriff's Office,MI,County,2025,12,Burglary,8
-Ottawa County Sheriff's Office,MI,County,2025,12,Theft,86
-Ottawa County Sheriff's Office,MI,County,2025,12,Motor Vehicle Theft,10
-Ann Arbor Police Department,MI,City,2025,12,Murder,1
-Ann Arbor Police Department,MI,City,2025,12,Rape,4
-Ann Arbor Police Department,MI,City,2025,12,Robbery,5
-Ann Arbor Police Department,MI,City,2025,12,Aggravated Assault,25
-Ann Arbor Police Department,MI,City,2025,12,Burglary,14
-Ann Arbor Police Department,MI,City,2025,12,Theft,158
-Ann Arbor Police Department,MI,City,2025,12,Motor Vehicle Theft,4
-Washtenaw County Sheriff's Office,MI,County,2025,12,Murder,0
-Washtenaw County Sheriff's Office,MI,County,2025,12,Rape,0
-Washtenaw County Sheriff's Office,MI,County,2025,12,Robbery,2
-Washtenaw County Sheriff's Office,MI,County,2025,12,Aggravated Assault,29
-Washtenaw County Sheriff's Office,MI,County,2025,12,Burglary,8
-Washtenaw County Sheriff's Office,MI,County,2025,12,Theft,67
-Washtenaw County Sheriff's Office,MI,County,2025,12,Motor Vehicle Theft,12
-Canton Township Police Department,MI,City,2025,12,Murder,0
-Canton Township Police Department,MI,City,2025,12,Rape,2
-Canton Township Police Department,MI,City,2025,12,Robbery,0
-Canton Township Police Department,MI,City,2025,12,Aggravated Assault,5
-Canton Township Police Department,MI,City,2025,12,Burglary,2
-Canton Township Police Department,MI,City,2025,12,Theft,88
-Canton Township Police Department,MI,City,2025,12,Motor Vehicle Theft,4
-Dearborn Heights Police Department,MI,City,2025,12,Murder,0
-Dearborn Heights Police Department,MI,City,2025,12,Rape,0
-Dearborn Heights Police Department,MI,City,2025,12,Robbery,0
-Dearborn Heights Police Department,MI,City,2025,12,Aggravated Assault,12
-Dearborn Heights Police Department,MI,City,2025,12,Burglary,6
-Dearborn Heights Police Department,MI,City,2025,12,Theft,31
-Dearborn Heights Police Department,MI,City,2025,12,Motor Vehicle Theft,12
-Dearborn Police Department,MI,City,2025,12,Murder,0
-Dearborn Police Department,MI,City,2025,12,Rape,3
-Dearborn Police Department,MI,City,2025,12,Robbery,2
-Dearborn Police Department,MI,City,2025,12,Aggravated Assault,17
-Dearborn Police Department,MI,City,2025,12,Burglary,4
-Dearborn Police Department,MI,City,2025,12,Theft,124
-Dearborn Police Department,MI,City,2025,12,Motor Vehicle Theft,17
-Detroit Police Department,MI,City,2025,12,Murder,4
-Detroit Police Department,MI,City,2025,12,Rape,29
-Detroit Police Department,MI,City,2025,12,Robbery,64
-Detroit Police Department,MI,City,2025,12,Aggravated Assault,487
-Detroit Police Department,MI,City,2025,12,Burglary,317
-Detroit Police Department,MI,City,2025,12,Theft,1151
-Detroit Police Department,MI,City,2025,12,Motor Vehicle Theft,407
-Livonia Police Department,MI,City,2025,12,Murder,0
-Livonia Police Department,MI,City,2025,12,Rape,3
-Livonia Police Department,MI,City,2025,12,Robbery,0
-Livonia Police Department,MI,City,2025,12,Aggravated Assault,14
-Livonia Police Department,MI,City,2025,12,Burglary,3
-Livonia Police Department,MI,City,2025,12,Theft,60
-Livonia Police Department,MI,City,2025,12,Motor Vehicle Theft,4
-Taylor Police Department,MI,City,2025,12,Murder,0
-Taylor Police Department,MI,City,2025,12,Rape,3
-Taylor Police Department,MI,City,2025,12,Robbery,4
-Taylor Police Department,MI,City,2025,12,Aggravated Assault,24
-Taylor Police Department,MI,City,2025,12,Burglary,10
-Taylor Police Department,MI,City,2025,12,Theft,55
-Taylor Police Department,MI,City,2025,12,Motor Vehicle Theft,6
-Westland Police Department,MI,City,2025,12,Murder,1
-Westland Police Department,MI,City,2025,12,Rape,2
-Westland Police Department,MI,City,2025,12,Robbery,1
-Westland Police Department,MI,City,2025,12,Aggravated Assault,20
-Westland Police Department,MI,City,2025,12,Burglary,7
-Westland Police Department,MI,City,2025,12,Theft,44
-Westland Police Department,MI,City,2025,12,Motor Vehicle Theft,11
 Battle Creek Police Department,MI,City,2026,1,Murder,0
 Battle Creek Police Department,MI,City,2026,1,Rape,5
 Battle Creek Police Department,MI,City,2026,1,Robbery,2
@@ -270,7 +46,7 @@ Kent County Sheriff's Office,MI,County,2026,1,Rape,6
 Kent County Sheriff's Office,MI,County,2026,1,Robbery,0
 Kent County Sheriff's Office,MI,County,2026,1,Aggravated Assault,24
 Kent County Sheriff's Office,MI,County,2026,1,Burglary,14
-Kent County Sheriff's Office,MI,County,2026,1,Theft,87
+Kent County Sheriff's Office,MI,County,2026,1,Theft,88
 Kent County Sheriff's Office,MI,County,2026,1,Motor Vehicle Theft,9
 Wyoming Police Department,MI,City,2026,1,Murder,0
 Wyoming Police Department,MI,City,2026,1,Rape,5
@@ -321,7 +97,7 @@ Sterling Heights Police Department,MI,City,2026,1,Aggravated Assault,20
 Sterling Heights Police Department,MI,City,2026,1,Burglary,5
 Sterling Heights Police Department,MI,City,2026,1,Theft,93
 Sterling Heights Police Department,MI,City,2026,1,Motor Vehicle Theft,4
-Warren Police Department,MI,City,2026,1,Murder,0
+Warren Police Department,MI,City,2026,1,Murder,1
 Warren Police Department,MI,City,2026,1,Rape,12
 Warren Police Department,MI,City,2026,1,Robbery,4
 Warren Police Department,MI,City,2026,1,Aggravated Assault,38
@@ -333,7 +109,7 @@ Farmington Hills Police Department,MI,City,2026,1,Rape,0
 Farmington Hills Police Department,MI,City,2026,1,Robbery,0
 Farmington Hills Police Department,MI,City,2026,1,Aggravated Assault,5
 Farmington Hills Police Department,MI,City,2026,1,Burglary,6
-Farmington Hills Police Department,MI,City,2026,1,Theft,17
+Farmington Hills Police Department,MI,City,2026,1,Theft,18
 Farmington Hills Police Department,MI,City,2026,1,Motor Vehicle Theft,5
 Novi Police Department,MI,City,2026,1,Murder,0
 Novi Police Department,MI,City,2026,1,Rape,0
@@ -389,7 +165,7 @@ Ann Arbor Police Department,MI,City,2026,1,Rape,1
 Ann Arbor Police Department,MI,City,2026,1,Robbery,1
 Ann Arbor Police Department,MI,City,2026,1,Aggravated Assault,12
 Ann Arbor Police Department,MI,City,2026,1,Burglary,14
-Ann Arbor Police Department,MI,City,2026,1,Theft,135
+Ann Arbor Police Department,MI,City,2026,1,Theft,136
 Ann Arbor Police Department,MI,City,2026,1,Motor Vehicle Theft,7
 Washtenaw County Sheriff's Office,MI,County,2026,1,Murder,1
 Washtenaw County Sheriff's Office,MI,County,2026,1,Rape,4
@@ -401,7 +177,7 @@ Washtenaw County Sheriff's Office,MI,County,2026,1,Motor Vehicle Theft,15
 Canton Township Police Department,MI,City,2026,1,Murder,0
 Canton Township Police Department,MI,City,2026,1,Rape,2
 Canton Township Police Department,MI,City,2026,1,Robbery,0
-Canton Township Police Department,MI,City,2026,1,Aggravated Assault,5
+Canton Township Police Department,MI,City,2026,1,Aggravated Assault,6
 Canton Township Police Department,MI,City,2026,1,Burglary,6
 Canton Township Police Department,MI,City,2026,1,Theft,49
 Canton Township Police Department,MI,City,2026,1,Motor Vehicle Theft,7
@@ -423,8 +199,8 @@ Detroit Police Department,MI,City,2026,1,Murder,8
 Detroit Police Department,MI,City,2026,1,Rape,48
 Detroit Police Department,MI,City,2026,1,Robbery,61
 Detroit Police Department,MI,City,2026,1,Aggravated Assault,462
-Detroit Police Department,MI,City,2026,1,Burglary,275
-Detroit Police Department,MI,City,2026,1,Theft,1032
+Detroit Police Department,MI,City,2026,1,Burglary,276
+Detroit Police Department,MI,City,2026,1,Theft,1025
 Detroit Police Department,MI,City,2026,1,Motor Vehicle Theft,314
 Livonia Police Department,MI,City,2026,1,Murder,0
 Livonia Police Department,MI,City,2026,1,Rape,1
@@ -432,7 +208,7 @@ Livonia Police Department,MI,City,2026,1,Robbery,1
 Livonia Police Department,MI,City,2026,1,Aggravated Assault,11
 Livonia Police Department,MI,City,2026,1,Burglary,8
 Livonia Police Department,MI,City,2026,1,Theft,84
-Livonia Police Department,MI,City,2026,1,Motor Vehicle Theft,5
+Livonia Police Department,MI,City,2026,1,Motor Vehicle Theft,6
 Taylor Police Department,MI,City,2026,1,Murder,0
 Taylor Police Department,MI,City,2026,1,Rape,5
 Taylor Police Department,MI,City,2026,1,Robbery,2
@@ -466,7 +242,7 @@ Lansing Police Department,MI,City,2026,2,Rape,10
 Lansing Police Department,MI,City,2026,2,Robbery,8
 Lansing Police Department,MI,City,2026,2,Aggravated Assault,65
 Lansing Police Department,MI,City,2026,2,Burglary,23
-Lansing Police Department,MI,City,2026,2,Theft,107
+Lansing Police Department,MI,City,2026,2,Theft,109
 Lansing Police Department,MI,City,2026,2,Motor Vehicle Theft,31
 Kalamazoo County Sheriff's Office,MI,County,2026,2,Murder,0
 Kalamazoo County Sheriff's Office,MI,County,2026,2,Rape,3
@@ -490,7 +266,7 @@ Grand Rapids Police Department,MI,City,2026,2,Burglary,19
 Grand Rapids Police Department,MI,City,2026,2,Theft,229
 Grand Rapids Police Department,MI,City,2026,2,Motor Vehicle Theft,28
 Kent County Sheriff's Office,MI,County,2026,2,Murder,0
-Kent County Sheriff's Office,MI,County,2026,2,Rape,9
+Kent County Sheriff's Office,MI,County,2026,2,Rape,10
 Kent County Sheriff's Office,MI,County,2026,2,Robbery,0
 Kent County Sheriff's Office,MI,County,2026,2,Aggravated Assault,27
 Kent County Sheriff's Office,MI,County,2026,2,Burglary,15
@@ -501,7 +277,7 @@ Wyoming Police Department,MI,City,2026,2,Rape,6
 Wyoming Police Department,MI,City,2026,2,Robbery,0
 Wyoming Police Department,MI,City,2026,2,Aggravated Assault,26
 Wyoming Police Department,MI,City,2026,2,Burglary,4
-Wyoming Police Department,MI,City,2026,2,Theft,90
+Wyoming Police Department,MI,City,2026,2,Theft,91
 Wyoming Police Department,MI,City,2026,2,Motor Vehicle Theft,2
 Livingston County Sheriff's Office,MI,County,2026,2,Murder,0
 Livingston County Sheriff's Office,MI,County,2026,2,Rape,1
@@ -612,7 +388,7 @@ Washtenaw County Sheriff's Office,MI,County,2026,2,Murder,0
 Washtenaw County Sheriff's Office,MI,County,2026,2,Rape,1
 Washtenaw County Sheriff's Office,MI,County,2026,2,Robbery,0
 Washtenaw County Sheriff's Office,MI,County,2026,2,Aggravated Assault,25
-Washtenaw County Sheriff's Office,MI,County,2026,2,Burglary,10
+Washtenaw County Sheriff's Office,MI,County,2026,2,Burglary,11
 Washtenaw County Sheriff's Office,MI,County,2026,2,Theft,37
 Washtenaw County Sheriff's Office,MI,County,2026,2,Motor Vehicle Theft,12
 Canton Township Police Department,MI,City,2026,2,Murder,0
@@ -639,10 +415,10 @@ Dearborn Police Department,MI,City,2026,2,Motor Vehicle Theft,12
 Detroit Police Department,MI,City,2026,2,Murder,14
 Detroit Police Department,MI,City,2026,2,Rape,33
 Detroit Police Department,MI,City,2026,2,Robbery,49
-Detroit Police Department,MI,City,2026,2,Aggravated Assault,403
-Detroit Police Department,MI,City,2026,2,Burglary,259
+Detroit Police Department,MI,City,2026,2,Aggravated Assault,405
+Detroit Police Department,MI,City,2026,2,Burglary,261
 Detroit Police Department,MI,City,2026,2,Theft,920
-Detroit Police Department,MI,City,2026,2,Motor Vehicle Theft,414
+Detroit Police Department,MI,City,2026,2,Motor Vehicle Theft,416
 Livonia Police Department,MI,City,2026,2,Murder,0
 Livonia Police Department,MI,City,2026,2,Rape,2
 Livonia Police Department,MI,City,2026,2,Robbery,1
@@ -679,11 +455,11 @@ Lansing Police Department,MI,City,2026,3,Burglary,1
 Lansing Police Department,MI,City,2026,3,Theft,1
 Lansing Police Department,MI,City,2026,3,Motor Vehicle Theft,0
 Lansing Police Department,MI,City,2026,3,Murder,0
-Lansing Police Department,MI,City,2026,3,Rape,9
+Lansing Police Department,MI,City,2026,3,Rape,10
 Lansing Police Department,MI,City,2026,3,Robbery,11
 Lansing Police Department,MI,City,2026,3,Aggravated Assault,76
-Lansing Police Department,MI,City,2026,3,Burglary,28
-Lansing Police Department,MI,City,2026,3,Theft,126
+Lansing Police Department,MI,City,2026,3,Burglary,29
+Lansing Police Department,MI,City,2026,3,Theft,128
 Lansing Police Department,MI,City,2026,3,Motor Vehicle Theft,53
 Kalamazoo County Sheriff's Office,MI,County,2026,3,Murder,0
 Kalamazoo County Sheriff's Office,MI,County,2026,3,Rape,4
@@ -696,8 +472,8 @@ Kalamazoo Department of Public Safety,MI,City,2026,3,Murder,0
 Kalamazoo Department of Public Safety,MI,City,2026,3,Rape,3
 Kalamazoo Department of Public Safety,MI,City,2026,3,Robbery,6
 Kalamazoo Department of Public Safety,MI,City,2026,3,Aggravated Assault,39
-Kalamazoo Department of Public Safety,MI,City,2026,3,Burglary,22
-Kalamazoo Department of Public Safety,MI,City,2026,3,Theft,92
+Kalamazoo Department of Public Safety,MI,City,2026,3,Burglary,23
+Kalamazoo Department of Public Safety,MI,City,2026,3,Theft,94
 Kalamazoo Department of Public Safety,MI,City,2026,3,Motor Vehicle Theft,24
 Grand Rapids Police Department,MI,City,2026,3,Murder,1
 Grand Rapids Police Department,MI,City,2026,3,Rape,17
@@ -710,9 +486,9 @@ Kent County Sheriff's Office,MI,County,2026,3,Murder,0
 Kent County Sheriff's Office,MI,County,2026,3,Rape,8
 Kent County Sheriff's Office,MI,County,2026,3,Robbery,0
 Kent County Sheriff's Office,MI,County,2026,3,Aggravated Assault,23
-Kent County Sheriff's Office,MI,County,2026,3,Burglary,11
-Kent County Sheriff's Office,MI,County,2026,3,Theft,91
-Kent County Sheriff's Office,MI,County,2026,3,Motor Vehicle Theft,8
+Kent County Sheriff's Office,MI,County,2026,3,Burglary,13
+Kent County Sheriff's Office,MI,County,2026,3,Theft,92
+Kent County Sheriff's Office,MI,County,2026,3,Motor Vehicle Theft,9
 Wyoming Police Department,MI,City,2026,3,Murder,0
 Wyoming Police Department,MI,City,2026,3,Rape,6
 Wyoming Police Department,MI,City,2026,3,Robbery,1
@@ -760,14 +536,14 @@ Warren Police Department,MI,City,2026,3,Rape,3
 Warren Police Department,MI,City,2026,3,Robbery,3
 Warren Police Department,MI,City,2026,3,Aggravated Assault,42
 Warren Police Department,MI,City,2026,3,Burglary,18
-Warren Police Department,MI,City,2026,3,Theft,76
+Warren Police Department,MI,City,2026,3,Theft,75
 Warren Police Department,MI,City,2026,3,Motor Vehicle Theft,23
 Farmington Hills Police Department,MI,City,2026,3,Murder,0
 Farmington Hills Police Department,MI,City,2026,3,Rape,0
 Farmington Hills Police Department,MI,City,2026,3,Robbery,0
 Farmington Hills Police Department,MI,City,2026,3,Aggravated Assault,9
 Farmington Hills Police Department,MI,City,2026,3,Burglary,2
-Farmington Hills Police Department,MI,City,2026,3,Theft,27
+Farmington Hills Police Department,MI,City,2026,3,Theft,28
 Farmington Hills Police Department,MI,City,2026,3,Motor Vehicle Theft,3
 Novi Police Department,MI,City,2026,3,Murder,0
 Novi Police Department,MI,City,2026,3,Rape,0
@@ -812,12 +588,12 @@ West Bloomfield Township Police Department,MI,City,2026,3,Burglary,4
 West Bloomfield Township Police Department,MI,City,2026,3,Theft,15
 West Bloomfield Township Police Department,MI,City,2026,3,Motor Vehicle Theft,0
 Ann Arbor Police Department,MI,City,2026,3,Murder,0
-Ann Arbor Police Department,MI,City,2026,3,Rape,7
+Ann Arbor Police Department,MI,City,2026,3,Rape,8
 Ann Arbor Police Department,MI,City,2026,3,Robbery,2
 Ann Arbor Police Department,MI,City,2026,3,Aggravated Assault,17
 Ann Arbor Police Department,MI,City,2026,3,Burglary,12
 Ann Arbor Police Department,MI,City,2026,3,Theft,150
-Ann Arbor Police Department,MI,City,2026,3,Motor Vehicle Theft,9
+Ann Arbor Police Department,MI,City,2026,3,Motor Vehicle Theft,10
 Washtenaw County Sheriff's Office,MI,County,2026,3,Murder,0
 Washtenaw County Sheriff's Office,MI,County,2026,3,Rape,5
 Washtenaw County Sheriff's Office,MI,County,2026,3,Robbery,4
@@ -844,21 +620,21 @@ Dearborn Police Department,MI,City,2026,3,Rape,5
 Dearborn Police Department,MI,City,2026,3,Robbery,1
 Dearborn Police Department,MI,City,2026,3,Aggravated Assault,23
 Dearborn Police Department,MI,City,2026,3,Burglary,4
-Dearborn Police Department,MI,City,2026,3,Theft,128
+Dearborn Police Department,MI,City,2026,3,Theft,129
 Dearborn Police Department,MI,City,2026,3,Motor Vehicle Theft,11
 Detroit Police Department,MI,City,2026,3,Murder,7
-Detroit Police Department,MI,City,2026,3,Rape,44
-Detroit Police Department,MI,City,2026,3,Robbery,61
-Detroit Police Department,MI,City,2026,3,Aggravated Assault,513
-Detroit Police Department,MI,City,2026,3,Burglary,282
-Detroit Police Department,MI,City,2026,3,Theft,1022
-Detroit Police Department,MI,City,2026,3,Motor Vehicle Theft,496
+Detroit Police Department,MI,City,2026,3,Rape,49
+Detroit Police Department,MI,City,2026,3,Robbery,62
+Detroit Police Department,MI,City,2026,3,Aggravated Assault,514
+Detroit Police Department,MI,City,2026,3,Burglary,280
+Detroit Police Department,MI,City,2026,3,Theft,1028
+Detroit Police Department,MI,City,2026,3,Motor Vehicle Theft,498
 Livonia Police Department,MI,City,2026,3,Murder,0
 Livonia Police Department,MI,City,2026,3,Rape,3
 Livonia Police Department,MI,City,2026,3,Robbery,1
 Livonia Police Department,MI,City,2026,3,Aggravated Assault,15
 Livonia Police Department,MI,City,2026,3,Burglary,6
-Livonia Police Department,MI,City,2026,3,Theft,55
+Livonia Police Department,MI,City,2026,3,Theft,54
 Livonia Police Department,MI,City,2026,3,Motor Vehicle Theft,7
 Taylor Police Department,MI,City,2026,3,Murder,0
 Taylor Police Department,MI,City,2026,3,Rape,3
