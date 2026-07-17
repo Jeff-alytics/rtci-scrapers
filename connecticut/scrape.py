@@ -22,9 +22,10 @@ REPORT_URL = "https://ct.beyond2020.com/ct_public/View/dispview.aspx?ReportId=23
 ENTRY_URL = "https://ct.beyond2020.com/ct_public/Dim/dimension.aspx"
 OUT_JSON = Path(__file__).parent / "data" / "latest.json"
 
-# Dim 3 = Return A Date (year), Dim 8 = Summary Month
+# Dim 3 = Summary Date (year), Dim 6 = Summary Month
+# (site renumbered dims ~June 2026: Summary Month moved from 8 to 6)
 DIM_DATE = 3
-DIM_MONTH = 8
+DIM_MONTH = 6
 
 AGENCIES = {
     "Bridgeport": "City", "Bristol": "City", "Danbury": "City",
@@ -182,16 +183,23 @@ def read_all_agencies(page):
         return Array.from(t.rows).map(r => r.cells[0] ? r.cells[0].innerText.trim() : '');
     }
     """)
-    # Col labels = offense names
-    offenses = page.evaluate("""
+    # Col labels = offense names. The row that holds them has moved around as the
+    # site changed (was the last row; now the first) — scan all header rows and
+    # use whichever contains the most known offense labels.
+    header_rows = page.evaluate("""
     () => {
         var t = document.getElementById('headerRowTable');
         if (!t || t.rows.length < 1) return null;
-        // Last row has the offense names
-        var lastRow = t.rows[t.rows.length - 1];
-        return Array.from(lastRow.cells).map(c => c.innerText.trim());
+        return Array.from(t.rows).map(r =>
+            Array.from(r.cells).map(c => c.innerText.trim())
+        );
     }
     """)
+    offenses = None
+    if header_rows:
+        offenses = max(header_rows, key=lambda row: sum(1 for c in row if c in OFFENSE_MAP))
+        if not any(c in OFFENSE_MAP for c in offenses):
+            offenses = None
     # Body data
     body = page.evaluate("""
     () => {
@@ -295,7 +303,7 @@ def main():
 
     if not all_rows:
         print("\nNo data collected.")
-        return
+        sys.exit(1)  # fail loudly so the workflow doesn't report success on a broken scrape
 
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT_JSON, "w") as f:
