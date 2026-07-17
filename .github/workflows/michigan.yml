@@ -29,6 +29,9 @@ jobs:
       - name: Run Michigan scraper
         run: python michigan_scraper.py --months 6 --headless
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('data/latest.json')); agencies=set(r['agency'] for r in d); months=set((r['year'],r['month']) for r in d); print(f'{len(d)} records, {len(agencies)} agencies, {len(months)} months')"
 

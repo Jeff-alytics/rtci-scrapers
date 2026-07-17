@@ -27,6 +27,9 @@ jobs:
       - name: Run scraper
         run: python scrape.py
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py albanyga/data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('data/latest.json')); print(f'{len(d)} records from {len(set(r[\"agency\"] for r in d))} agencies')"
 

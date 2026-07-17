@@ -33,6 +33,9 @@ jobs:
           MONTH=$(date -u +%Y-%m)
           cp data/latest.json "data/${MONTH}.json"
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py compstat/data/latest.json
+
       - name: Show results
         run: cat data/latest.json | node -e "const d=JSON.parse(require('fs').readFileSync(0,'utf8'));const months=new Set(d.map(r=>r.month));console.log(d.length+' records, '+months.size+' months')"
 

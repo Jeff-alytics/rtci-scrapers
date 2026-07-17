@@ -25,6 +25,9 @@ jobs:
       - name: Run RETA processor
         run: python cde-reta/fetch_reta.py
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py cde-reta/data/cde_reta_latest.csv
+
       - name: Show results
         run: |
           wc -l cde-reta/data/cde_reta_latest.csv

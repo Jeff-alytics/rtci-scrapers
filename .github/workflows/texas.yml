@@ -24,6 +24,9 @@ jobs:
       - name: Run Texas scraper
         run: python texas/scrape.py
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py texas/data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('texas/data/latest.json')); print(f'{len(d)} records from {len(set(r[\"agency\"] for r in d))} agencies')"
 

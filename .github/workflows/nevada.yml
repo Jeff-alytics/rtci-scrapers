@@ -28,6 +28,9 @@ jobs:
       - name: Run scraper
         run: xvfb-run python nevada/scrape.py
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py nevada/data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('nevada/data/latest.json')); print(f'{len(d)} records from {len(set(r[\"agency\"] for r in d))} agencies')"
 

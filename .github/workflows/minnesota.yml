@@ -27,6 +27,9 @@ jobs:
       - name: Run scraper
         run: python scrape.py
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py minnesota/data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('data/latest.json')); agencies=set(r['agency'] for r in d); months=set((r['year'],r['month']) for r in d); print(f'{len(d)} records, {len(agencies)} agencies, {len(months)} months')"
 

@@ -28,6 +28,9 @@ jobs:
       - name: Run Omaha scraper
         run: xvfb-run python omaha/scrape.py
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py omaha/data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('omaha/data/latest.json')); print(f'{len(d)} records')"
 

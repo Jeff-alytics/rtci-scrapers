@@ -25,6 +25,9 @@ jobs:
       - name: Run Richmond scraper
         run: python richmond/scrape.py
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py richmond/data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('richmond/data/latest.json')); print(f'{len(d)} records')"
 

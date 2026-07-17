@@ -24,6 +24,9 @@ jobs:
       - name: Run scraper
         run: python illinois/scrape.py
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py illinois/data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('illinois/data/latest.json')); print(f'{len(d)} records from {len(set(r[\"agency\"] for r in d))} agencies')"
 

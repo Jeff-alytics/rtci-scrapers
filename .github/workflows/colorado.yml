@@ -28,6 +28,9 @@ jobs:
       - name: Run scraper
         run: xvfb-run python colorado/scrape.py
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py colorado/data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('colorado/data/latest.json')); print(f'{len(d)} records from {len(set(r[\"agency\"] for r in d))} agencies')"
 

@@ -33,6 +33,9 @@ jobs:
           MONTH=$(date -u +%Y-%m)
           cp data/latest.json "data/${MONTH}.json"
 
+      - name: Verify data freshness
+        run: python scripts/verify_freshness.py lexington/data/latest.json
+
       - name: Show results
         run: python -c "import json; d=json.load(open('data/latest.json')); months=set((r['year'],r['month']) for r in d); print(f'{len(d)} records, {len(months)} months')"
 
