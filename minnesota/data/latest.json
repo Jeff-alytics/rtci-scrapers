@@ -239,15 +239,6 @@
     "type": "City",
     "year": 2026,
     "month": 3,
-    "offense": "Robbery",
-    "count": 1
-  },
-  {
-    "agency": "Apple Valley",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 3,
     "offense": "Theft",
     "count": 57
   },
@@ -267,7 +258,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 5
+    "count": 4
   },
   {
     "agency": "Apple Valley",
@@ -798,7 +789,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 48
+    "count": 49
   },
   {
     "agency": "Bloomington",
@@ -2616,7 +2607,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 50
+    "count": 51
   },
   {
     "agency": "Duluth",
@@ -3444,7 +3435,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 69
+    "count": 70
   },
   {
     "agency": "Eagan",
@@ -4524,7 +4515,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Rape",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Lakeville",
@@ -4947,7 +4938,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 72
+    "count": 73
   },
   {
     "agency": "Maple Grove",
@@ -5433,7 +5424,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 1013
+    "count": 1014
   },
   {
     "agency": "Minneapolis",
@@ -5496,7 +5487,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1158
+    "count": 1159
   },
   {
     "agency": "Minneapolis",
@@ -5505,7 +5496,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 302
+    "count": 303
   },
   {
     "agency": "Minneapolis",
@@ -5559,7 +5550,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 1088
+    "count": 1090
   },
   {
     "agency": "Minnetonka",
@@ -6180,7 +6171,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 48
+    "count": 49
   },
   {
     "agency": "Plymouth",
@@ -7818,7 +7809,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 505
+    "count": 504
   },
   {
     "agency": "Woodbury",
