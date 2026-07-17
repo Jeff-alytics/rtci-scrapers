@@ -29,6 +29,7 @@ jobs:
         run: xvfb-run python omaha/scrape.py
 
       - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
         run: python scripts/verify_freshness.py omaha/data/latest.json
 
       - name: Show results

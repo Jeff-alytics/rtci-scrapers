@@ -26,6 +26,7 @@ jobs:
         run: python oregon/scrape.py
 
       - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
         run: python scripts/verify_freshness.py oregon/data/latest.json
 
       - name: Show results

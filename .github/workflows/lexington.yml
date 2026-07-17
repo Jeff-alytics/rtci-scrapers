@@ -34,6 +34,7 @@ jobs:
           cp data/latest.json "data/${MONTH}.json"
 
       - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
         run: python scripts/verify_freshness.py lexington/data/latest.json
 
       - name: Show results

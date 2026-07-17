@@ -31,6 +31,7 @@ jobs:
         run: xvfb-run python scrape.py
 
       - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
         run: python scripts/verify_freshness.py sanfrancisco/data/latest.json
 
       - name: Show results
