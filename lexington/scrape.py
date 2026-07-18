@@ -86,11 +86,23 @@ def download_pdf(url, dest):
 
 
 def parse_pdf(path, report_year, report_month):
-    """Extract single-month crime counts from page 1 of a Lexington NIBRS PDF."""
-    pdf = pdfplumber.open(path)
-    text = pdf.pages[0].extract_text() or ""
-    pdf.close()
+    """Extract single-month crime counts from a Lexington NIBRS PDF.
 
+    The offense table was on page 1 through April 2026; starting May 2026 the
+    PDF gained a narrative overview page, moving the table to page 2. Scan
+    pages and use the first one that contains the offense rows.
+    """
+    with pdfplumber.open(path) as pdf:
+        page_texts = [p.extract_text() or "" for p in pdf.pages]
+
+    for text in page_texts:
+        results = _parse_offense_table(text, report_year, report_month)
+        if len(results) >= 5:
+            return results
+    return []
+
+
+def _parse_offense_table(text, report_year, report_month):
     results = []
     for line in text.split("\n"):
         stripped = line.strip()
