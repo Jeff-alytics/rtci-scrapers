@@ -1,0 +1,44 @@
+name: Monthly Westminster Scrape
+
+on:
+  schedule:
+    - cron: '30 12 15,16 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install playwright
+
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
+
+      - name: Run scraper
+        run: xvfb-run python westminster/scrape.py
+
+      - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
+        run: python scripts/verify_freshness.py westminster/data/latest.json --max-lag 5
+
+      - name: Show results
+        run: python -c "import json; d=json.load(open('westminster/data/latest.json')); print(f'{len(d)} records, months {sorted(set((r[\"year\"],r[\"month\"]) for r in d))}')"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add westminster/data/
+          git diff --cached --quiet || git commit -m "Update Westminster data $(date -u +%Y-%m-%d)"
+          git pull --rebase origin master && git push
