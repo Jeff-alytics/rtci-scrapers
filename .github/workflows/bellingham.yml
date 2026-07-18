@@ -1,17 +1,21 @@
 name: Monthly Bellingham Scrape
 
+# The scrape itself runs on the Hetzner VPS (cron, 15th/16th 12:40 UTC) because
+# police.cob.org TCP-resets GitHub Actions IPs. This workflow only VERIFIES the
+# committed data's freshness afterward, so a stalled VPS cron still shows red here.
+
 on:
   schedule:
-    - cron: '45 12 15,16 * *'
+    - cron: '0 14 15,16 * *'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  scrape:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
 
@@ -19,20 +23,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run scraper
-        run: python bellingham/scrape.py
-
-      - name: Verify data freshness
-        working-directory: ${{ github.workspace }}
+      - name: Verify data freshness (scraped on VPS)
         run: python scripts/verify_freshness.py bellingham/data/latest.json
 
       - name: Show results
         run: python -c "import json; d=json.load(open('bellingham/data/latest.json')); print(f'{len(d)} records, months {sorted(set((r[\"year\"],r[\"month\"]) for r in d))}')"
-
-      - name: Commit and push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add bellingham/data/
-          git diff --cached --quiet || git commit -m "Update Bellingham data $(date -u +%Y-%m-%d)"
-          git pull --rebase origin master && git push
