@@ -239,6 +239,15 @@
     "type": "City",
     "year": 2026,
     "month": 3,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "Apple Valley",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
     "offense": "Theft",
     "count": 57
   },
@@ -789,7 +798,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 49
+    "count": 50
   },
   {
     "agency": "Bloomington",
@@ -798,7 +807,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Aggravated Assault",
-    "count": 8
+    "count": 11
   },
   {
     "agency": "Bloomington",
@@ -1248,7 +1257,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 189
+    "count": 190
   },
   {
     "agency": "Brooklyn Park",
@@ -3435,7 +3444,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 69
+    "count": 70
   },
   {
     "agency": "Eagan",
@@ -3444,7 +3453,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 6
+    "count": 7
   },
   {
     "agency": "Eagan",
@@ -4938,7 +4947,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 74
+    "count": 73
   },
   {
     "agency": "Maple Grove",
@@ -5505,7 +5514,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 208
+    "count": 209
   },
   {
     "agency": "Minneapolis",
@@ -5541,7 +5550,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Robbery",
-    "count": 81
+    "count": 82
   },
   {
     "agency": "Minneapolis",
@@ -7719,7 +7728,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 97
+    "count": 96
   },
   {
     "agency": "St. Paul",
@@ -7800,7 +7809,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Robbery",
-    "count": 22
+    "count": 23
   },
   {
     "agency": "St. Paul",
@@ -8115,7 +8124,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 12
+    "count": 11
   },
   {
     "agency": "Woodbury",
