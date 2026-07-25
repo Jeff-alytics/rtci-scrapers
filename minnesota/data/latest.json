@@ -807,7 +807,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Aggravated Assault",
-    "count": 11
+    "count": 12
   },
   {
     "agency": "Bloomington",
@@ -906,7 +906,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Theft",
-    "count": 193
+    "count": 194
   },
   {
     "agency": "Bloomington",
@@ -915,7 +915,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Aggravated Assault",
-    "count": 15
+    "count": 16
   },
   {
     "agency": "Bloomington",
@@ -960,7 +960,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 180
+    "count": 181
   },
   {
     "agency": "Bloomington",
@@ -987,7 +987,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Bloomington",
@@ -1005,7 +1005,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 164
+    "count": 165
   },
   {
     "agency": "Bloomington",
@@ -1032,7 +1032,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 6
+    "count": 8
   },
   {
     "agency": "Bloomington",
@@ -1050,7 +1050,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 161
+    "count": 163
   },
   {
     "agency": "Bloomington",
@@ -1059,7 +1059,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 8
+    "count": 9
   },
   {
     "agency": "Bloomington",
@@ -1068,7 +1068,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 14
+    "count": 15
   },
   {
     "agency": "Bloomington",
@@ -1095,7 +1095,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 168
+    "count": 169
   },
   {
     "agency": "Bloomington",
@@ -1104,7 +1104,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Aggravated Assault",
-    "count": 15
+    "count": 16
   },
   {
     "agency": "Bloomington",
@@ -1122,7 +1122,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 5
+    "count": 6
   },
   {
     "agency": "Bloomington",
@@ -1149,7 +1149,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 203
+    "count": 208
   },
   {
     "agency": "Bloomington",
@@ -1158,7 +1158,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Aggravated Assault",
-    "count": 14
+    "count": 18
   },
   {
     "agency": "Bloomington",
@@ -1176,7 +1176,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 2
+    "count": 3
   },
   {
     "agency": "Bloomington",
@@ -1203,7 +1203,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 169
+    "count": 179
   },
   {
     "agency": "Bloomington",
@@ -1221,7 +1221,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 19
+    "count": 20
   },
   {
     "agency": "Bloomington",
@@ -1257,7 +1257,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 190
+    "count": 192
   },
   {
     "agency": "Brooklyn Park",
@@ -4659,7 +4659,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Theft",
-    "count": 73
+    "count": 74
   },
   {
     "agency": "Maple Grove",
@@ -5514,7 +5514,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 209
+    "count": 211
   },
   {
     "agency": "Minneapolis",
@@ -8079,7 +8079,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Woodbury",
@@ -8124,7 +8124,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 11
+    "count": 12
   },
   {
     "agency": "Woodbury",
@@ -8205,7 +8205,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 80
+    "count": 79
   },
   {
     "agency": "Wright",
