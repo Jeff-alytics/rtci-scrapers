@@ -1239,7 +1239,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 7
+    "count": 8
   },
   {
     "agency": "Bloomington",
@@ -5334,7 +5334,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 495
+    "count": 496
   },
   {
     "agency": "Minneapolis",
@@ -5496,7 +5496,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1162
+    "count": 1163
   },
   {
     "agency": "Minneapolis",
@@ -5514,7 +5514,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 211
+    "count": 212
   },
   {
     "agency": "Minneapolis",
@@ -5559,7 +5559,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 1103
+    "count": 1105
   },
   {
     "agency": "Minnetonka",
