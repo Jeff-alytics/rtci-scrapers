@@ -159,7 +159,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 62
+    "count": 61
   },
   {
     "agency": "Apple Valley",
@@ -321,7 +321,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "Apple Valley",
@@ -5370,7 +5370,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 968
+    "count": 970
   },
   {
     "agency": "Minneapolis",
@@ -5433,7 +5433,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 1016
+    "count": 1018
   },
   {
     "agency": "Minneapolis",
@@ -5514,7 +5514,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 212
+    "count": 213
   },
   {
     "agency": "Minneapolis",
@@ -5559,7 +5559,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 1105
+    "count": 1109
   },
   {
     "agency": "Minnetonka",
@@ -7773,7 +7773,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 84
+    "count": 85
   },
   {
     "agency": "St. Paul",
@@ -7782,7 +7782,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 114
+    "count": 115
   },
   {
     "agency": "St. Paul",
@@ -7818,7 +7818,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 508
+    "count": 510
   },
   {
     "agency": "Woodbury",
