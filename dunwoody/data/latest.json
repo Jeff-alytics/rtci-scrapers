@@ -4,51 +4,6 @@
     "state": "GA",
     "type": "City",
     "year": 2024,
-    "month": 7,
-    "offense": "Aggravated Assault",
-    "count": 5
-  },
-  {
-    "agency": "Dunwoody",
-    "state": "GA",
-    "type": "City",
-    "year": 2024,
-    "month": 7,
-    "offense": "Burglary",
-    "count": 8
-  },
-  {
-    "agency": "Dunwoody",
-    "state": "GA",
-    "type": "City",
-    "year": 2024,
-    "month": 7,
-    "offense": "Motor Vehicle Theft",
-    "count": 9
-  },
-  {
-    "agency": "Dunwoody",
-    "state": "GA",
-    "type": "City",
-    "year": 2024,
-    "month": 7,
-    "offense": "Robbery",
-    "count": 3
-  },
-  {
-    "agency": "Dunwoody",
-    "state": "GA",
-    "type": "City",
-    "year": 2024,
-    "month": 7,
-    "offense": "Theft",
-    "count": 105
-  },
-  {
-    "agency": "Dunwoody",
-    "state": "GA",
-    "type": "City",
-    "year": 2024,
     "month": 8,
     "offense": "Aggravated Assault",
     "count": 4
