@@ -4,69 +4,6 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
-    "month": 1,
-    "offense": "Murder",
-    "count": 1
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 1,
-    "offense": "Rape",
-    "count": 3
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 1,
-    "offense": "Robbery",
-    "count": 4
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 1,
-    "offense": "Aggravated Assault",
-    "count": 24
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 1,
-    "offense": "Burglary",
-    "count": 17
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 1,
-    "offense": "Theft",
-    "count": 216
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 1,
-    "offense": "Motor Vehicle Theft",
-    "count": 23
-  },
-  {
-    "agency": "Glendale",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
     "month": 2,
     "offense": "Murder",
     "count": 0
