@@ -276,7 +276,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Aggravated Assault",
-    "count": 9
+    "count": 10
   },
   {
     "agency": "Apple Valley",
@@ -726,7 +726,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Burglary",
-    "count": 24
+    "count": 27
   },
   {
     "agency": "Bloomington",
@@ -735,7 +735,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Motor Vehicle Theft",
-    "count": 10
+    "count": 12
   },
   {
     "agency": "Bloomington",
@@ -762,7 +762,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Theft",
-    "count": 194
+    "count": 197
   },
   {
     "agency": "Bloomington",
@@ -789,7 +789,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Motor Vehicle Theft",
-    "count": 8
+    "count": 11
   },
   {
     "agency": "Bloomington",
@@ -816,7 +816,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 182
+    "count": 186
   },
   {
     "agency": "Bloomington",
@@ -1113,7 +1113,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 195
+    "count": 197
   },
   {
     "agency": "Brooklyn Park",
@@ -3705,7 +3705,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "Edina",
@@ -3723,7 +3723,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 39
+    "count": 40
   },
   {
     "agency": "Lakeville",
@@ -4371,7 +4371,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 73
+    "count": 74
   },
   {
     "agency": "Maple Grove",
@@ -4857,7 +4857,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1164
+    "count": 1166
   },
   {
     "agency": "Minneapolis",
@@ -4866,7 +4866,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 302
+    "count": 303
   },
   {
     "agency": "Minneapolis",
@@ -4875,7 +4875,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 214
+    "count": 216
   },
   {
     "agency": "Minneapolis",
@@ -4920,7 +4920,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 1115
+    "count": 1116
   },
   {
     "agency": "Minnetonka",
