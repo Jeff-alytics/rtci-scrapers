@@ -825,7 +825,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
-    "count": 8
+    "count": 9
   },
   {
     "agency": "Bloomington",
@@ -843,7 +843,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "Bloomington",
@@ -951,7 +951,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 173
+    "count": 174
   },
   {
     "agency": "Bloomington",
@@ -1113,7 +1113,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 197
+    "count": 198
   },
   {
     "agency": "Brooklyn Park",
@@ -3003,7 +3003,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 71
+    "count": 72
   },
   {
     "agency": "Eagan",
@@ -3084,7 +3084,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 68
+    "count": 69
   },
   {
     "agency": "Eden Prairie",
@@ -6873,7 +6873,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 476
+    "count": 477
   },
   {
     "agency": "St. Paul",
@@ -6927,7 +6927,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 510
+    "count": 514
   },
   {
     "agency": "Woodbury",
