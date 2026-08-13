@@ -347,8 +347,17 @@
     "type": "City",
     "year": 2026,
     "month": 6,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "Apple Valley",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
     "offense": "Theft",
-    "count": 72
+    "count": 71
   },
   {
     "agency": "Blaine",
@@ -3048,7 +3057,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 71
+    "count": 72
   },
   {
     "agency": "Eagan",
@@ -3084,7 +3093,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 69
+    "count": 70
   },
   {
     "agency": "Eden Prairie",
@@ -4461,7 +4470,7 @@
     "year": 2025,
     "month": 11,
     "offense": "Rape",
-    "count": 33
+    "count": 34
   },
   {
     "agency": "Minneapolis",
@@ -4839,7 +4848,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Rape",
-    "count": 29
+    "count": 31
   },
   {
     "agency": "Minneapolis",
@@ -4875,7 +4884,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 216
+    "count": 217
   },
   {
     "agency": "Minneapolis",
@@ -5550,7 +5559,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 47
+    "count": 48
   },
   {
     "agency": "Rochester",
@@ -6927,7 +6936,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 515
+    "count": 520
   },
   {
     "agency": "Woodbury",
