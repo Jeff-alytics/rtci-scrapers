@@ -360,6 +360,60 @@
     "count": 71
   },
   {
+    "agency": "Apple Valley",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 10
+  },
+  {
+    "agency": "Apple Valley",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 6
+  },
+  {
+    "agency": "Apple Valley",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 6
+  },
+  {
+    "agency": "Apple Valley",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 2
+  },
+  {
+    "agency": "Apple Valley",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 2
+  },
+  {
+    "agency": "Apple Valley",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 69
+  },
+  {
     "agency": "Blaine",
     "state": "MN",
     "type": "City",
@@ -718,6 +772,51 @@
     "month": 6,
     "offense": "Theft",
     "count": 51
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 3
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 1
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 2
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 63
   },
   {
     "agency": "Bloomington",
@@ -1123,6 +1222,60 @@
     "month": 6,
     "offense": "Theft",
     "count": 199
+  },
+  {
+    "agency": "Bloomington",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 9
+  },
+  {
+    "agency": "Bloomington",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 15
+  },
+  {
+    "agency": "Bloomington",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 10
+  },
+  {
+    "agency": "Bloomington",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 5
+  },
+  {
+    "agency": "Bloomington",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 2
+  },
+  {
+    "agency": "Bloomington",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 233
   },
   {
     "agency": "Brooklyn Park",
@@ -1566,6 +1719,69 @@
     "count": 96
   },
   {
+    "agency": "Brooklyn Park",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 16
+  },
+  {
+    "agency": "Brooklyn Park",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 18
+  },
+  {
+    "agency": "Brooklyn Park",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 13
+  },
+  {
+    "agency": "Brooklyn Park",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Murder",
+    "count": 1
+  },
+  {
+    "agency": "Brooklyn Park",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 3
+  },
+  {
+    "agency": "Brooklyn Park",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 6
+  },
+  {
+    "agency": "Brooklyn Park",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 87
+  },
+  {
     "agency": "Burnsville",
     "state": "MN",
     "type": "City",
@@ -1971,6 +2187,60 @@
     "count": 84
   },
   {
+    "agency": "Burnsville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 3
+  },
+  {
+    "agency": "Burnsville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 5
+  },
+  {
+    "agency": "Burnsville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 5
+  },
+  {
+    "agency": "Burnsville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Burnsville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "Burnsville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 62
+  },
+  {
     "agency": "Coon Rapids",
     "state": "MN",
     "type": "City",
@@ -2338,6 +2608,60 @@
     "month": 6,
     "offense": "Theft",
     "count": 53
+  },
+  {
+    "agency": "Coon Rapids",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 4
+  },
+  {
+    "agency": "Coon Rapids",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 8
+  },
+  {
+    "agency": "Coon Rapids",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Coon Rapids",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Coon Rapids",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 2
+  },
+  {
+    "agency": "Coon Rapids",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 55
   },
   {
     "agency": "Duluth",
@@ -2790,6 +3114,60 @@
     "count": 175
   },
   {
+    "agency": "Duluth",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 11
+  },
+  {
+    "agency": "Duluth",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 12
+  },
+  {
+    "agency": "Duluth",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 5
+  },
+  {
+    "agency": "Duluth",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 2
+  },
+  {
+    "agency": "Duluth",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 2
+  },
+  {
+    "agency": "Duluth",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 162
+  },
+  {
     "agency": "Eagan",
     "state": "MN",
     "type": "City",
@@ -3096,6 +3474,42 @@
     "count": 70
   },
   {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 7
+  },
+  {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 4
+  },
+  {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 3
+  },
+  {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 81
+  },
+  {
     "agency": "Eden Prairie",
     "state": "MN",
     "type": "City",
@@ -3391,6 +3805,42 @@
     "month": 6,
     "offense": "Theft",
     "count": 48
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 1
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 2
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 70
   },
   {
     "agency": "Edina",
@@ -3735,6 +4185,42 @@
     "count": 40
   },
   {
+    "agency": "Edina",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 4
+  },
+  {
+    "agency": "Edina",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 6
+  },
+  {
+    "agency": "Edina",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 3
+  },
+  {
+    "agency": "Edina",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 53
+  },
+  {
     "agency": "Lakeville",
     "state": "MN",
     "type": "City",
@@ -4046,6 +4532,42 @@
     "type": "City",
     "year": 2026,
     "month": 6,
+    "offense": "Theft",
+    "count": 37
+  },
+  {
+    "agency": "Lakeville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 2
+  },
+  {
+    "agency": "Lakeville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 4
+  },
+  {
+    "agency": "Lakeville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Lakeville",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
     "offense": "Theft",
     "count": 37
   },
@@ -4426,6 +4948,51 @@
     "month": 6,
     "offense": "Theft",
     "count": 60
+  },
+  {
+    "agency": "Maple Grove",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 6
+  },
+  {
+    "agency": "Maple Grove",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 3
+  },
+  {
+    "agency": "Maple Grove",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 3
+  },
+  {
+    "agency": "Maple Grove",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Maple Grove",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 69
   },
   {
     "agency": "Minneapolis",
@@ -4930,6 +5497,69 @@
     "month": 6,
     "offense": "Theft",
     "count": 1120
+  },
+  {
+    "agency": "Minneapolis",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 260
+  },
+  {
+    "agency": "Minneapolis",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 190
+  },
+  {
+    "agency": "Minneapolis",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 401
+  },
+  {
+    "agency": "Minneapolis",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Murder",
+    "count": 4
+  },
+  {
+    "agency": "Minneapolis",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 43
+  },
+  {
+    "agency": "Minneapolis",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 77
+  },
+  {
+    "agency": "Minneapolis",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 1142
   },
   {
     "agency": "Minnetonka",
@@ -5562,6 +6192,33 @@
     "count": 49
   },
   {
+    "agency": "Plymouth",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 1
+  },
+  {
+    "agency": "Plymouth",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 7
+  },
+  {
+    "agency": "Plymouth",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 36
+  },
+  {
     "agency": "Rochester",
     "state": "MN",
     "type": "City",
@@ -6001,6 +6658,51 @@
     "month": 6,
     "offense": "Theft",
     "count": 88
+  },
+  {
+    "agency": "Rochester",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 1
+  },
+  {
+    "agency": "Rochester",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 4
+  },
+  {
+    "agency": "Rochester",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Rochester",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "Rochester",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 12
   },
   {
     "agency": "St. Cloud",
@@ -6444,6 +7146,60 @@
     "count": 87
   },
   {
+    "agency": "St. Cloud",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 21
+  },
+  {
+    "agency": "St. Cloud",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 10
+  },
+  {
+    "agency": "St. Cloud",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 11
+  },
+  {
+    "agency": "St. Cloud",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "St. Cloud",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 6
+  },
+  {
+    "agency": "St. Cloud",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 78
+  },
+  {
     "agency": "St. Paul",
     "state": "MN",
     "type": "City",
@@ -6630,7 +7386,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 376
+    "count": 377
   },
   {
     "agency": "St. Paul",
@@ -6846,7 +7602,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 96
+    "count": 95
   },
   {
     "agency": "St. Paul",
@@ -6937,6 +7693,69 @@
     "month": 6,
     "offense": "Theft",
     "count": 520
+  },
+  {
+    "agency": "St. Paul",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 103
+  },
+  {
+    "agency": "St. Paul",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 129
+  },
+  {
+    "agency": "St. Paul",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 60
+  },
+  {
+    "agency": "St. Paul",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Murder",
+    "count": 6
+  },
+  {
+    "agency": "St. Paul",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 14
+  },
+  {
+    "agency": "St. Paul",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 24
+  },
+  {
+    "agency": "St. Paul",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 486
   },
   {
     "agency": "Woodbury",
@@ -7279,6 +8098,51 @@
     "month": 6,
     "offense": "Theft",
     "count": 78
+  },
+  {
+    "agency": "Woodbury",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 1
+  },
+  {
+    "agency": "Woodbury",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 5
+  },
+  {
+    "agency": "Woodbury",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Woodbury",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "Woodbury",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 60
   },
   {
     "agency": "Wright",
