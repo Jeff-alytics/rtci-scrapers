@@ -10273,7 +10273,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 2,
+    "month": 3,
     "offense": "Aggravated Assault",
     "count": 4
   },
@@ -10282,7 +10282,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 2,
+    "month": 3,
     "offense": "Burglary",
     "count": 3
   },
@@ -10291,7 +10291,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 2,
+    "month": 3,
     "offense": "Motor Vehicle Theft",
     "count": 1
   },
@@ -10300,7 +10300,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 2,
+    "month": 3,
     "offense": "Murder",
     "count": 0
   },
@@ -10309,7 +10309,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 2,
+    "month": 3,
     "offense": "Rape",
     "count": 0
   },
@@ -10318,7 +10318,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 2,
+    "month": 3,
     "offense": "Robbery",
     "count": 1
   },
@@ -10327,7 +10327,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 2,
+    "month": 3,
     "offense": "Theft",
     "count": 12
   },
@@ -10336,7 +10336,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 3,
+    "month": 4,
     "offense": "Aggravated Assault",
     "count": 6
   },
@@ -10345,7 +10345,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 3,
+    "month": 4,
     "offense": "Burglary",
     "count": 4
   },
@@ -10354,7 +10354,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 3,
+    "month": 4,
     "offense": "Motor Vehicle Theft",
     "count": 0
   },
@@ -10363,7 +10363,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 3,
+    "month": 4,
     "offense": "Murder",
     "count": 0
   },
@@ -10372,7 +10372,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 3,
+    "month": 4,
     "offense": "Rape",
     "count": 1
   },
@@ -10381,7 +10381,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 3,
+    "month": 4,
     "offense": "Robbery",
     "count": 2
   },
@@ -10390,7 +10390,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 3,
+    "month": 4,
     "offense": "Theft",
     "count": 13
   },
@@ -10399,7 +10399,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 4,
+    "month": 5,
     "offense": "Aggravated Assault",
     "count": 12
   },
@@ -10408,7 +10408,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 4,
+    "month": 5,
     "offense": "Burglary",
     "count": 4
   },
@@ -10417,7 +10417,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 4,
+    "month": 5,
     "offense": "Motor Vehicle Theft",
     "count": 4
   },
@@ -10426,7 +10426,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 4,
+    "month": 5,
     "offense": "Murder",
     "count": 0
   },
@@ -10435,7 +10435,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 4,
+    "month": 5,
     "offense": "Rape",
     "count": 0
   },
@@ -10444,7 +10444,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 4,
+    "month": 5,
     "offense": "Robbery",
     "count": 0
   },
@@ -10453,7 +10453,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 4,
+    "month": 5,
     "offense": "Theft",
     "count": 20
   },
@@ -10462,7 +10462,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 6,
     "offense": "Aggravated Assault",
     "count": 12
   },
@@ -10471,7 +10471,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 6,
     "offense": "Burglary",
     "count": 5
   },
@@ -10480,7 +10480,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 6,
     "offense": "Motor Vehicle Theft",
     "count": 4
   },
@@ -10489,69 +10489,6 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
-    "offense": "Murder",
-    "count": 0
-  },
-  {
-    "agency": "Weymouth",
-    "state": "MA",
-    "type": "City",
-    "year": 2026,
-    "month": 5,
-    "offense": "Rape",
-    "count": 0
-  },
-  {
-    "agency": "Weymouth",
-    "state": "MA",
-    "type": "City",
-    "year": 2026,
-    "month": 5,
-    "offense": "Robbery",
-    "count": 0
-  },
-  {
-    "agency": "Weymouth",
-    "state": "MA",
-    "type": "City",
-    "year": 2026,
-    "month": 5,
-    "offense": "Theft",
-    "count": 22
-  },
-  {
-    "agency": "Weymouth",
-    "state": "MA",
-    "type": "City",
-    "year": 2026,
-    "month": 6,
-    "offense": "Aggravated Assault",
-    "count": 6
-  },
-  {
-    "agency": "Weymouth",
-    "state": "MA",
-    "type": "City",
-    "year": 2026,
-    "month": 6,
-    "offense": "Burglary",
-    "count": 5
-  },
-  {
-    "agency": "Weymouth",
-    "state": "MA",
-    "type": "City",
-    "year": 2026,
-    "month": 6,
-    "offense": "Motor Vehicle Theft",
-    "count": 5
-  },
-  {
-    "agency": "Weymouth",
-    "state": "MA",
-    "type": "City",
-    "year": 2026,
     "month": 6,
     "offense": "Murder",
     "count": 0
@@ -10563,7 +10500,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 1
+    "count": 0
   },
   {
     "agency": "Weymouth",
@@ -10572,7 +10509,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Robbery",
-    "count": 1
+    "count": 0
   },
   {
     "agency": "Weymouth",
@@ -10581,7 +10518,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 26
+    "count": 22
   },
   {
     "agency": "Worcester",
