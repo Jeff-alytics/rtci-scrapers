@@ -2238,7 +2238,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 62
+    "count": 63
   },
   {
     "agency": "Coon Rapids",
@@ -2607,7 +2607,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 53
+    "count": 54
   },
   {
     "agency": "Coon Rapids",
@@ -5433,7 +5433,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1166
+    "count": 1167
   },
   {
     "agency": "Minneapolis",
@@ -6432,7 +6432,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 97
+    "count": 98
   },
   {
     "agency": "Rochester",
@@ -6450,7 +6450,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 8
+    "count": 9
   },
   {
     "agency": "Rochester",
@@ -6486,7 +6486,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 84
+    "count": 92
   },
   {
     "agency": "Rochester",
@@ -6513,7 +6513,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 10
+    "count": 11
   },
   {
     "agency": "Rochester",
@@ -6585,7 +6585,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Rape",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "Rochester",
@@ -6603,7 +6603,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 102
+    "count": 103
   },
   {
     "agency": "Rochester",
@@ -6621,7 +6621,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 10
+    "count": 11
   },
   {
     "agency": "Rochester",
@@ -6657,7 +6657,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 88
+    "count": 89
   },
   {
     "agency": "Rochester",
@@ -6666,7 +6666,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 1
+    "count": 6
   },
   {
     "agency": "Rochester",
@@ -6675,7 +6675,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 4
+    "count": 13
   },
   {
     "agency": "Rochester",
@@ -6684,7 +6684,16 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 1
+    "count": 4
+  },
+  {
+    "agency": "Rochester",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 4
   },
   {
     "agency": "Rochester",
@@ -6693,7 +6702,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Robbery",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Rochester",
@@ -6702,7 +6711,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 12
+    "count": 62
   },
   {
     "agency": "St. Cloud",
