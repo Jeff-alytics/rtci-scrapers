@@ -699,16 +699,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 5
-  },
-  {
-    "agency": "Blaine",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 5,
-    "offense": "Motor Vehicle Theft",
-    "count": 1
+    "count": 4
   },
   {
     "agency": "Blaine",
@@ -816,7 +807,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 63
+    "count": 64
   },
   {
     "agency": "Bloomington",
@@ -1230,7 +1221,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 9
+    "count": 10
   },
   {
     "agency": "Bloomington",
@@ -2040,7 +2031,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 65
+    "count": 64
   },
   {
     "agency": "Burnsville",
@@ -5181,7 +5172,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 810
+    "count": 811
   },
   {
     "agency": "Minneapolis",
@@ -5505,7 +5496,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 268
+    "count": 273
   },
   {
     "agency": "Minneapolis",
@@ -5523,7 +5514,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 403
+    "count": 404
   },
   {
     "agency": "Minneapolis",
@@ -5532,7 +5523,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Murder",
-    "count": 4
+    "count": 3
   },
   {
     "agency": "Minneapolis",
@@ -5559,7 +5550,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 1144
+    "count": 1147
   },
   {
     "agency": "Minnetonka",
@@ -6216,7 +6207,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 36
+    "count": 37
   },
   {
     "agency": "Rochester",
@@ -6657,7 +6648,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 89
+    "count": 90
   },
   {
     "agency": "Rochester",
@@ -7764,7 +7755,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 488
+    "count": 489
   },
   {
     "agency": "Woodbury",
