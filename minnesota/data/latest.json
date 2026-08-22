@@ -807,7 +807,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 64
+    "count": 65
   },
   {
     "agency": "Bloomington",
@@ -4902,7 +4902,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 4
+    "count": 2
   },
   {
     "agency": "Maple Grove",
@@ -5442,7 +5442,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 217
+    "count": 218
   },
   {
     "agency": "Minneapolis",
@@ -5505,7 +5505,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 194
+    "count": 195
   },
   {
     "agency": "Minneapolis",
@@ -5514,7 +5514,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 407
+    "count": 408
   },
   {
     "agency": "Minneapolis",
@@ -5550,7 +5550,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 1156
+    "count": 1158
   },
   {
     "agency": "Minnetonka",
@@ -6207,7 +6207,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 37
+    "count": 38
   },
   {
     "agency": "Rochester",
@@ -6702,7 +6702,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 67
+    "count": 68
   },
   {
     "agency": "St. Cloud",
