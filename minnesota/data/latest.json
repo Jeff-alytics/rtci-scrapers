@@ -168,7 +168,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 53
+    "count": 52
   },
   {
     "agency": "Apple Valley",
@@ -366,7 +366,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 11
+    "count": 9
   },
   {
     "agency": "Apple Valley",
@@ -411,7 +411,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 69
+    "count": 70
   },
   {
     "agency": "Blaine",
@@ -5235,7 +5235,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 844
+    "count": 845
   },
   {
     "agency": "Minneapolis",
@@ -5298,7 +5298,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 972
+    "count": 973
   },
   {
     "agency": "Minneapolis",
@@ -5361,7 +5361,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 1020
+    "count": 1021
   },
   {
     "agency": "Minneapolis",
@@ -5424,7 +5424,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1168
+    "count": 1169
   },
   {
     "agency": "Minneapolis",
@@ -5496,7 +5496,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 284
+    "count": 286
   },
   {
     "agency": "Minneapolis",
@@ -5532,7 +5532,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Rape",
-    "count": 47
+    "count": 49
   },
   {
     "agency": "Minneapolis",
@@ -5541,7 +5541,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Robbery",
-    "count": 77
+    "count": 76
   },
   {
     "agency": "Minneapolis",
@@ -5550,7 +5550,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 1160
+    "count": 1163
   },
   {
     "agency": "Minnetonka",
@@ -6594,7 +6594,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 103
+    "count": 104
   },
   {
     "agency": "Rochester",
@@ -6702,7 +6702,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 71
+    "count": 72
   },
   {
     "agency": "St. Cloud",
