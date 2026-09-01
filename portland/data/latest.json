@@ -4,69 +4,6 @@
     "state": "OR",
     "type": "City",
     "year": 2025,
-    "month": 8,
-    "offense": "Murder",
-    "count": 2
-  },
-  {
-    "agency": "Portland",
-    "state": "OR",
-    "type": "City",
-    "year": 2025,
-    "month": 8,
-    "offense": "Rape",
-    "count": 31
-  },
-  {
-    "agency": "Portland",
-    "state": "OR",
-    "type": "City",
-    "year": 2025,
-    "month": 8,
-    "offense": "Robbery",
-    "count": 80
-  },
-  {
-    "agency": "Portland",
-    "state": "OR",
-    "type": "City",
-    "year": 2025,
-    "month": 8,
-    "offense": "Aggravated Assault",
-    "count": 283
-  },
-  {
-    "agency": "Portland",
-    "state": "OR",
-    "type": "City",
-    "year": 2025,
-    "month": 8,
-    "offense": "Burglary",
-    "count": 278
-  },
-  {
-    "agency": "Portland",
-    "state": "OR",
-    "type": "City",
-    "year": 2025,
-    "month": 8,
-    "offense": "Theft",
-    "count": 2324
-  },
-  {
-    "agency": "Portland",
-    "state": "OR",
-    "type": "City",
-    "year": 2025,
-    "month": 8,
-    "offense": "Motor Vehicle Theft",
-    "count": 283
-  },
-  {
-    "agency": "Portland",
-    "state": "OR",
-    "type": "City",
-    "year": 2025,
     "month": 9,
     "offense": "Murder",
     "count": 8
