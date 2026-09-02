@@ -2058,7 +2058,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "Coon Rapids",
@@ -2346,7 +2346,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Robbery",
-    "count": 2
+    "count": 3
   },
   {
     "agency": "Coon Rapids",
@@ -2355,7 +2355,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 55
+    "count": 56
   },
   {
     "agency": "Duluth",
@@ -4875,7 +4875,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 206
+    "count": 207
   },
   {
     "agency": "Minneapolis",
@@ -4920,7 +4920,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 1176
+    "count": 1180
   },
   {
     "agency": "Minnetonka",
@@ -5496,7 +5496,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 38
+    "count": 39
   },
   {
     "agency": "Rochester",
