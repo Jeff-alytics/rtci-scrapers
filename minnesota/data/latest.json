@@ -3705,7 +3705,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 6
+    "count": 7
   },
   {
     "agency": "Edina",
@@ -3714,7 +3714,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Edina",
@@ -3723,7 +3723,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 53
+    "count": 56
   },
   {
     "agency": "Lakeville",
@@ -4677,7 +4677,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Aggravated Assault",
-    "count": 250
+    "count": 251
   },
   {
     "agency": "Minneapolis",
@@ -4749,7 +4749,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 242
+    "count": 243
   },
   {
     "agency": "Minneapolis",
@@ -4812,7 +4812,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 220
+    "count": 221
   },
   {
     "agency": "Minneapolis",
@@ -4884,7 +4884,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 409
+    "count": 411
   },
   {
     "agency": "Minneapolis",
@@ -4920,7 +4920,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 1180
+    "count": 1186
   },
   {
     "agency": "Minnetonka",
@@ -6810,7 +6810,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 521
+    "count": 523
   },
   {
     "agency": "St. Paul",
@@ -6828,7 +6828,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 129
+    "count": 130
   },
   {
     "agency": "St. Paul",
@@ -7170,7 +7170,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 78
+    "count": 79
   },
   {
     "agency": "Woodbury",
