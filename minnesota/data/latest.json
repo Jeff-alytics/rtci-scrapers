@@ -285,7 +285,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 6
+    "count": 5
   },
   {
     "agency": "Apple Valley",
@@ -2877,7 +2877,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 2
+    "count": 3
   },
   {
     "agency": "Eagan",
@@ -2894,8 +2894,17 @@
     "type": "City",
     "year": 2026,
     "month": 2,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
     "offense": "Theft",
-    "count": 47
+    "count": 48
   },
   {
     "agency": "Eagan",
@@ -2921,6 +2930,15 @@
     "type": "City",
     "year": 2026,
     "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
     "offense": "Rape",
     "count": 2
   },
@@ -2931,7 +2949,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 34
+    "count": 37
   },
   {
     "agency": "Eagan",
@@ -2958,7 +2976,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Eagan",
@@ -2976,7 +2994,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 74
+    "count": 78
   },
   {
     "agency": "Eagan",
@@ -2994,6 +3012,15 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
+    "count": 1
+  },
+  {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
+    "offense": "Motor Vehicle Theft",
     "count": 1
   },
   {
@@ -3021,7 +3048,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 73
+    "count": 76
   },
   {
     "agency": "Eagan",
@@ -3030,7 +3057,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 7
+    "count": 8
   },
   {
     "agency": "Eagan",
@@ -3039,7 +3066,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 5
+    "count": 6
   },
   {
     "agency": "Eagan",
@@ -3057,7 +3084,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 70
+    "count": 75
   },
   {
     "agency": "Eagan",
@@ -3083,6 +3110,15 @@
     "type": "City",
     "year": 2026,
     "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
     "offense": "Rape",
     "count": 3
   },
@@ -3093,7 +3129,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 81
+    "count": 82
   },
   {
     "agency": "Eden Prairie",
@@ -3966,7 +4002,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 40
+    "count": 41
   },
   {
     "agency": "Lakeville",
@@ -5478,7 +5514,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 2
+    "count": 3
   },
   {
     "agency": "Plymouth",
@@ -5766,7 +5802,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 81
+    "count": 82
   },
   {
     "agency": "Rochester",
@@ -5937,7 +5973,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 74
+    "count": 75
   },
   {
     "agency": "St. Cloud",
