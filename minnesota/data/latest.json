@@ -2831,6 +2831,15 @@
     "type": "City",
     "year": 2025,
     "month": 12,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
     "offense": "Rape",
     "count": 1
   },
@@ -2841,7 +2850,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 61
+    "count": 63
   },
   {
     "agency": "Eagan",
@@ -2868,7 +2877,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 59
+    "count": 60
   },
   {
     "agency": "Eagan",
@@ -2886,7 +2895,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Burglary",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "Eagan",
@@ -2904,7 +2913,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 48
+    "count": 53
   },
   {
     "agency": "Eagan",
@@ -2913,7 +2922,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 1
+    "count": 3
   },
   {
     "agency": "Eagan",
@@ -2931,7 +2940,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Eagan",
@@ -2949,7 +2958,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 37
+    "count": 38
   },
   {
     "agency": "Eagan",
@@ -2994,7 +3003,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 78
+    "count": 81
   },
   {
     "agency": "Eagan",
@@ -3129,7 +3138,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 82
+    "count": 83
   },
   {
     "agency": "Eden Prairie",
@@ -4830,7 +4839,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1171
+    "count": 1172
   },
   {
     "agency": "Minneapolis",
@@ -4920,7 +4929,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 411
+    "count": 412
   },
   {
     "agency": "Minneapolis",
@@ -4938,7 +4947,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Rape",
-    "count": 50
+    "count": 51
   },
   {
     "agency": "Minneapolis",
@@ -6909,7 +6918,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 492
+    "count": 493
   },
   {
     "agency": "Woodbury",
