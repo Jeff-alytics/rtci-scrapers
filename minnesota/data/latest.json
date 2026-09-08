@@ -2850,7 +2850,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 63
+    "count": 64
   },
   {
     "agency": "Eagan",
@@ -2904,6 +2904,15 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Eagan",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Robbery",
     "count": 1
   },
   {
@@ -3003,7 +3012,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 81
+    "count": 83
   },
   {
     "agency": "Eagan",
@@ -5541,7 +5550,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 39
+    "count": 40
   },
   {
     "agency": "Rochester",
