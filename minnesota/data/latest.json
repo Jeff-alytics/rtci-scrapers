@@ -285,7 +285,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 5
+    "count": 6
   },
   {
     "agency": "Apple Valley",
@@ -1068,7 +1068,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 199
+    "count": 200
   },
   {
     "agency": "Bloomington",
@@ -3660,7 +3660,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Aggravated Assault",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "Edina",
@@ -3669,7 +3669,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 7
+    "count": 8
   },
   {
     "agency": "Edina",
@@ -3679,15 +3679,6 @@
     "month": 5,
     "offense": "Motor Vehicle Theft",
     "count": 10
-  },
-  {
-    "agency": "Edina",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 5,
-    "offense": "Murder",
-    "count": 1
   },
   {
     "agency": "Edina",
@@ -3705,7 +3696,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 67
+    "count": 66
   },
   {
     "agency": "Edina",
@@ -3714,7 +3705,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 8
+    "count": 9
   },
   {
     "agency": "Edina",
@@ -4974,7 +4965,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 1188
+    "count": 1189
   },
   {
     "agency": "Minnetonka",
