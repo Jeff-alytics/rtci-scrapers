@@ -689,15 +689,6 @@
     "type": "City",
     "year": 2026,
     "month": 7,
-    "offense": "Burglary",
-    "count": 1
-  },
-  {
-    "agency": "Blaine",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 7,
     "offense": "Motor Vehicle Theft",
     "count": 2
   },
@@ -1518,7 +1509,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 14
+    "count": 15
   },
   {
     "agency": "Brooklyn Park",
@@ -2409,7 +2400,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 167
+    "count": 168
   },
   {
     "agency": "Duluth",
@@ -2535,7 +2526,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 12
+    "count": 13
   },
   {
     "agency": "Duluth",
@@ -2562,7 +2553,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 7
+    "count": 8
   },
   {
     "agency": "Duluth",
@@ -2580,7 +2571,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 126
+    "count": 127
   },
   {
     "agency": "Duluth",
@@ -2616,7 +2607,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Rape",
-    "count": 2
+    "count": 3
   },
   {
     "agency": "Duluth",
@@ -2634,7 +2625,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 145
+    "count": 147
   },
   {
     "agency": "Duluth",
@@ -2652,7 +2643,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 22
+    "count": 23
   },
   {
     "agency": "Duluth",
@@ -2688,7 +2679,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 155
+    "count": 158
   },
   {
     "agency": "Duluth",
@@ -2697,7 +2688,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 8
+    "count": 9
   },
   {
     "agency": "Duluth",
@@ -2706,7 +2697,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 16
+    "count": 15
   },
   {
     "agency": "Duluth",
@@ -2715,7 +2706,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Duluth",
@@ -2733,7 +2724,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 5
+    "count": 8
   },
   {
     "agency": "Duluth",
@@ -2751,7 +2742,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 175
+    "count": 211
   },
   {
     "agency": "Duluth",
@@ -2760,7 +2751,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 11
+    "count": 15
   },
   {
     "agency": "Duluth",
@@ -2769,7 +2760,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 12
+    "count": 14
   },
   {
     "agency": "Duluth",
@@ -2778,7 +2769,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 5
+    "count": 6
   },
   {
     "agency": "Duluth",
@@ -2787,7 +2778,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Rape",
-    "count": 2
+    "count": 3
   },
   {
     "agency": "Duluth",
@@ -2805,7 +2796,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 162
+    "count": 210
   },
   {
     "agency": "Eagan",
@@ -4299,7 +4290,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Aggravated Assault",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Maple Grove",
@@ -4965,7 +4956,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 1189
+    "count": 1190
   },
   {
     "agency": "Minnetonka",
@@ -6765,7 +6756,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 95
+    "count": 96
   },
   {
     "agency": "St. Paul",
@@ -6828,7 +6819,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 88
+    "count": 87
   },
   {
     "agency": "St. Paul",
