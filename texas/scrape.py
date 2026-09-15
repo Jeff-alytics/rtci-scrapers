@@ -22,6 +22,16 @@ STATE = "TX"
 AGENCY_LIST_URL = "https://txucr.nibrs.com/SRSReport/GetSRSReportByValues?ReportType=Agency"
 DATA_URL = "https://txucr.nibrs.com/SRSReport/GetCrimeTrends"
 
+# The platform 500s (redirecting to /Home/ErrorPage) on the default
+# python-requests User-Agent; a browser User-Agent returns the real JSON.
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+
+_session = requests.Session()
+_session.headers.update(HEADERS)
+
 OUTPUT_DIR = Path(__file__).parent
 OUT_JSON = OUTPUT_DIR / "data" / "latest.json"
 
@@ -136,7 +146,7 @@ TX_AGENCIES = [
 def get_with_retry(url, params=None, retries=3, delay=5):
     for attempt in range(retries):
         try:
-            r = requests.get(url, params=params, timeout=60)
+            r = _session.get(url, params=params, timeout=60)
             r.raise_for_status()
             return r
         except Exception as e:
