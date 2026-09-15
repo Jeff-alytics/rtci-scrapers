@@ -27,6 +27,10 @@ OUT_JSON = Path(__file__).parent / "data" / "latest.json"
 DIM_DATE = 3
 DIM_MONTH = 6
 
+# The dimension UI fails intermittently; retry a month before dropping it.
+MONTH_ATTEMPTS = 3
+RETRY_BACKOFF_MS = 3000
+
 AGENCIES = {
     "Bridgeport": "City", "Bristol": "City", "Danbury": "City",
     "East Hartford": "City", "Fairfield": "City", "Greenwich": "City",
@@ -244,6 +248,7 @@ def main():
     print(f"{len(AGENCIES)} CT agencies\n")
 
     all_rows = []
+    failed_months = []
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True)
@@ -260,27 +265,37 @@ def main():
                 month_name = MONTH_NAMES[mo - 1]
                 print(f"  {month_name} {year}...", end=" ", flush=True)
 
-                # Load report fresh each month
-                page.goto(REPORT_URL, wait_until="networkidle", timeout=30000)
-                page.wait_for_timeout(2000)
+                # The dimension UI fails intermittently against this portal; a
+                # single miss used to drop the month silently for that run.
+                # Retry the whole month block (the page must be reloaded to get
+                # back to a clean state) before giving up.
+                data = None
+                reason = None
+                for attempt in range(1, MONTH_ATTEMPTS + 1):
+                    # Load report fresh each month
+                    page.goto(REPORT_URL, wait_until="networkidle", timeout=30000)
+                    page.wait_for_timeout(2000)
 
-                # Select correct sub-offenses (Murder not Criminal Homicide, etc.)
-                setup_offenses(page)
+                    # Select correct sub-offenses (Murder not Criminal Homicide, etc.)
+                    setup_offenses(page)
 
-                # Set year
-                if not nav_select(page, DIM_DATE, str(year), str(year)):
-                    print("FAILED year select")
-                    continue
+                    if not nav_select(page, DIM_DATE, str(year), str(year)):
+                        reason = "year select"
+                    elif not nav_select(page, DIM_MONTH, month_name, month_name):
+                        reason = "month select"
+                    else:
+                        data = read_all_agencies(page)
+                        if data:
+                            break
+                        reason = "no data"
 
-                # Set month
-                if not nav_select(page, DIM_MONTH, month_name, month_name):
-                    print("FAILED month select")
-                    continue
+                    if attempt < MONTH_ATTEMPTS:
+                        print(f"retry {attempt} ({reason})...", end=" ", flush=True)
+                        page.wait_for_timeout(RETRY_BACKOFF_MS * attempt)
 
-                # Read all agencies at once
-                data = read_all_agencies(page)
                 if not data:
-                    print("no data")
+                    print(f"FAILED {reason} after {MONTH_ATTEMPTS} attempts")
+                    failed_months.append(f"{year}-{mo:02d} ({reason})")
                     continue
 
                 count = 0
@@ -310,6 +325,15 @@ def main():
         json.dump(all_rows, f)
     agencies = set(r["agency"] for r in all_rows)
     print(f"\nWrote {len(all_rows)} records ({len(agencies)} agencies) to {OUT_JSON}")
+
+    months_got = sorted({(r["year"], r["month"]) for r in all_rows})
+    print("Months collected: " + ", ".join(f"{y}-{m:02d}" for y, m in months_got))
+    for y, m in months_got:
+        n = len({r["agency"] for r in all_rows if r["year"] == y and r["month"] == m})
+        print(f"  {y}-{m:02d}: {n} agencies")
+    if failed_months:
+        # A dropped month leaves a hole the freshness check cannot see, so say so.
+        print(f"WARNING: {len(failed_months)} month(s) missing: {', '.join(failed_months)}")
 
 
 if __name__ == "__main__":
