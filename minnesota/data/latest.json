@@ -1221,7 +1221,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 21
+    "count": 20
   },
   {
     "agency": "Bloomington",
@@ -3345,7 +3345,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 83
+    "count": 82
   },
   {
     "agency": "Eagan",
@@ -5469,7 +5469,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 1126
+    "count": 1127
   },
   {
     "agency": "Minneapolis",
@@ -6189,7 +6189,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Plymouth",
@@ -6693,7 +6693,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 94
+    "count": 93
   },
   {
     "agency": "St. Cloud",
