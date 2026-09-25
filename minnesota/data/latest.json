@@ -1716,7 +1716,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 29
+    "count": 27
   },
   {
     "agency": "Brooklyn Park",
@@ -1761,7 +1761,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 91
+    "count": 95
   },
   {
     "agency": "Burnsville",
@@ -5469,7 +5469,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 1126
+    "count": 1127
   },
   {
     "agency": "Minneapolis",
@@ -5487,7 +5487,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 208
+    "count": 209
   },
   {
     "agency": "Minneapolis",
@@ -5541,7 +5541,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 238
+    "count": 241
   },
   {
     "agency": "Minneapolis",
@@ -5550,7 +5550,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 264
+    "count": 265
   },
   {
     "agency": "Minneapolis",
@@ -5559,7 +5559,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 413
+    "count": 417
   },
   {
     "agency": "Minneapolis",
@@ -5595,7 +5595,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 1237
+    "count": 1241
   },
   {
     "agency": "Minnetonka",
@@ -6216,7 +6216,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Aggravated Assault",
-    "count": 8
+    "count": 10
   },
   {
     "agency": "Rochester",
@@ -6252,7 +6252,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Robbery",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Rochester",
@@ -6261,7 +6261,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 125
+    "count": 126
   },
   {
     "agency": "Rochester",
@@ -6378,7 +6378,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 12
+    "count": 14
   },
   {
     "agency": "Rochester",
@@ -6387,7 +6387,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 9
+    "count": 10
   },
   {
     "agency": "Rochester",
@@ -6405,7 +6405,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 5
+    "count": 6
   },
   {
     "agency": "Rochester",
@@ -6432,7 +6432,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Aggravated Assault",
-    "count": 15
+    "count": 16
   },
   {
     "agency": "Rochester",
@@ -6441,7 +6441,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 9
+    "count": 10
   },
   {
     "agency": "Rochester",
@@ -6459,7 +6459,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Rape",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Rochester",
@@ -6477,7 +6477,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 81
+    "count": 82
   },
   {
     "agency": "Rochester",
@@ -6495,7 +6495,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 15
+    "count": 16
   },
   {
     "agency": "Rochester",
@@ -6522,7 +6522,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Rape",
-    "count": 5
+    "count": 6
   },
   {
     "agency": "Rochester",
@@ -6648,7 +6648,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 80
+    "count": 81
   },
   {
     "agency": "Rochester",
