@@ -313,5 +313,68 @@
     "month": 7,
     "offense": "Motor Vehicle Theft",
     "count": 47
+  },
+  {
+    "agency": "Vallejo",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Vallejo",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Rape",
+    "count": 3
+  },
+  {
+    "agency": "Vallejo",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 20
+  },
+  {
+    "agency": "Vallejo",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 358
+  },
+  {
+    "agency": "Vallejo",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 0
+  },
+  {
+    "agency": "Vallejo",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Theft",
+    "count": 185
+  },
+  {
+    "agency": "Vallejo",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 48
   }
 ]
