@@ -123,7 +123,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 52
+    "count": 53
   },
   {
     "agency": "Apple Valley",
@@ -339,7 +339,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 6
+    "count": 7
   },
   {
     "agency": "Apple Valley",
@@ -438,7 +438,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 68
+    "count": 69
   },
   {
     "agency": "Blaine",
@@ -1257,7 +1257,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 229
+    "count": 228
   },
   {
     "agency": "Brooklyn Park",
@@ -2616,7 +2616,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 2
+    "count": 5
   },
   {
     "agency": "Coon Rapids",
@@ -5343,7 +5343,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 1022
+    "count": 1023
   },
   {
     "agency": "Minneapolis",
@@ -5361,7 +5361,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 243
+    "count": 242
   },
   {
     "agency": "Minneapolis",
@@ -5406,7 +5406,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1174
+    "count": 1175
   },
   {
     "agency": "Minneapolis",
@@ -5532,7 +5532,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 1193
+    "count": 1194
   },
   {
     "agency": "Minneapolis",
@@ -5541,7 +5541,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 259
+    "count": 260
   },
   {
     "agency": "Minneapolis",
@@ -5550,7 +5550,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 266
+    "count": 267
   },
   {
     "agency": "Minneapolis",
@@ -5559,7 +5559,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 422
+    "count": 424
   },
   {
     "agency": "Minneapolis",
@@ -5568,7 +5568,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Murder",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Minneapolis",
@@ -5577,7 +5577,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Rape",
-    "count": 42
+    "count": 43
   },
   {
     "agency": "Minneapolis",
@@ -5586,7 +5586,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Robbery",
-    "count": 87
+    "count": 89
   },
   {
     "agency": "Minneapolis",
@@ -5595,7 +5595,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 1250
+    "count": 1254
   },
   {
     "agency": "Minnetonka",
@@ -7683,7 +7683,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 495
+    "count": 496
   },
   {
     "agency": "St. Paul",
@@ -7746,7 +7746,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 545
+    "count": 546
   },
   {
     "agency": "Woodbury",
