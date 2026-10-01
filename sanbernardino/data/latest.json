@@ -4,69 +4,6 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
-    "month": 3,
-    "offense": "Murder",
-    "count": 0
-  },
-  {
-    "agency": "San Bernardino",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 3,
-    "offense": "Rape",
-    "count": 0
-  },
-  {
-    "agency": "San Bernardino",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 3,
-    "offense": "Robbery",
-    "count": 29
-  },
-  {
-    "agency": "San Bernardino",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 3,
-    "offense": "Aggravated Assault",
-    "count": 123
-  },
-  {
-    "agency": "San Bernardino",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 3,
-    "offense": "Burglary",
-    "count": 44
-  },
-  {
-    "agency": "San Bernardino",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 3,
-    "offense": "Theft",
-    "count": 341
-  },
-  {
-    "agency": "San Bernardino",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 3,
-    "offense": "Motor Vehicle Theft",
-    "count": 88
-  },
-  {
-    "agency": "San Bernardino",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
     "month": 4,
     "offense": "Murder",
     "count": 0
