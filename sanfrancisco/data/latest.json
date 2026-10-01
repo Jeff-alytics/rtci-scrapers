@@ -4,69 +4,6 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
-    "month": 4,
-    "offense": "Murder",
-    "count": 1
-  },
-  {
-    "agency": "San Francisco",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 4,
-    "offense": "Rape",
-    "count": 22
-  },
-  {
-    "agency": "San Francisco",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 4,
-    "offense": "Robbery",
-    "count": 120
-  },
-  {
-    "agency": "San Francisco",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 4,
-    "offense": "Aggravated Assault",
-    "count": 179
-  },
-  {
-    "agency": "San Francisco",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 4,
-    "offense": "Burglary",
-    "count": 267
-  },
-  {
-    "agency": "San Francisco",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 4,
-    "offense": "Theft",
-    "count": 1167
-  },
-  {
-    "agency": "San Francisco",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
-    "month": 4,
-    "offense": "Motor Vehicle Theft",
-    "count": 219
-  },
-  {
-    "agency": "San Francisco",
-    "state": "CA",
-    "type": "City",
-    "year": 2026,
     "month": 5,
     "offense": "Murder",
     "count": 1
@@ -376,5 +313,68 @@
     "month": 9,
     "offense": "Motor Vehicle Theft",
     "count": 148
+  },
+  {
+    "agency": "San Francisco",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "San Francisco",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "San Francisco",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Robbery",
+    "count": 3
+  },
+  {
+    "agency": "San Francisco",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 2
+  },
+  {
+    "agency": "San Francisco",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Burglary",
+    "count": 16
+  },
+  {
+    "agency": "San Francisco",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Theft",
+    "count": 5
+  },
+  {
+    "agency": "San Francisco",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
   }
 ]
