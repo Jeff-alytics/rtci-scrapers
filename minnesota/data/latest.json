@@ -3,51 +3,6 @@
     "agency": "Apple Valley",
     "state": "MN",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 5
-  },
-  {
-    "agency": "Apple Valley",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 6
-  },
-  {
-    "agency": "Apple Valley",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 3
-  },
-  {
-    "agency": "Apple Valley",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 1
-  },
-  {
-    "agency": "Apple Valley",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 45
-  },
-  {
-    "agency": "Apple Valley",
-    "state": "MN",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
@@ -417,33 +372,6 @@
     "agency": "Blaine",
     "state": "MN",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 5
-  },
-  {
-    "agency": "Blaine",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 4
-  },
-  {
-    "agency": "Blaine",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 69
-  },
-  {
-    "agency": "Blaine",
-    "state": "MN",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
@@ -798,61 +726,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 56
-  },
-  {
-    "agency": "Bloomington",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 16
-  },
-  {
-    "agency": "Bloomington",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 6
-  },
-  {
-    "agency": "Bloomington",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 12
-  },
-  {
-    "agency": "Bloomington",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 4
-  },
-  {
-    "agency": "Bloomington",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 3
-  },
-  {
-    "agency": "Bloomington",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 188
+    "count": 57
   },
   {
     "agency": "Bloomington",
@@ -1221,7 +1095,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 21
+    "count": 22
   },
   {
     "agency": "Bloomington",
@@ -1230,7 +1104,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Bloomington",
@@ -1257,61 +1131,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 228
-  },
-  {
-    "agency": "Brooklyn Park",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 13
-  },
-  {
-    "agency": "Brooklyn Park",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 18
-  },
-  {
-    "agency": "Brooklyn Park",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 5
-  },
-  {
-    "agency": "Brooklyn Park",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 5
-  },
-  {
-    "agency": "Brooklyn Park",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 6
-  },
-  {
-    "agency": "Brooklyn Park",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 92
+    "count": 232
   },
   {
     "agency": "Brooklyn Park",
@@ -1767,60 +1587,6 @@
     "agency": "Burnsville",
     "state": "MN",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 3
-  },
-  {
-    "agency": "Burnsville",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 6
-  },
-  {
-    "agency": "Burnsville",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 1
-  },
-  {
-    "agency": "Burnsville",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 2
-  },
-  {
-    "agency": "Burnsville",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 1
-  },
-  {
-    "agency": "Burnsville",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 67
-  },
-  {
-    "agency": "Burnsville",
-    "state": "MN",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
@@ -2226,51 +1992,6 @@
     "agency": "Coon Rapids",
     "state": "MN",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 5
-  },
-  {
-    "agency": "Coon Rapids",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 4
-  },
-  {
-    "agency": "Coon Rapids",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 9
-  },
-  {
-    "agency": "Coon Rapids",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 1
-  },
-  {
-    "agency": "Coon Rapids",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 52
-  },
-  {
-    "agency": "Coon Rapids",
-    "state": "MN",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
@@ -2635,60 +2356,6 @@
     "month": 8,
     "offense": "Theft",
     "count": 62
-  },
-  {
-    "agency": "Duluth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 14
-  },
-  {
-    "agency": "Duluth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 17
-  },
-  {
-    "agency": "Duluth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 4
-  },
-  {
-    "agency": "Duluth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 4
-  },
-  {
-    "agency": "Duluth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 5
-  },
-  {
-    "agency": "Duluth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 168
   },
   {
     "agency": "Duluth",
@@ -3144,51 +2811,6 @@
     "agency": "Eagan",
     "state": "MN",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 1
-  },
-  {
-    "agency": "Eagan",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 3
-  },
-  {
-    "agency": "Eagan",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 1
-  },
-  {
-    "agency": "Eagan",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 1
-  },
-  {
-    "agency": "Eagan",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 64
-  },
-  {
-    "agency": "Eagan",
-    "state": "MN",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
@@ -3531,42 +3153,6 @@
     "agency": "Eden Prairie",
     "state": "MN",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 2
-  },
-  {
-    "agency": "Eden Prairie",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 3
-  },
-  {
-    "agency": "Eden Prairie",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 1
-  },
-  {
-    "agency": "Eden Prairie",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 55
-  },
-  {
-    "agency": "Eden Prairie",
-    "state": "MN",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
@@ -3877,42 +3463,6 @@
     "month": 8,
     "offense": "Theft",
     "count": 55
-  },
-  {
-    "agency": "Edina",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 2
-  },
-  {
-    "agency": "Edina",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 7
-  },
-  {
-    "agency": "Edina",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 6
-  },
-  {
-    "agency": "Edina",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 39
   },
   {
     "agency": "Edina",
@@ -4237,42 +3787,6 @@
     "month": 8,
     "offense": "Theft",
     "count": 65
-  },
-  {
-    "agency": "Lakeville",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 4
-  },
-  {
-    "agency": "Lakeville",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 4
-  },
-  {
-    "agency": "Lakeville",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 3
-  },
-  {
-    "agency": "Lakeville",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 22
   },
   {
     "agency": "Lakeville",
@@ -4606,60 +4120,6 @@
     "month": 8,
     "offense": "Theft",
     "count": 31
-  },
-  {
-    "agency": "Maple Grove",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 3
-  },
-  {
-    "agency": "Maple Grove",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 4
-  },
-  {
-    "agency": "Maple Grove",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 4
-  },
-  {
-    "agency": "Maple Grove",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 1
-  },
-  {
-    "agency": "Maple Grove",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 2
-  },
-  {
-    "agency": "Maple Grove",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 80
   },
   {
     "agency": "Maple Grove",
@@ -5029,69 +4489,6 @@
     "month": 8,
     "offense": "Theft",
     "count": 66
-  },
-  {
-    "agency": "Minneapolis",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 223
-  },
-  {
-    "agency": "Minneapolis",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 144
-  },
-  {
-    "agency": "Minneapolis",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 337
-  },
-  {
-    "agency": "Minneapolis",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Murder",
-    "count": 6
-  },
-  {
-    "agency": "Minneapolis",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 31
-  },
-  {
-    "agency": "Minneapolis",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 60
-  },
-  {
-    "agency": "Minneapolis",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 867
   },
   {
     "agency": "Minneapolis",
@@ -5532,7 +4929,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 1194
+    "count": 1195
   },
   {
     "agency": "Minneapolis",
@@ -5595,43 +4992,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 1254
-  },
-  {
-    "agency": "Minnetonka",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 2
-  },
-  {
-    "agency": "Minnetonka",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 4
-  },
-  {
-    "agency": "Minnetonka",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 1
-  },
-  {
-    "agency": "Minnetonka",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 41
+    "count": 1258
   },
   {
     "agency": "Minnetonka",
@@ -5826,51 +5187,6 @@
     "agency": "Plymouth",
     "state": "MN",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 7
-  },
-  {
-    "agency": "Plymouth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 6
-  },
-  {
-    "agency": "Plymouth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 1
-  },
-  {
-    "agency": "Plymouth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 1
-  },
-  {
-    "agency": "Plymouth",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 39
-  },
-  {
-    "agency": "Plymouth",
-    "state": "MN",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
@@ -6054,7 +5370,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 49
+    "count": 50
   },
   {
     "agency": "Plymouth",
@@ -6207,61 +5523,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 47
-  },
-  {
-    "agency": "Rochester",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 10
-  },
-  {
-    "agency": "Rochester",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 14
-  },
-  {
-    "agency": "Rochester",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 5
-  },
-  {
-    "agency": "Rochester",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 1
-  },
-  {
-    "agency": "Rochester",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 2
-  },
-  {
-    "agency": "Rochester",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 126
+    "count": 48
   },
   {
     "agency": "Rochester",
@@ -6699,69 +5961,6 @@
     "agency": "St. Cloud",
     "state": "MN",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 9
-  },
-  {
-    "agency": "St. Cloud",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 18
-  },
-  {
-    "agency": "St. Cloud",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 16
-  },
-  {
-    "agency": "St. Cloud",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Murder",
-    "count": 1
-  },
-  {
-    "agency": "St. Cloud",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 5
-  },
-  {
-    "agency": "St. Cloud",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 1
-  },
-  {
-    "agency": "St. Cloud",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 114
-  },
-  {
-    "agency": "St. Cloud",
-    "state": "MN",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
@@ -7189,69 +6388,6 @@
     "month": 8,
     "offense": "Theft",
     "count": 99
-  },
-  {
-    "agency": "St. Paul",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 78
-  },
-  {
-    "agency": "St. Paul",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 78
-  },
-  {
-    "agency": "St. Paul",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 107
-  },
-  {
-    "agency": "St. Paul",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Murder",
-    "count": 2
-  },
-  {
-    "agency": "St. Paul",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 17
-  },
-  {
-    "agency": "St. Paul",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 18
-  },
-  {
-    "agency": "St. Paul",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 450
   },
   {
     "agency": "St. Paul",
@@ -7752,42 +6888,6 @@
     "agency": "Woodbury",
     "state": "MN",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 9
-  },
-  {
-    "agency": "Woodbury",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 1
-  },
-  {
-    "agency": "Woodbury",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 2
-  },
-  {
-    "agency": "Woodbury",
-    "state": "MN",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 65
-  },
-  {
-    "agency": "Woodbury",
-    "state": "MN",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
@@ -8134,42 +7234,6 @@
     "month": 8,
     "offense": "Theft",
     "count": 75
-  },
-  {
-    "agency": "Wright",
-    "state": "MN",
-    "type": "County",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 4
-  },
-  {
-    "agency": "Wright",
-    "state": "MN",
-    "type": "County",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 1
-  },
-  {
-    "agency": "Wright",
-    "state": "MN",
-    "type": "County",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 2
-  },
-  {
-    "agency": "Wright",
-    "state": "MN",
-    "type": "County",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 21
   },
   {
     "agency": "Wright",
