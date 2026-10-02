@@ -321,7 +321,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 70
+    "count": 69
   },
   {
     "agency": "Apple Valley",
@@ -655,6 +655,15 @@
     "month": 7,
     "offense": "Aggravated Assault",
     "count": 3
+  },
+  {
+    "agency": "Blaine",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 1
   },
   {
     "agency": "Blaine",
@@ -1131,7 +1140,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 232
+    "count": 235
   },
   {
     "agency": "Brooklyn Park",
@@ -4398,7 +4407,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 60
+    "count": 58
   },
   {
     "agency": "Maple Grove",
@@ -4830,7 +4839,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 376
+    "count": 377
   },
   {
     "agency": "Minneapolis",
@@ -4848,7 +4857,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 49
+    "count": 50
   },
   {
     "agency": "Minneapolis",
@@ -4956,7 +4965,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 424
+    "count": 425
   },
   {
     "agency": "Minneapolis",
@@ -4992,7 +5001,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 1258
+    "count": 1259
   },
   {
     "agency": "Minnetonka",
@@ -5505,7 +5514,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 6
+    "count": 7
   },
   {
     "agency": "Plymouth",
@@ -5955,7 +5964,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 100
+    "count": 101
   },
   {
     "agency": "St. Cloud",
