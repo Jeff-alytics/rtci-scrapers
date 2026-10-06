@@ -600,7 +600,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 52
+    "count": 53
   },
   {
     "agency": "Blaine",
@@ -1086,7 +1086,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 236
+    "count": 237
   },
   {
     "agency": "Bloomington",
@@ -1995,7 +1995,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 85
+    "count": 86
   },
   {
     "agency": "Coon Rapids",
@@ -2292,7 +2292,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Coon Rapids",
@@ -2346,7 +2346,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 5
+    "count": 4
   },
   {
     "agency": "Coon Rapids",
@@ -2364,7 +2364,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 62
+    "count": 63
   },
   {
     "agency": "Duluth",
@@ -5001,7 +5001,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 1261
+    "count": 1262
   },
   {
     "agency": "Minnetonka",
@@ -5892,7 +5892,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "Rochester",
@@ -5964,7 +5964,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 102
+    "count": 103
   },
   {
     "agency": "St. Cloud",
@@ -6774,7 +6774,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 103
+    "count": 104
   },
   {
     "agency": "St. Paul",
