@@ -303,7 +303,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 808
+    "count": 809
   },
   {
     "agency": "Omaha",
@@ -366,7 +366,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 826
+    "count": 827
   },
   {
     "agency": "Omaha",
@@ -375,7 +375,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 266
+    "count": 265
   },
   {
     "agency": "Omaha",
@@ -402,7 +402,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Robbery",
-    "count": 13
+    "count": 11
   },
   {
     "agency": "Omaha",
@@ -429,7 +429,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 847
+    "count": 845
   },
   {
     "agency": "Omaha",
@@ -465,7 +465,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Robbery",
-    "count": 15
+    "count": 14
   },
   {
     "agency": "Omaha",
@@ -474,7 +474,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 108
+    "count": 109
   },
   {
     "agency": "Omaha",
@@ -492,7 +492,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 854
+    "count": 852
   },
   {
     "agency": "Omaha",
@@ -501,6 +501,69 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 119
+    "count": 115
+  },
+  {
+    "agency": "Omaha",
+    "state": "NE",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Omaha",
+    "state": "NE",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Rape",
+    "count": 16
+  },
+  {
+    "agency": "Omaha",
+    "state": "NE",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 18
+  },
+  {
+    "agency": "Omaha",
+    "state": "NE",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 111
+  },
+  {
+    "agency": "Omaha",
+    "state": "NE",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 78
+  },
+  {
+    "agency": "Omaha",
+    "state": "NE",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Theft",
+    "count": 858
+  },
+  {
+    "agency": "Omaha",
+    "state": "NE",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 162
   }
 ]
