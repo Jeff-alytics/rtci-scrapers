@@ -246,6 +246,27 @@ def match_row_name(name, name_map):
 
 # ── Main ───────────────────────────────────────────────────────────────
 
+def drop_unreported_months(rows):
+    """Drop agency-months where every offense is 0.
+
+    The state system returns 0 for months an agency has not reported yet (the newest
+    month on every run, and agencies that stopped reporting). Saving those as real
+    zeros made the pipeline show no crime; leaving them out makes them missing instead.
+    """
+    totals = {}
+    for r in rows:
+        key = (r["agency"], r["year"], r["month"])
+        totals[key] = totals.get(key, 0) + (r["count"] or 0)
+    unreported = {k for k, v in totals.items() if v == 0}
+    if unreported:
+        by_month = {}
+        for agency, year, month in sorted(unreported):
+            by_month.setdefault(f"{year}-{month:02d}", []).append(agency)
+        for ym, ags in sorted(by_month.items()):
+            print(f"  Not reported yet (all zero), left out: {ym}: {', '.join(ags)}")
+    return [r for r in rows if (r["agency"], r["year"], r["month"]) not in unreported]
+
+
 def main():
     window = nine_month_window()
     years = needed_years(window)
@@ -412,6 +433,8 @@ def main():
             "agency": agency_name, "state": STATE, "type": ag["type"],
             "year": year, "month": month, "offense": "Theft", "count": total,
         })
+
+    all_rows = drop_unreported_months(all_rows)
 
     if not all_rows:
         print("No data collected.")
