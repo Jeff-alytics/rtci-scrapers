@@ -69,7 +69,7 @@
     "year": 2025,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 200
+    "count": 199
   },
   {
     "agency": "Little Rock",
@@ -96,7 +96,7 @@
     "year": 2025,
     "month": 2,
     "offense": "Murder",
-    "count": 8
+    "count": 9
   },
   {
     "agency": "Little Rock",
@@ -339,7 +339,7 @@
     "year": 2025,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 74
+    "count": 73
   },
   {
     "agency": "Little Rock",
@@ -375,7 +375,7 @@
     "year": 2025,
     "month": 6,
     "offense": "Theft",
-    "count": 524
+    "count": 525
   },
   {
     "agency": "Little Rock",
@@ -393,7 +393,7 @@
     "year": 2025,
     "month": 7,
     "offense": "Burglary",
-    "count": 104
+    "count": 105
   },
   {
     "agency": "Little Rock",
@@ -501,7 +501,7 @@
     "year": 2025,
     "month": 8,
     "offense": "Theft",
-    "count": 571
+    "count": 572
   },
   {
     "agency": "Little Rock",
@@ -717,7 +717,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Motor Vehicle Theft",
-    "count": 54
+    "count": 52
   },
   {
     "agency": "Little Rock",
@@ -753,7 +753,7 @@
     "year": 2025,
     "month": 12,
     "offense": "Theft",
-    "count": 469
+    "count": 471
   },
   {
     "agency": "Little Rock",
@@ -816,7 +816,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 457
+    "count": 456
   },
   {
     "agency": "Little Rock",
@@ -825,7 +825,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 156
+    "count": 155
   },
   {
     "agency": "Little Rock",
@@ -834,7 +834,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Burglary",
-    "count": 122
+    "count": 123
   },
   {
     "agency": "Little Rock",
@@ -879,7 +879,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 480
+    "count": 481
   },
   {
     "agency": "Little Rock",
@@ -888,7 +888,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 219
+    "count": 218
   },
   {
     "agency": "Little Rock",
@@ -942,7 +942,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 570
+    "count": 569
   },
   {
     "agency": "Little Rock",
@@ -996,7 +996,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Robbery",
-    "count": 35
+    "count": 34
   },
   {
     "agency": "Little Rock",
@@ -1005,7 +1005,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 597
+    "count": 603
   },
   {
     "agency": "Little Rock",
@@ -1014,7 +1014,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Aggravated Assault",
-    "count": 201
+    "count": 207
   },
   {
     "agency": "Little Rock",
@@ -1023,7 +1023,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 107
+    "count": 109
   },
   {
     "agency": "Little Rock",
@@ -1032,7 +1032,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 61
+    "count": 62
   },
   {
     "agency": "Little Rock",
@@ -1059,7 +1059,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Robbery",
-    "count": 27
+    "count": 28
   },
   {
     "agency": "Little Rock",
@@ -1068,7 +1068,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 587
+    "count": 599
   },
   {
     "agency": "Little Rock",
@@ -1077,7 +1077,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 242
+    "count": 236
   },
   {
     "agency": "Little Rock",
@@ -1086,7 +1086,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 105
+    "count": 104
   },
   {
     "agency": "Little Rock",
@@ -1095,7 +1095,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 57
+    "count": 62
   },
   {
     "agency": "Little Rock",
@@ -1113,7 +1113,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 19
+    "count": 20
   },
   {
     "agency": "Little Rock",
@@ -1131,6 +1131,195 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 644
+    "count": 682
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 247
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 142
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 60
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Murder",
+    "count": 9
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 26
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 28
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 690
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 212
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 152
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 48
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Murder",
+    "count": 4
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Rape",
+    "count": 27
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 31
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Theft",
+    "count": 657
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 287
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 125
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 42
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Rape",
+    "count": 21
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 30
+  },
+  {
+    "agency": "Little Rock",
+    "state": "AR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Theft",
+    "count": 571
   }
 ]
