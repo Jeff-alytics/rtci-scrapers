@@ -42,7 +42,7 @@
     "year": 2025,
     "month": 10,
     "offense": "Theft",
-    "count": 2401
+    "count": 2402
   },
   {
     "agency": "Portland",
@@ -240,7 +240,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Burglary",
-    "count": 268
+    "count": 269
   },
   {
     "agency": "Portland",
@@ -276,7 +276,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 17
+    "count": 18
   },
   {
     "agency": "Portland",
@@ -285,7 +285,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Robbery",
-    "count": 80
+    "count": 81
   },
   {
     "agency": "Portland",
@@ -294,7 +294,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 269
+    "count": 273
   },
   {
     "agency": "Portland",
@@ -339,7 +339,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 244
+    "count": 243
   },
   {
     "agency": "Portland",
@@ -348,7 +348,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 2066
+    "count": 2070
   },
   {
     "agency": "Portland",
@@ -357,7 +357,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 286
+    "count": 292
   },
   {
     "agency": "Portland",
@@ -393,7 +393,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 332
+    "count": 331
   },
   {
     "agency": "Portland",
@@ -402,7 +402,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 2172
+    "count": 2173
   },
   {
     "agency": "Portland",
@@ -411,7 +411,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 236
+    "count": 243
   },
   {
     "agency": "Portland",
@@ -429,7 +429,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 35
+    "count": 36
   },
   {
     "agency": "Portland",
@@ -456,7 +456,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 2081
+    "count": 2083
   },
   {
     "agency": "Portland",
@@ -465,7 +465,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 244
+    "count": 256
   },
   {
     "agency": "Portland",
@@ -483,7 +483,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Rape",
-    "count": 32
+    "count": 33
   },
   {
     "agency": "Portland",
@@ -501,7 +501,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 328
+    "count": 331
   },
   {
     "agency": "Portland",
@@ -510,7 +510,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 2250
+    "count": 2253
   },
   {
     "agency": "Portland",
@@ -519,7 +519,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 322
+    "count": 348
   },
   {
     "agency": "Portland",
@@ -546,7 +546,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Robbery",
-    "count": 80
+    "count": 81
   },
   {
     "agency": "Portland",
@@ -555,7 +555,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 302
+    "count": 307
   },
   {
     "agency": "Portland",
@@ -564,7 +564,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 2327
+    "count": 2328
   },
   {
     "agency": "Portland",
@@ -574,5 +574,59 @@
     "month": 8,
     "offense": "Motor Vehicle Theft",
     "count": 306
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Rape",
+    "count": 24
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 68
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 272
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Theft",
+    "count": 2174
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 305
   }
 ]
