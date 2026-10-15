@@ -1,0 +1,65 @@
+[
+  {
+    "agency": "Fort Wayne",
+    "state": "IN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Murder",
+    "count": 2
+  },
+  {
+    "agency": "Fort Wayne",
+    "state": "IN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Rape",
+    "count": 15
+  },
+  {
+    "agency": "Fort Wayne",
+    "state": "IN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 9
+  },
+  {
+    "agency": "Fort Wayne",
+    "state": "IN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 38
+  },
+  {
+    "agency": "Fort Wayne",
+    "state": "IN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 28
+  },
+  {
+    "agency": "Fort Wayne",
+    "state": "IN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Theft",
+    "count": 348
+  },
+  {
+    "agency": "Fort Wayne",
+    "state": "IN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 31
+  }
+]

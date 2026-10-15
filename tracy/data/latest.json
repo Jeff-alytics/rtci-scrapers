@@ -1,0 +1,128 @@
+[
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Rape",
+    "count": 3
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 5
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 16
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 9
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Theft",
+    "count": 75
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 25
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Rape",
+    "count": 2
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 7
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 16
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 6
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Theft",
+    "count": 110
+  },
+  {
+    "agency": "Tracy",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 12
+  }
+]

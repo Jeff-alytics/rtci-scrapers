@@ -1,0 +1,24 @@
+{
+  "agency": "Tracy",
+  "state": "CA",
+  "collected_at": "2026-10-15T14:27:53.223Z",
+  "method": "interactive cloud browser PDF monthly columns; percentages and YTD excluded",
+  "reports": [
+    {
+      "report_month": "2026-08",
+      "source_url": "https://www.tracypd.com/files/assets/policedev/v/1/documents/report-copies-documents-and-forms/crime-map/august-to-september-part-1-crime-comparison_1.pdf"
+    },
+    {
+      "report_month": "2026-09",
+      "source_url": "https://www.tracypd.com/files/assets/policedev/v/1/documents/report-copies-documents-and-forms/crime-map/august-to-september-part-1-crime-comparison_1.pdf"
+    }
+  ],
+  "validation": {
+    "complete_months": 2,
+    "rows": 14,
+    "unique_keys": 14,
+    "offenses_per_month": 7,
+    "nonnegative_safe_integer_counts": true
+  },
+  "bootstrap_test_commit": "9efadeb17fb1345f9f38e9566e31795f74958942"
+}

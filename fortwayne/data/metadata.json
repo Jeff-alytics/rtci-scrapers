@@ -1,0 +1,20 @@
+{
+  "agency": "Fort Wayne",
+  "state": "IN",
+  "collected_at": "2026-10-15T14:27:53.223Z",
+  "method": "interactive cloud browser monthly 2026 table column",
+  "reports": [
+    {
+      "report_month": "2026-09",
+      "source_url": "https://www.cityoffortwayne.in.gov/1741/September-2026-Crime-Statistics"
+    }
+  ],
+  "validation": {
+    "complete_months": 1,
+    "rows": 7,
+    "unique_keys": 7,
+    "offenses_per_month": 7,
+    "nonnegative_safe_integer_counts": true
+  },
+  "bootstrap_test_commit": "9efadeb17fb1345f9f38e9566e31795f74958942"
+}
