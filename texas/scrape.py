@@ -111,7 +111,7 @@ TX_AGENCIES = [
     {"ori": "TX1551200", "name": "Waco", "type": "City"},
     {"ori": "TX1650100", "name": "Midland", "type": "City"},
     {"ori": "TX1700100", "name": "Conroe", "type": "City"},
-    {"ori": "TX1701700", "name": "Montgomery", "type": "County"},
+    {"ori": "TX1700000", "name": "Montgomery", "type": "County"},  # Sheriff; TX1701700 is the small city of Montgomery PD
     {"ori": "TX1780200", "name": "Corpus Christi", "type": "City"},
     {"ori": "TX1840000", "name": "Parker", "type": "County"},
     {"ori": "TX1880100", "name": "Amarillo", "type": "City"},
