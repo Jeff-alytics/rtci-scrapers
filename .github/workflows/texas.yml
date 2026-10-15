@@ -24,9 +24,9 @@ jobs:
       - name: Run Texas scraper
         run: python texas/scrape.py
 
-      - name: Verify data freshness
+      - name: Check output before saving
         working-directory: ${{ github.workspace }}
-        run: python scripts/verify_freshness.py texas/data/latest.json
+        run: python scripts/verify_freshness.py texas/data/latest.json --pre-commit
 
       - name: Show results
         run: python -c "import json; d=json.load(open('texas/data/latest.json')); print(f'{len(d)} records from {len(set(r[\"agency\"] for r in d))} agencies')"
@@ -44,3 +44,7 @@ jobs:
           git add texas/data/
           git commit -m "Update Texas SRS data $(date -u +%Y-%m-%d)"
           git pull --rebase origin master && git push
+
+      - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
+        run: python scripts/verify_freshness.py texas/data/latest.json

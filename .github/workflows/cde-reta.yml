@@ -25,9 +25,9 @@ jobs:
       - name: Run RETA processor
         run: python cde-reta/fetch_reta.py
 
-      - name: Verify data freshness
+      - name: Check output before saving
         working-directory: ${{ github.workspace }}
-        run: python scripts/verify_freshness.py cde-reta/data/cde_reta_latest.csv
+        run: python scripts/verify_freshness.py cde-reta/data/cde_reta_latest.csv --pre-commit
 
       - name: Show results
         run: |
@@ -41,3 +41,7 @@ jobs:
           git add cde-reta/data/
           git diff --cached --quiet || git commit -m "Update CDE RETA data $(date -u +%Y-%m-%d)"
           git pull --rebase origin master && git push
+
+      - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
+        run: python scripts/verify_freshness.py cde-reta/data/cde_reta_latest.csv

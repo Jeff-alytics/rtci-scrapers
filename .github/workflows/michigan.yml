@@ -29,9 +29,9 @@ jobs:
       - name: Run Michigan scraper
         run: python michigan_scraper.py --months 6 --headless
 
-      - name: Verify data freshness
+      - name: Check output before saving
         working-directory: ${{ github.workspace }}
-        run: python scripts/verify_freshness.py data/latest.json
+        run: python scripts/verify_freshness.py data/latest.json --pre-commit
 
       - name: Show results
         run: python -c "import json; d=json.load(open('data/latest.json')); agencies=set(r['agency'] for r in d); months=set((r['year'],r['month']) for r in d); print(f'{len(d)} records, {len(agencies)} agencies, {len(months)} months')"
@@ -49,3 +49,7 @@ jobs:
           git add data/ michigan_output.csv
           git commit -m "Update Michigan data $(date -u +%Y-%m-%d)"
           git pull --rebase origin master && git push
+
+      - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
+        run: python scripts/verify_freshness.py data/latest.json

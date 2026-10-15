@@ -33,9 +33,9 @@ jobs:
           MONTH=$(date -u +%Y-%m)
           cp data/latest.json "data/${MONTH}.json"
 
-      - name: Verify data freshness
+      - name: Check output before saving
         working-directory: ${{ github.workspace }}
-        run: python scripts/verify_freshness.py littlerock/data/latest.json
+        run: python scripts/verify_freshness.py littlerock/data/latest.json --pre-commit
 
       - name: Show results
         run: python -c "import json; d=json.load(open('data/latest.json')); months=set((r['year'],r['month']) for r in d); print(f'{len(d)} records, {len(months)} months')"
@@ -48,3 +48,7 @@ jobs:
           MONTH=$(date -u +%Y-%m)
           git diff --cached --quiet || git commit -m "Update Little Rock data ${MONTH}"
           git pull --rebase origin master && git push
+
+      - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
+        run: python scripts/verify_freshness.py littlerock/data/latest.json

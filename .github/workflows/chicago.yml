@@ -25,9 +25,9 @@ jobs:
       - name: Run scraper
         run: python chicago/scrape.py
 
-      - name: Verify data freshness
+      - name: Check output before saving
         working-directory: ${{ github.workspace }}
-        run: python scripts/verify_freshness.py chicago/data/latest.json
+        run: python scripts/verify_freshness.py chicago/data/latest.json --pre-commit
 
       - name: Show results
         run: python -c "import json; d=json.load(open('chicago/data/latest.json')); print(f'{len(d)} records, {len(set((r[\"year\"],r[\"month\"]) for r in d))} months')"
@@ -39,3 +39,7 @@ jobs:
           git add chicago/data/
           git diff --cached --quiet || git commit -m "Update Chicago data $(date -u +%Y-%m-%d)"
           git pull --rebase origin master && git push
+
+      - name: Verify data freshness
+        working-directory: ${{ github.workspace }}
+        run: python scripts/verify_freshness.py chicago/data/latest.json
