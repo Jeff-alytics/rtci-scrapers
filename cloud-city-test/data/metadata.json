@@ -1,0 +1,36 @@
+{
+  "collected_at": "2026-10-15T14:27:53.223Z",
+  "status": "partial-test-only",
+  "production_publication_enabled": false,
+  "sources": [
+    {
+      "agency": "Fort Wayne",
+      "report_month": "2026-09",
+      "url": "https://www.cityoffortwayne.in.gov/1741/September-2026-Crime-Statistics",
+      "method": "interactive cloud browser monthly 2026 table column"
+    },
+    {
+      "agency": "Tracy",
+      "report_months": [
+        "2026-08",
+        "2026-09"
+      ],
+      "url": "https://www.tracypd.com/files/assets/policedev/v/1/documents/report-copies-documents-and-forms/crime-map/august-to-september-part-1-crime-comparison_1.pdf",
+      "method": "interactive cloud browser PDF monthly columns; percentages and YTD excluded"
+    }
+  ],
+  "blocked": [
+    {
+      "agency": "Antioch",
+      "reason": "Saved user browser permission setting blocks www.antiochca.gov before navigation"
+    }
+  ],
+  "validation": {
+    "rows": 21,
+    "complete_city_months": 3,
+    "offenses_per_month": 7,
+    "unique_keys": 21,
+    "nonnegative_safe_integer_counts": true
+  },
+  "schedule_enabled": false
+}
