@@ -6,7 +6,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
-    "count": 249
+    "count": 248
   },
   {
     "agency": "San Jose",
@@ -15,7 +15,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 246
+    "count": 248
   },
   {
     "agency": "San Jose",
@@ -24,7 +24,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
-    "count": 358
+    "count": 360
   },
   {
     "agency": "San Jose",
@@ -42,7 +42,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Rape",
-    "count": 36
+    "count": 38
   },
   {
     "agency": "San Jose",
@@ -60,7 +60,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 1367
+    "count": 1375
   },
   {
     "agency": "San Jose",
@@ -69,7 +69,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 260
+    "count": 258
   },
   {
     "agency": "San Jose",
@@ -96,7 +96,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Murder",
-    "count": 2
+    "count": 4
   },
   {
     "agency": "San Jose",
@@ -105,7 +105,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Rape",
-    "count": 34
+    "count": 35
   },
   {
     "agency": "San Jose",
@@ -123,7 +123,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 1211
+    "count": 1217
   },
   {
     "agency": "San Jose",
@@ -132,7 +132,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 280
+    "count": 284
   },
   {
     "agency": "San Jose",
@@ -150,7 +150,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 408
+    "count": 418
   },
   {
     "agency": "San Jose",
@@ -168,7 +168,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 34
+    "count": 35
   },
   {
     "agency": "San Jose",
@@ -177,7 +177,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Robbery",
-    "count": 74
+    "count": 75
   },
   {
     "agency": "San Jose",
@@ -186,7 +186,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 1250
+    "count": 1270
   },
   {
     "agency": "San Jose",
@@ -195,7 +195,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Aggravated Assault",
-    "count": 217
+    "count": 218
   },
   {
     "agency": "San Jose",
@@ -204,7 +204,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 221
+    "count": 224
   },
   {
     "agency": "San Jose",
@@ -213,7 +213,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 365
+    "count": 366
   },
   {
     "agency": "San Jose",
@@ -231,7 +231,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Rape",
-    "count": 44
+    "count": 45
   },
   {
     "agency": "San Jose",
@@ -249,7 +249,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 1214
+    "count": 1222
   },
   {
     "agency": "San Jose",
@@ -258,7 +258,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Aggravated Assault",
-    "count": 265
+    "count": 270
   },
   {
     "agency": "San Jose",
@@ -267,7 +267,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 187
+    "count": 196
   },
   {
     "agency": "San Jose",
@@ -276,7 +276,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 376
+    "count": 383
   },
   {
     "agency": "San Jose",
@@ -285,7 +285,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Murder",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "San Jose",
@@ -294,7 +294,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Rape",
-    "count": 38
+    "count": 39
   },
   {
     "agency": "San Jose",
@@ -312,6 +312,132 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 1372
+    "count": 1411
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Aggravated Assault",
+    "count": 274
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Burglary",
+    "count": 190
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Motor Vehicle Theft",
+    "count": 405
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Murder",
+    "count": 4
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Rape",
+    "count": 46
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Robbery",
+    "count": 82
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Theft",
+    "count": 1404
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 96
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Burglary",
+    "count": 201
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 387
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Murder",
+    "count": 3
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 28
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 96
+  },
+  {
+    "agency": "San Jose",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 1415
   }
 ]
