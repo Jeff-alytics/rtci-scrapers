@@ -1,0 +1,40 @@
+name: Antioch and Fort Wayne access probe
+
+# One-off experiment on an isolated branch; no schedule or data commits.
+on:
+  push:
+    branches: [test/civicplus-access]
+    paths:
+      - .github/workflows/city-access-probe.yml
+      - scripts/check_city_access.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser for this temporary runner
+        run: |
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Check actual city tables
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/check_city_access.py | tee city-access-results.json
+      - name: Preserve diagnostic results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: city-access-results
+          path: city-access-results.json
+          if-no-files-found: warn
+          retention-days: 7
