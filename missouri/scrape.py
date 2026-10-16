@@ -5,6 +5,7 @@ ShowDim(6) for Summary Month gives 12-month grid per year.
 Outputs missouri/data/latest.json in RTCI pipeline format.
 """
 
+import re
 import json
 import sys
 from datetime import datetime
@@ -165,6 +166,29 @@ def nav_select(page, dim_num, search_term, member_name):
     except Exception:
         return False
     return True
+
+
+def setup_year(page, year):
+    """Select the year through the form, as setup_agency does for the agency. Clicking the year in the list did not take:
+    the report stayed on its default year (2025) and the 2026 rows were really 2025's (found 2026-10-16)."""
+    member = f"[Return A Date].[Return A Date Hierarchy].[Year].&[{year}]"
+    page.evaluate("""
+    (p) => {
+        var f = document.getElementById('aspnetForm');
+        f.querySelector('[name="Chk3"]').value = p + '\\x1c0\\x1c';
+        f.querySelector('[name="ActiveMember3"]').value = p;
+    }
+    """, member)
+    with page.expect_navigation(wait_until="networkidle", timeout=30000):
+        page.evaluate("() => document.getElementById('aspnetForm').submit()")
+    page.wait_for_timeout(1000)
+
+
+def shown_year(page):
+    """The year the report header says is selected ("Summary Date-2026"), or None."""
+    text = page.evaluate("() => document.body.innerText")
+    m = re.search(r"^\s*Summary Date-(\d{4})\s*$", text, re.M)
+    return int(m.group(1)) if m else None
 
 
 def setup_agency(page, agency):
@@ -351,10 +375,15 @@ def main():
                 if not month_list:
                     continue
 
-                # Select year
+                # Select year, and confirm the report shows it (never save one year's numbers under another)
                 if year != current_year:
-                    if not nav_select(page, DIM_DATE, str(year), str(year)):
-                        print(f"  FAILED year {year}")
+                    try:
+                        setup_year(page, year)
+                    except Exception as e:
+                        print(f"  FAILED year {year}: {e}")
+                        continue
+                    if shown_year(page) != year:
+                        print(f"  FAILED year {year}: the report shows {shown_year(page)}")
                         continue
                     current_year = year
 
@@ -365,6 +394,9 @@ def main():
                     if not ok:
                         continue
 
+                    if shown_year(page) != year:
+                        print(f"  SKIPPED {year}-{mo:02d}: the report shows {shown_year(page)}")
+                        continue
                     data = read_table(page)
                     if not data:
                         continue

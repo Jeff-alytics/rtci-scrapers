@@ -239,6 +239,26 @@ def read_all_agencies(page):
     return result
 
 
+def shown_year(page, label):
+    """The year the report header says is selected ("Summary Date-2026"), or None when the header names none.
+    A scraper must never save one year's numbers under another: Missouri did (2026-10-16) when its year click did not take."""
+    text = page.evaluate("() => document.body.innerText")
+    m = re.search(r"^\s*" + re.escape(label) + r"-(\d{4})\s*$", text, re.M)
+    return int(m.group(1)) if m else None
+
+
+def wrong_year(page, label, year):
+    """True when the header names a different year (then the month is skipped). No year in the header: a warning, not a stop."""
+    shown = shown_year(page, label)
+    if shown is None:
+        print(f"  (warning: the report header names no year; expected {year})", flush=True)
+        return False
+    if shown != year:
+        print(f"  SKIPPED: the report shows {shown}, not {year}", flush=True)
+        return True
+    return False
+
+
 def main():
     window = nine_month_window()
     months_by_year = {}
@@ -283,6 +303,8 @@ def main():
                         reason = "year select"
                     elif not nav_select(page, DIM_MONTH, month_name, month_name):
                         reason = "month select"
+                    elif wrong_year(page, "Summary Date", year):
+                        reason = "wrong year shown"
                     else:
                         data = read_all_agencies(page)
                         if data:

@@ -7,6 +7,7 @@ Layout: Rows=Geography (agencies), Cols=Incident Month, Others=Year+Offense+Meas
 Iterates over offenses and years, reading all 24 agencies × 12 months per table load.
 """
 
+import re
 import json
 import sys
 import time
@@ -267,6 +268,26 @@ def drop_unreported_months(rows):
     return [r for r in rows if (r["agency"], r["year"], r["month"]) not in unreported]
 
 
+def shown_year(page, label):
+    """The year the report header says is selected ("Incident Date-2026"), or None when the header names none.
+    A scraper must never save one year's numbers under another: Missouri did (2026-10-16) when its year click did not take."""
+    text = page.evaluate("() => document.body.innerText")
+    m = re.search(r"^\s*" + re.escape(label) + r"-(\d{4})\s*$", text, re.M)
+    return int(m.group(1)) if m else None
+
+
+def wrong_year(page, label, year):
+    """True when the header names a different year (then the month is skipped). No year in the header: a warning, not a stop."""
+    shown = shown_year(page, label)
+    if shown is None:
+        print(f"  (warning: the report header names no year; expected {year})", flush=True)
+        return False
+    if shown != year:
+        print(f"  SKIPPED: the report shows {shown}, not {year}", flush=True)
+        return True
+    return False
+
+
 def main():
     window = nine_month_window()
     years = needed_years(window)
@@ -354,6 +375,8 @@ def main():
                 swap_layout(page)
 
             print(f"Year {year}:")
+            if wrong_year(page, "Incident Date", year):
+                continue
 
             # Main offenses
             for nibrs_name, rtci_name in OFFENSE_MAP.items():
