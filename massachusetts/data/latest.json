@@ -4981,7 +4981,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 4,
     "offense": "Aggravated Assault",
     "count": 5
   },
@@ -4990,7 +4990,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 4,
     "offense": "Burglary",
     "count": 10
   },
@@ -4999,7 +4999,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 4,
     "offense": "Motor Vehicle Theft",
     "count": 6
   },
@@ -5008,7 +5008,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 4,
     "offense": "Murder",
     "count": 0
   },
@@ -5017,7 +5017,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 4,
     "offense": "Rape",
     "count": 1
   },
@@ -5026,7 +5026,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 4,
     "offense": "Robbery",
     "count": 3
   },
@@ -5035,7 +5035,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 5,
+    "month": 4,
     "offense": "Theft",
     "count": 69
   },
@@ -5044,7 +5044,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 6,
+    "month": 5,
     "offense": "Aggravated Assault",
     "count": 12
   },
@@ -5053,7 +5053,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 6,
+    "month": 5,
     "offense": "Burglary",
     "count": 2
   },
@@ -5062,7 +5062,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 6,
+    "month": 5,
     "offense": "Motor Vehicle Theft",
     "count": 2
   },
@@ -5071,7 +5071,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 6,
+    "month": 5,
     "offense": "Murder",
     "count": 0
   },
@@ -5080,7 +5080,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 6,
+    "month": 5,
     "offense": "Rape",
     "count": 0
   },
@@ -5089,7 +5089,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 6,
+    "month": 5,
     "offense": "Robbery",
     "count": 0
   },
@@ -5098,7 +5098,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 6,
+    "month": 5,
     "offense": "Theft",
     "count": 50
   },
@@ -5107,7 +5107,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 7,
+    "month": 6,
     "offense": "Aggravated Assault",
     "count": 7
   },
@@ -5116,7 +5116,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 7,
+    "month": 6,
     "offense": "Burglary",
     "count": 6
   },
@@ -5125,7 +5125,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 7,
+    "month": 6,
     "offense": "Motor Vehicle Theft",
     "count": 5
   },
@@ -5134,7 +5134,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 7,
+    "month": 6,
     "offense": "Murder",
     "count": 0
   },
@@ -5143,7 +5143,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 7,
+    "month": 6,
     "offense": "Rape",
     "count": 2
   },
@@ -5152,7 +5152,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 7,
+    "month": 6,
     "offense": "Robbery",
     "count": 1
   },
@@ -5161,7 +5161,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 7,
+    "month": 6,
     "offense": "Theft",
     "count": 45
   },
@@ -5170,7 +5170,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 8,
+    "month": 7,
     "offense": "Aggravated Assault",
     "count": 8
   },
@@ -5179,7 +5179,7 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 8,
+    "month": 7,
     "offense": "Burglary",
     "count": 3
   },
@@ -5188,9 +5188,72 @@
     "state": "MA",
     "type": "City",
     "year": 2026,
-    "month": 8,
+    "month": 7,
     "offense": "Motor Vehicle Theft",
     "count": 7
+  },
+  {
+    "agency": "Malden",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Malden",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Malden",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Robbery",
+    "count": 2
+  },
+  {
+    "agency": "Malden",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Theft",
+    "count": 50
+  },
+  {
+    "agency": "Malden",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 0
+  },
+  {
+    "agency": "Malden",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 0
+  },
+  {
+    "agency": "Malden",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 0
   },
   {
     "agency": "Malden",
@@ -5217,7 +5280,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Robbery",
-    "count": 2
+    "count": 0
   },
   {
     "agency": "Malden",
@@ -5226,7 +5289,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 50
+    "count": 0
   },
   {
     "agency": "Medford",
@@ -6306,7 +6369,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 20
+    "count": 21
   },
   {
     "agency": "New Bedford",
@@ -6360,7 +6423,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 98
+    "count": 100
   },
   {
     "agency": "Newton",
@@ -8568,6 +8631,69 @@
     "count": 36
   },
   {
+    "agency": "Revere",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 18
+  },
+  {
+    "agency": "Revere",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Burglary",
+    "count": 2
+  },
+  {
+    "agency": "Revere",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Motor Vehicle Theft",
+    "count": 7
+  },
+  {
+    "agency": "Revere",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Revere",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "Revere",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Robbery",
+    "count": 1
+  },
+  {
+    "agency": "Revere",
+    "state": "MA",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Theft",
+    "count": 37
+  },
+  {
     "agency": "Somerville",
     "state": "MA",
     "type": "City",
@@ -10014,7 +10140,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 34
+    "count": 36
   },
   {
     "agency": "Waltham",
@@ -10023,7 +10149,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 10
+    "count": 12
   },
   {
     "agency": "Waltham",
