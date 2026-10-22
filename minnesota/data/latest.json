@@ -1104,7 +1104,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 8
+    "count": 9
   },
   {
     "agency": "Bloomington",
@@ -2625,7 +2625,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 75
+    "count": 76
   },
   {
     "agency": "Duluth",
@@ -3507,7 +3507,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 71
+    "count": 72
   },
   {
     "agency": "Eden Prairie",
@@ -4704,7 +4704,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 60
+    "count": 61
   },
   {
     "agency": "Maple Grove",
@@ -5532,7 +5532,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Burglary",
-    "count": 230
+    "count": 229
   },
   {
     "agency": "Minneapolis",
@@ -5577,7 +5577,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 1101
+    "count": 1102
   },
   {
     "agency": "Minnetonka",
@@ -5937,7 +5937,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 4
+    "count": 2
   },
   {
     "agency": "Plymouth",
@@ -6063,7 +6063,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 7
+    "count": 4
   },
   {
     "agency": "Plymouth",
@@ -6279,7 +6279,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Burglary",
-    "count": 10
+    "count": 11
   },
   {
     "agency": "Rochester",
