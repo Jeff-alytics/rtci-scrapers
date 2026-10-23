@@ -429,7 +429,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Burglary",
-    "count": 3
+    "count": 2
   },
   {
     "agency": "Blaine",
@@ -825,7 +825,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 60
+    "count": 61
   },
   {
     "agency": "Bloomington",
@@ -1455,7 +1455,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 80
+    "count": 79
   },
   {
     "agency": "Brooklyn Park",
@@ -1762,6 +1762,15 @@
     "month": 9,
     "offense": "Motor Vehicle Theft",
     "count": 10
+  },
+  {
+    "agency": "Brooklyn Park",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Rape",
+    "count": 1
   },
   {
     "agency": "Brooklyn Park",
@@ -4956,7 +4965,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Maple Grove",
@@ -5010,7 +5019,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 77
+    "count": 78
   },
   {
     "agency": "Minneapolis",
@@ -5388,7 +5397,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 1130
+    "count": 1131
   },
   {
     "agency": "Minneapolis",
@@ -5568,7 +5577,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Robbery",
-    "count": 82
+    "count": 83
   },
   {
     "agency": "Minneapolis",
@@ -5577,7 +5586,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 1102
+    "count": 1103
   },
   {
     "agency": "Minnetonka",
@@ -8043,7 +8052,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 79
+    "count": 80
   },
   {
     "agency": "Wright",
