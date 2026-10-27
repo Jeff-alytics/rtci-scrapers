@@ -825,7 +825,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 63
+    "count": 64
   },
   {
     "agency": "Bloomington",
@@ -1257,7 +1257,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Motor Vehicle Theft",
-    "count": 5
+    "count": 6
   },
   {
     "agency": "Bloomington",
@@ -2634,7 +2634,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 76
+    "count": 75
   },
   {
     "agency": "Duluth",
@@ -5019,7 +5019,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 78
+    "count": 79
   },
   {
     "agency": "Minneapolis",
@@ -5523,7 +5523,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 1270
+    "count": 1271
   },
   {
     "agency": "Minneapolis",
@@ -5793,7 +5793,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 28
+    "count": 31
   },
   {
     "agency": "Minnetonka",
@@ -6279,7 +6279,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 51
+    "count": 52
   },
   {
     "agency": "Plymouth",
@@ -6603,7 +6603,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 106
+    "count": 107
   },
   {
     "agency": "Rochester",
@@ -6675,7 +6675,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 17
+    "count": 18
   },
   {
     "agency": "Rochester",
@@ -6756,7 +6756,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 106
+    "count": 107
   },
   {
     "agency": "Rochester",
@@ -6801,7 +6801,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 96
+    "count": 99
   },
   {
     "agency": "St. Cloud",
@@ -7593,7 +7593,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 479
+    "count": 480
   },
   {
     "agency": "St. Paul",
