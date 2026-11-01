@@ -76,6 +76,15 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 9,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Rape",
     "count": 11
@@ -142,6 +151,15 @@
     "month": 8,
     "offense": "Rape",
     "count": 8
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Rape",
+    "count": 5
   },
   {
     "agency": "Richmond",
@@ -220,6 +238,15 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 24
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
     "count": 70
@@ -286,6 +313,15 @@
     "month": 8,
     "offense": "Aggravated Assault",
     "count": 69
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 83
   },
   {
     "agency": "Richmond",
@@ -364,6 +400,15 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 38
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Theft",
     "count": 145
@@ -436,6 +481,15 @@
     "state": "CA",
     "type": "City",
     "year": 2026,
+    "month": 9,
+    "offense": "Theft",
+    "count": 160
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
     "count": 96
@@ -502,5 +556,14 @@
     "month": 8,
     "offense": "Motor Vehicle Theft",
     "count": 72
+  },
+  {
+    "agency": "Richmond",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 75
   }
 ]
