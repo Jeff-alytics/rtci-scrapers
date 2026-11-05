@@ -1095,7 +1095,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 237
+    "count": 238
   },
   {
     "agency": "Bloomington",
@@ -1554,7 +1554,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Burglary",
-    "count": 17
+    "count": 19
   },
   {
     "agency": "Brooklyn Park",
@@ -1572,7 +1572,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Rape",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "Brooklyn Park",
@@ -1590,7 +1590,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 75
+    "count": 77
   },
   {
     "agency": "Burnsville",
@@ -2859,7 +2859,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 38
+    "count": 37
   },
   {
     "agency": "Eagan",
@@ -3129,7 +3129,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 72
+    "count": 70
   },
   {
     "agency": "Eden Prairie",
@@ -3425,6 +3425,15 @@
     "type": "City",
     "year": 2026,
     "month": 9,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
     "offense": "Robbery",
     "count": 2
   },
@@ -3435,7 +3444,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 36
+    "count": 40
   },
   {
     "agency": "Edina",
@@ -3606,7 +3615,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 66
+    "count": 68
   },
   {
     "agency": "Edina",
@@ -3696,7 +3705,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 17
+    "count": 18
   },
   {
     "agency": "Edina",
@@ -3723,7 +3732,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 65
+    "count": 66
   },
   {
     "agency": "Edina",
@@ -3759,7 +3768,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 42
+    "count": 46
   },
   {
     "agency": "Lakeville",
@@ -4380,7 +4389,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 70
+    "count": 71
   },
   {
     "agency": "Maple Grove",
@@ -4425,7 +4434,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 65
+    "count": 71
   },
   {
     "agency": "Maple Grove",
@@ -4443,7 +4452,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Burglary",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Maple Grove",
@@ -4758,7 +4767,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 51
+    "count": 52
   },
   {
     "agency": "Minneapolis",
@@ -4776,7 +4785,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 1133
+    "count": 1134
   },
   {
     "agency": "Minneapolis",
@@ -4803,7 +4812,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 414
+    "count": 415
   },
   {
     "agency": "Minneapolis",
@@ -4848,7 +4857,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 260
+    "count": 261
   },
   {
     "agency": "Minneapolis",
@@ -4866,7 +4875,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 429
+    "count": 430
   },
   {
     "agency": "Minneapolis",
@@ -4920,7 +4929,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Burglary",
-    "count": 231
+    "count": 232
   },
   {
     "agency": "Minneapolis",
@@ -4947,7 +4956,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Rape",
-    "count": 42
+    "count": 43
   },
   {
     "agency": "Minneapolis",
@@ -4965,7 +4974,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 1121
+    "count": 1122
   },
   {
     "agency": "Minnetonka",
@@ -5127,7 +5136,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 35
+    "count": 43
   },
   {
     "agency": "Minnetonka",
@@ -5622,7 +5631,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 39
+    "count": 41
   },
   {
     "agency": "Rochester",
@@ -5901,7 +5910,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 95
+    "count": 96
   },
   {
     "agency": "Rochester",
@@ -5964,7 +5973,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 10
+    "count": 9
   },
   {
     "agency": "Rochester",
@@ -6045,7 +6054,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 105
+    "count": 106
   },
   {
     "agency": "St. Cloud",
@@ -6270,7 +6279,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 18
+    "count": 17
   },
   {
     "agency": "St. Cloud",
@@ -6279,7 +6288,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 16
+    "count": 17
   },
   {
     "agency": "St. Cloud",
@@ -6288,7 +6297,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 7
+    "count": 8
   },
   {
     "agency": "St. Cloud",
@@ -6297,7 +6306,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "St. Cloud",
@@ -6351,7 +6360,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Rape",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "St. Cloud",
@@ -6405,7 +6414,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Rape",
-    "count": 4
+    "count": 5
   },
   {
     "agency": "St. Cloud",
@@ -6423,7 +6432,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 126
+    "count": 127
   },
   {
     "agency": "St. Cloud",
@@ -6432,7 +6441,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Aggravated Assault",
-    "count": 13
+    "count": 17
   },
   {
     "agency": "St. Cloud",
@@ -6441,7 +6450,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Burglary",
-    "count": 7
+    "count": 11
   },
   {
     "agency": "St. Cloud",
@@ -6450,7 +6459,16 @@
     "year": 2026,
     "month": 9,
     "offense": "Motor Vehicle Theft",
-    "count": 6
+    "count": 7
+  },
+  {
+    "agency": "St. Cloud",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Rape",
+    "count": 1
   },
   {
     "agency": "St. Cloud",
@@ -6468,7 +6486,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 71
+    "count": 88
   },
   {
     "agency": "St. Paul",
@@ -7574,8 +7592,17 @@
     "type": "County",
     "year": 2026,
     "month": 8,
+    "offense": "Rape",
+    "count": 1
+  },
+  {
+    "agency": "Wright",
+    "state": "MN",
+    "type": "County",
+    "year": 2026,
+    "month": 8,
     "offense": "Theft",
-    "count": 13
+    "count": 14
   },
   {
     "agency": "Wright",
@@ -7584,7 +7611,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Aggravated Assault",
-    "count": 2
+    "count": 5
   },
   {
     "agency": "Wright",
@@ -7602,6 +7629,6 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 7
+    "count": 10
   }
 ]
