@@ -285,7 +285,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 68
+    "count": 69
   },
   {
     "agency": "Apple Valley",
@@ -1149,7 +1149,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 192
+    "count": 191
   },
   {
     "agency": "Brooklyn Park",
@@ -2670,7 +2670,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 216
+    "count": 217
   },
   {
     "agency": "Duluth",
@@ -2724,7 +2724,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 181
+    "count": 184
   },
   {
     "agency": "Duluth",
@@ -2742,7 +2742,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Burglary",
-    "count": 15
+    "count": 16
   },
   {
     "agency": "Duluth",
@@ -2760,7 +2760,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Rape",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Duluth",
@@ -2769,7 +2769,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 147
+    "count": 167
   },
   {
     "agency": "Eagan",
@@ -3156,7 +3156,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 54
+    "count": 41
   },
   {
     "agency": "Eden Prairie",
@@ -3182,15 +3182,6 @@
     "type": "City",
     "year": 2026,
     "month": 3,
-    "offense": "Motor Vehicle Theft",
-    "count": 2
-  },
-  {
-    "agency": "Eden Prairie",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 3,
     "offense": "Rape",
     "count": 1
   },
@@ -3201,7 +3192,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 44
+    "count": 30
   },
   {
     "agency": "Eden Prairie",
@@ -3218,17 +3209,8 @@
     "type": "City",
     "year": 2026,
     "month": 4,
-    "offense": "Motor Vehicle Theft",
-    "count": 1
-  },
-  {
-    "agency": "Eden Prairie",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 4,
     "offense": "Theft",
-    "count": 57
+    "count": 20
   },
   {
     "agency": "Eden Prairie",
@@ -3254,15 +3236,6 @@
     "type": "City",
     "year": 2026,
     "month": 5,
-    "offense": "Motor Vehicle Theft",
-    "count": 1
-  },
-  {
-    "agency": "Eden Prairie",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 5,
     "offense": "Rape",
     "count": 2
   },
@@ -3273,7 +3246,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 59
+    "count": 44
   },
   {
     "agency": "Eden Prairie",
@@ -3299,15 +3272,6 @@
     "type": "City",
     "year": 2026,
     "month": 6,
-    "offense": "Motor Vehicle Theft",
-    "count": 1
-  },
-  {
-    "agency": "Eden Prairie",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 6,
     "offense": "Rape",
     "count": 2
   },
@@ -3318,7 +3282,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 48
+    "count": 32
   },
   {
     "agency": "Eden Prairie",
@@ -3328,15 +3292,6 @@
     "month": 7,
     "offense": "Aggravated Assault",
     "count": 1
-  },
-  {
-    "agency": "Eden Prairie",
-    "state": "MN",
-    "type": "City",
-    "year": 2026,
-    "month": 7,
-    "offense": "Motor Vehicle Theft",
-    "count": 2
   },
   {
     "agency": "Eden Prairie",
@@ -3354,7 +3309,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 71
+    "count": 46
   },
   {
     "agency": "Eden Prairie",
@@ -3399,7 +3354,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 60
+    "count": 34
   },
   {
     "agency": "Eden Prairie",
@@ -3444,7 +3399,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 40
+    "count": 18
   },
   {
     "agency": "Edina",
@@ -4866,7 +4821,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 267
+    "count": 268
   },
   {
     "agency": "Minneapolis",
@@ -4974,7 +4929,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 1122
+    "count": 1123
   },
   {
     "agency": "Minnetonka",
@@ -5280,7 +5235,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 17
+    "count": 18
   },
   {
     "agency": "Plymouth",
@@ -5631,7 +5586,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 41
+    "count": 42
   },
   {
     "agency": "Rochester",
@@ -6864,7 +6819,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 99
+    "count": 98
   },
   {
     "agency": "St. Paul",
@@ -6891,7 +6846,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Murder",
-    "count": 1
+    "count": 2
   },
   {
     "agency": "St. Paul",
@@ -7242,7 +7197,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 61
+    "count": 63
   },
   {
     "agency": "Woodbury",
