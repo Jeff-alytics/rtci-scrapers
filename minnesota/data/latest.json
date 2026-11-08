@@ -3156,7 +3156,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 41
+    "count": 54
   },
   {
     "agency": "Eden Prairie",
@@ -3182,6 +3182,15 @@
     "type": "City",
     "year": 2026,
     "month": 3,
+    "offense": "Motor Vehicle Theft",
+    "count": 2
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
     "offense": "Rape",
     "count": 1
   },
@@ -3192,7 +3201,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 30
+    "count": 44
   },
   {
     "agency": "Eden Prairie",
@@ -3209,8 +3218,17 @@
     "type": "City",
     "year": 2026,
     "month": 4,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 4,
     "offense": "Theft",
-    "count": 20
+    "count": 57
   },
   {
     "agency": "Eden Prairie",
@@ -3236,6 +3254,15 @@
     "type": "City",
     "year": 2026,
     "month": 5,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
     "offense": "Rape",
     "count": 2
   },
@@ -3246,7 +3273,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 44
+    "count": 59
   },
   {
     "agency": "Eden Prairie",
@@ -3272,6 +3299,15 @@
     "type": "City",
     "year": 2026,
     "month": 6,
+    "offense": "Motor Vehicle Theft",
+    "count": 1
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
     "offense": "Rape",
     "count": 2
   },
@@ -3282,7 +3318,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 32
+    "count": 48
   },
   {
     "agency": "Eden Prairie",
@@ -3292,6 +3328,15 @@
     "month": 7,
     "offense": "Aggravated Assault",
     "count": 1
+  },
+  {
+    "agency": "Eden Prairie",
+    "state": "MN",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
+    "offense": "Motor Vehicle Theft",
+    "count": 2
   },
   {
     "agency": "Eden Prairie",
@@ -3309,7 +3354,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 46
+    "count": 71
   },
   {
     "agency": "Eden Prairie",
@@ -3354,7 +3399,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 34
+    "count": 60
   },
   {
     "agency": "Eden Prairie",
@@ -3399,7 +3444,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 18
+    "count": 40
   },
   {
     "agency": "Edina",
