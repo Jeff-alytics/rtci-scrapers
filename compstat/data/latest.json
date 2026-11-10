@@ -4,7 +4,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Murder",
-    "count": 16
+    "count": 18
   },
   {
     "agency": "New York City",
@@ -53,28 +53,35 @@
     "year": 2026,
     "month": 8,
     "offense": "Murder",
-    "count": 24
+    "count": 25
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 9,
     "offense": "Murder",
-    "count": 27
+    "count": 31
+  },
+  {
+    "agency": "New York City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Murder",
+    "count": 18
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 1,
     "offense": "Rape",
-    "count": 170
+    "count": 169
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 2,
     "offense": "Rape",
-    "count": 168
+    "count": 169
   },
   {
     "agency": "New York City",
@@ -95,7 +102,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Rape",
-    "count": 173
+    "count": 172
   },
   {
     "agency": "New York City",
@@ -109,21 +116,28 @@
     "year": 2026,
     "month": 7,
     "offense": "Rape",
-    "count": 186
+    "count": 185
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 8,
     "offense": "Rape",
-    "count": 170
+    "count": 169
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 9,
     "offense": "Rape",
-    "count": 171
+    "count": 168
+  },
+  {
+    "agency": "New York City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Rape",
+    "count": 177
   },
   {
     "agency": "New York City",
@@ -144,7 +158,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Robbery",
-    "count": 1021
+    "count": 1022
   },
   {
     "agency": "New York City",
@@ -158,42 +172,49 @@
     "year": 2026,
     "month": 5,
     "offense": "Robbery",
-    "count": 1183
+    "count": 1184
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 6,
     "offense": "Robbery",
-    "count": 1199
+    "count": 1200
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 7,
     "offense": "Robbery",
-    "count": 1266
+    "count": 1268
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 8,
     "offense": "Robbery",
-    "count": 1238
+    "count": 1244
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 9,
     "offense": "Robbery",
-    "count": 1144
+    "count": 1164
+  },
+  {
+    "agency": "New York City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Robbery",
+    "count": 1150
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
-    "count": 2171
+    "count": 2172
   },
   {
     "agency": "New York City",
@@ -207,7 +228,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Aggravated Assault",
-    "count": 2527
+    "count": 2528
   },
   {
     "agency": "New York City",
@@ -221,35 +242,42 @@
     "year": 2026,
     "month": 5,
     "offense": "Aggravated Assault",
-    "count": 2844
+    "count": 2845
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 2855
+    "count": 2858
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 2645
+    "count": 2650
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 2765
+    "count": 2781
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 9,
     "offense": "Aggravated Assault",
-    "count": 2453
+    "count": 2516
+  },
+  {
+    "agency": "New York City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 2552
   },
   {
     "agency": "New York City",
@@ -298,28 +326,35 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 964
+    "count": 969
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 987
+    "count": 997
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 9,
     "offense": "Burglary",
-    "count": 946
+    "count": 980
+  },
+  {
+    "agency": "New York City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Burglary",
+    "count": 891
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 3489
+    "count": 3490
   },
   {
     "agency": "New York City",
@@ -333,49 +368,56 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 3797
+    "count": 3798
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 3814
+    "count": 3815
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 3722
+    "count": 3726
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 3936
+    "count": 3940
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 4000
+    "count": 4044
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 4139
+    "count": 4168
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 3933
+    "count": 3951
+  },
+  {
+    "agency": "New York City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Theft",
+    "count": 3866
   },
   {
     "agency": "New York City",
@@ -396,7 +438,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 1047
+    "count": 1045
   },
   {
     "agency": "New York City",
@@ -417,27 +459,34 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 1104
+    "count": 1107
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 1068
+    "count": 1071
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 1145
+    "count": 1147
   },
   {
     "agency": "New York City",
     "year": 2026,
     "month": 9,
     "offense": "Motor Vehicle Theft",
-    "count": 1039
+    "count": 1026
+  },
+  {
+    "agency": "New York City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 1115
   }
 ]
