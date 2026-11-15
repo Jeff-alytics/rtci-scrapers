@@ -1,20 +1,35 @@
 {
   "agency": "Fort Wayne",
   "state": "IN",
-  "collected_at": "2026-10-15T14:27:53.223Z",
+  "collected_at": "2026-11-15T14:03:22.000Z",
   "method": "interactive cloud browser monthly 2026 table column",
   "reports": [
     {
       "report_month": "2026-09",
-      "source_url": "https://www.cityoffortwayne.in.gov/1741/September-2026-Crime-Statistics"
+      "source_url": "https://www.cityoffortwayne.in.gov/1741/September-2026-Crime-Statistics",
+      "collected_at": "2026-10-15T14:27:53.223Z"
+    },
+    {
+      "report_month": "2026-10",
+      "source_url": "https://www.cityoffortwayne.in.gov/1752/October-2026-Crime-Statistics",
+      "collected_at": "2026-11-15T14:03:22.000Z"
     }
   ],
   "validation": {
-    "complete_months": 1,
-    "rows": 7,
-    "unique_keys": 7,
+    "complete_months": 2,
+    "rows": 14,
+    "unique_keys": 14,
     "offenses_per_month": 7,
     "nonnegative_safe_integer_counts": true
   },
-  "bootstrap_test_commit": "9efadeb17fb1345f9f38e9566e31795f74958942"
+  "bootstrap_test_commit": "9efadeb17fb1345f9f38e9566e31795f74958942",
+  "offense_mapping": {
+    "Homicide": "Murder",
+    "Rape": "Rape",
+    "Robbery": "Robbery",
+    "Assault": "Aggravated Assault",
+    "Burglary": "Burglary",
+    "Larceny": "Theft",
+    "Vehicle Theft": "Motor Vehicle Theft"
+  }
 }
