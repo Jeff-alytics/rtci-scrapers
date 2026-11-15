@@ -3,69 +3,6 @@
     "agency": "Chicago",
     "state": "IL",
     "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Aggravated Assault",
-    "count": 913
-  },
-  {
-    "agency": "Chicago",
-    "state": "IL",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Burglary",
-    "count": 482
-  },
-  {
-    "agency": "Chicago",
-    "state": "IL",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Motor Vehicle Theft",
-    "count": 1453
-  },
-  {
-    "agency": "Chicago",
-    "state": "IL",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Murder",
-    "count": 27
-  },
-  {
-    "agency": "Chicago",
-    "state": "IL",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Rape",
-    "count": 145
-  },
-  {
-    "agency": "Chicago",
-    "state": "IL",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Robbery",
-    "count": 386
-  },
-  {
-    "agency": "Chicago",
-    "state": "IL",
-    "type": "City",
-    "year": 2025,
-    "month": 12,
-    "offense": "Theft",
-    "count": 3750
-  },
-  {
-    "agency": "Chicago",
-    "state": "IL",
-    "type": "City",
     "year": 2026,
     "month": 1,
     "offense": "Aggravated Assault",
@@ -87,7 +24,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Motor Vehicle Theft",
-    "count": 1334
+    "count": 1331
   },
   {
     "agency": "Chicago",
@@ -105,7 +42,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Rape",
-    "count": 152
+    "count": 153
   },
   {
     "agency": "Chicago",
@@ -123,7 +60,7 @@
     "year": 2026,
     "month": 1,
     "offense": "Theft",
-    "count": 3281
+    "count": 3285
   },
   {
     "agency": "Chicago",
@@ -132,7 +69,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Aggravated Assault",
-    "count": 869
+    "count": 868
   },
   {
     "agency": "Chicago",
@@ -141,7 +78,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Burglary",
-    "count": 386
+    "count": 387
   },
   {
     "agency": "Chicago",
@@ -150,7 +87,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Motor Vehicle Theft",
-    "count": 1337
+    "count": 1332
   },
   {
     "agency": "Chicago",
@@ -168,7 +105,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Rape",
-    "count": 119
+    "count": 121
   },
   {
     "agency": "Chicago",
@@ -186,7 +123,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Theft",
-    "count": 3217
+    "count": 3219
   },
   {
     "agency": "Chicago",
@@ -213,7 +150,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Motor Vehicle Theft",
-    "count": 1524
+    "count": 1523
   },
   {
     "agency": "Chicago",
@@ -231,7 +168,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Rape",
-    "count": 164
+    "count": 165
   },
   {
     "agency": "Chicago",
@@ -240,7 +177,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Robbery",
-    "count": 340
+    "count": 339
   },
   {
     "agency": "Chicago",
@@ -249,7 +186,7 @@
     "year": 2026,
     "month": 3,
     "offense": "Theft",
-    "count": 3702
+    "count": 3706
   },
   {
     "agency": "Chicago",
@@ -267,7 +204,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Burglary",
-    "count": 484
+    "count": 483
   },
   {
     "agency": "Chicago",
@@ -276,7 +213,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Motor Vehicle Theft",
-    "count": 1428
+    "count": 1424
   },
   {
     "agency": "Chicago",
@@ -294,7 +231,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Rape",
-    "count": 133
+    "count": 135
   },
   {
     "agency": "Chicago",
@@ -312,7 +249,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Theft",
-    "count": 3651
+    "count": 3655
   },
   {
     "agency": "Chicago",
@@ -321,7 +258,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Aggravated Assault",
-    "count": 1257
+    "count": 1258
   },
   {
     "agency": "Chicago",
@@ -330,7 +267,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 463
+    "count": 464
   },
   {
     "agency": "Chicago",
@@ -339,7 +276,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 1667
+    "count": 1665
   },
   {
     "agency": "Chicago",
@@ -348,7 +285,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Murder",
-    "count": 37
+    "count": 38
   },
   {
     "agency": "Chicago",
@@ -357,7 +294,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Rape",
-    "count": 163
+    "count": 162
   },
   {
     "agency": "Chicago",
@@ -366,7 +303,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Robbery",
-    "count": 398
+    "count": 399
   },
   {
     "agency": "Chicago",
@@ -375,7 +312,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 4110
+    "count": 4112
   },
   {
     "agency": "Chicago",
@@ -384,7 +321,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 1235
+    "count": 1237
   },
   {
     "agency": "Chicago",
@@ -393,7 +330,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Burglary",
-    "count": 542
+    "count": 541
   },
   {
     "agency": "Chicago",
@@ -402,7 +339,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Motor Vehicle Theft",
-    "count": 1629
+    "count": 1623
   },
   {
     "agency": "Chicago",
@@ -420,7 +357,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Rape",
-    "count": 163
+    "count": 162
   },
   {
     "agency": "Chicago",
@@ -438,7 +375,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 3845
+    "count": 3849
   },
   {
     "agency": "Chicago",
@@ -447,7 +384,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Aggravated Assault",
-    "count": 1345
+    "count": 1346
   },
   {
     "agency": "Chicago",
@@ -465,7 +402,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 1722
+    "count": 1724
   },
   {
     "agency": "Chicago",
@@ -483,7 +420,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Rape",
-    "count": 158
+    "count": 159
   },
   {
     "agency": "Chicago",
@@ -492,7 +429,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Robbery",
-    "count": 453
+    "count": 452
   },
   {
     "agency": "Chicago",
@@ -501,7 +438,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 3850
+    "count": 3860
   },
   {
     "agency": "Chicago",
@@ -510,7 +447,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 1277
+    "count": 1278
   },
   {
     "agency": "Chicago",
@@ -519,7 +456,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Burglary",
-    "count": 545
+    "count": 546
   },
   {
     "agency": "Chicago",
@@ -528,7 +465,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 1609
+    "count": 1603
   },
   {
     "agency": "Chicago",
@@ -546,7 +483,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Rape",
-    "count": 149
+    "count": 150
   },
   {
     "agency": "Chicago",
@@ -555,7 +492,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Robbery",
-    "count": 535
+    "count": 532
   },
   {
     "agency": "Chicago",
@@ -564,6 +501,69 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 3926
+    "count": 3956
+  },
+  {
+    "agency": "Chicago",
+    "state": "IL",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 1216
+  },
+  {
+    "agency": "Chicago",
+    "state": "IL",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Burglary",
+    "count": 544
+  },
+  {
+    "agency": "Chicago",
+    "state": "IL",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Motor Vehicle Theft",
+    "count": 1482
+  },
+  {
+    "agency": "Chicago",
+    "state": "IL",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Murder",
+    "count": 32
+  },
+  {
+    "agency": "Chicago",
+    "state": "IL",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Rape",
+    "count": 175
+  },
+  {
+    "agency": "Chicago",
+    "state": "IL",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Robbery",
+    "count": 420
+  },
+  {
+    "agency": "Chicago",
+    "state": "IL",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
+    "offense": "Theft",
+    "count": 3757
   }
 ]
