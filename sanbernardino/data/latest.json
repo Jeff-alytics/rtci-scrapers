@@ -24,7 +24,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Robbery",
-    "count": 40
+    "count": 41
   },
   {
     "agency": "San Bernardino",
@@ -114,7 +114,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 268
+    "count": 269
   },
   {
     "agency": "San Bernardino",
@@ -177,7 +177,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 250
+    "count": 251
   },
   {
     "agency": "San Bernardino",
@@ -240,7 +240,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 296
+    "count": 297
   },
   {
     "agency": "San Bernardino",
@@ -249,7 +249,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Motor Vehicle Theft",
-    "count": 92
+    "count": 94
   },
   {
     "agency": "San Bernardino",
@@ -285,7 +285,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Aggravated Assault",
-    "count": 169
+    "count": 171
   },
   {
     "agency": "San Bernardino",
@@ -294,7 +294,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Burglary",
-    "count": 50
+    "count": 53
   },
   {
     "agency": "San Bernardino",
@@ -303,7 +303,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 289
+    "count": 303
   },
   {
     "agency": "San Bernardino",
@@ -312,6 +312,69 @@
     "year": 2026,
     "month": 9,
     "offense": "Motor Vehicle Theft",
-    "count": 85
+    "count": 90
+  },
+  {
+    "agency": "San Bernardino",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Murder",
+    "count": 0
+  },
+  {
+    "agency": "San Bernardino",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Rape",
+    "count": 0
+  },
+  {
+    "agency": "San Bernardino",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Robbery",
+    "count": 48
+  },
+  {
+    "agency": "San Bernardino",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 111
+  },
+  {
+    "agency": "San Bernardino",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Burglary",
+    "count": 48
+  },
+  {
+    "agency": "San Bernardino",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Theft",
+    "count": 266
+  },
+  {
+    "agency": "San Bernardino",
+    "state": "CA",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Motor Vehicle Theft",
+    "count": 87
   }
 ]
