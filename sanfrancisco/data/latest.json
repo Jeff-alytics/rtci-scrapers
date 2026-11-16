@@ -105,7 +105,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 268
+    "count": 269
   },
   {
     "agency": "San Francisco",
@@ -177,7 +177,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 1341
+    "count": 1344
   },
   {
     "agency": "San Francisco",
@@ -231,7 +231,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Burglary",
-    "count": 254
+    "count": 256
   },
   {
     "agency": "San Francisco",
@@ -240,7 +240,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 1191
+    "count": 1197
   },
   {
     "agency": "San Francisco",
@@ -249,7 +249,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Motor Vehicle Theft",
-    "count": 189
+    "count": 190
   },
   {
     "agency": "San Francisco",
@@ -276,7 +276,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Robbery",
-    "count": 120
+    "count": 122
   },
   {
     "agency": "San Francisco",
@@ -294,7 +294,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Burglary",
-    "count": 214
+    "count": 217
   },
   {
     "agency": "San Francisco",
@@ -303,7 +303,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 1103
+    "count": 1172
   },
   {
     "agency": "San Francisco",
@@ -312,7 +312,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Motor Vehicle Theft",
-    "count": 180
+    "count": 183
   },
   {
     "agency": "San Francisco",
@@ -321,7 +321,7 @@
     "year": 2026,
     "month": 11,
     "offense": "Murder",
-    "count": 0
+    "count": 1
   },
   {
     "agency": "San Francisco",
@@ -330,7 +330,7 @@
     "year": 2026,
     "month": 11,
     "offense": "Rape",
-    "count": 1
+    "count": 5
   },
   {
     "agency": "San Francisco",
@@ -339,7 +339,7 @@
     "year": 2026,
     "month": 11,
     "offense": "Robbery",
-    "count": 1
+    "count": 77
   },
   {
     "agency": "San Francisco",
@@ -348,7 +348,7 @@
     "year": 2026,
     "month": 11,
     "offense": "Aggravated Assault",
-    "count": 1
+    "count": 82
   },
   {
     "agency": "San Francisco",
@@ -357,7 +357,7 @@
     "year": 2026,
     "month": 11,
     "offense": "Burglary",
-    "count": 7
+    "count": 67
   },
   {
     "agency": "San Francisco",
@@ -366,7 +366,7 @@
     "year": 2026,
     "month": 11,
     "offense": "Theft",
-    "count": 28
+    "count": 319
   },
   {
     "agency": "San Francisco",
@@ -375,6 +375,6 @@
     "year": 2026,
     "month": 11,
     "offense": "Motor Vehicle Theft",
-    "count": 6
+    "count": 81
   }
 ]
