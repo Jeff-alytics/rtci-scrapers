@@ -24,11 +24,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Install Playwright browsers
-        run: playwright install chromium --with-deps
-
       - name: Run scraper
-        run: xvfb-run python scrape.py
+        run: python scrape.py
 
       - name: Check output before saving
         working-directory: ${{ github.workspace }}

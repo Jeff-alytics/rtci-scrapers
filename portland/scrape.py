@@ -5,8 +5,8 @@ Portland Police Bureau — Monthly Crime Counts Scraper
 Data sources:
   - All UCR categories EXCEPT Aggravated Assault: Tableau Public CSV snapshots
     (PPBOpenDataDownloads workbook), fetched via plain HTTP.
-  - Aggravated Assault: Live Tableau dashboard (MonthlyReportedCrimeStatistics),
-    scraped with Playwright.  The CSV undercounts AA by ~15-20% because Portland
+  - Aggravated Assault: live Tableau dashboard (MonthlyReportedCrimeStatistics),
+    read from its backend (Tableau session commands, no browser).  The CSV undercounts AA by ~15-20% because Portland
     excludes sensitive cases (likely DV) from the public CSV.
 
 Output: data/latest.json in RTCI pipeline format:
@@ -17,7 +17,6 @@ Window: 12 months ending the month before today.
 Usage:
     python scrape.py                # save to data/latest.json
     python scrape.py --json         # output JSON to stdout
-    python scrape.py --no-headless  # show browser for debugging
 """
 
 import csv
@@ -36,11 +35,6 @@ from pathlib import Path
 CSV_URL = (
     "https://public.tableau.com/views/PPBOpenDataDownloads"
     "/New_Offense_Data_{year}.csv?:showVizHome=no"
-)
-
-TABLEAU_DASH_URL = (
-    "https://public.tableau.com/views/MonthlyReportedCrimeStatistics"
-    "/MonthlyStatistics?:embed=y&:showVizHome=no&:toolbar=no"
 )
 
 AGENCY = "Portland"
@@ -154,212 +148,181 @@ def scrape_csv_data(start, end):
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# Tableau dashboard scrape (Aggravated Assault only)
+# Tableau dashboard scrape (Aggravated Assault only) - backend session, no browser
 # ══════════════════════════════════════════════════════════════════════════════
+#
+# The dashboard's "Offense Category Table" shows the 12 months combined until a
+# month bar is selected. We open a Tableau Public viewing session over HTTP,
+# then send the same `tabdoc/select` command the page sends when a bar is
+# clicked (worksheet "Monthly Stats", objectIds [n]) and read the updated
+# Offense Table out of the JSON response. objectId n is the n-th row of the
+# Monthly Stats worksheet (rows are newest month first).
 
-def _parse_bar_label(text):
-    """'Feb 2025' → (2025, 2) or None."""
-    m = re.match(r"^([A-Z][a-z]{2}) (\d{4})$", text.strip())
-    if not m:
-        return None
-    mo = MONTH_ABBR.get(m.group(1))
-    return (int(m.group(2)), mo) if mo else None
+VIZ_ROOT = ("https://public.tableau.com/vizql/w/MonthlyReportedCrimeStatistics"
+            "/v/MonthlyStatistics")
+EMBED_URL = ("https://public.tableau.com/views/MonthlyReportedCrimeStatistics"
+             "/MonthlyStatistics?:embed=y&:showVizHome=no&:toolbar=no")
+AA_ROW_NAME = "Assault: Aggravated"
+CHECK_ROW_NAME = "Burglary"   # its count for the selected month must agree with the CSV,
+                              # which confirms the objectId -> month mapping is still right
 
 
-def scrape_aa_from_dashboard(start, end, headless=True):
+def _split_sized(text):
+    """Bootstrap payload = repeated '<length>;<json>' chunks."""
+    parts, i = [], 0
+    while i < len(text):
+        m = re.match(r"(\d+);", text[i:])
+        if not m:
+            break
+        n = int(m.group(1))
+        st = i + len(m.group(0))
+        parts.append(text[st:st + n])
+        i = st + n
+    return parts
+
+
+def _dict_by_type(data_columns, into=None):
+    into = into if into is not None else {}
+    for col in data_columns:
+        into.setdefault(col["dataType"], []).extend(col["dataValues"])
+    return into
+
+
+def _build_dictionary(segments):
+    """Join dictionary segments (keyed by id) in id order into {dataType: [values]}."""
+    out = {}
+    for sid in sorted(segments, key=int):
+        _dict_by_type(segments[sid], out)
+    return out
+
+
+def _pane_values(viz_cols, pane_cols, dictionary, col_idx):
+    vc, pc = viz_cols[col_idx], pane_cols[col_idx]
+    idxs = pc.get("valueIndices") or pc.get("aliasIndices") or []
+    vals = dictionary.get(vc["dataType"], [])
+    return [vals[i] if 0 <= i < len(vals) else None for i in idxs]
+
+
+def _table_columns(viz_data):
+    pcd = viz_data["paneColumnsData"]
+    return pcd["vizDataColumns"], pcd["paneColumnsList"][0]["vizPaneColumns"]
+
+
+def _col_index(viz_cols, caption):
+    for i, c in enumerate(viz_cols):
+        if c.get("fieldCaption") == caption:
+            return i
+    raise RuntimeError(f"Tableau column not found: {caption}")
+
+
+def scrape_aa_from_dashboard(start, end, csv_data=None):
+    """Monthly Aggravated Assault from the Tableau dashboard backend.
+
+    Returns {(year, month): aa_count}. Raises on any structural surprise so the
+    workflow fails loudly instead of silently dropping aggravated assault.
     """
-    Scrape monthly Aggravated Assault counts from the live Tableau dashboard.
+    s = requests.Session()
+    s.headers["User-Agent"] = "Mozilla/5.0"
+    s.get(EMBED_URL, timeout=60)
+    start_resp = s.post(VIZ_ROOT + "/startSession/viewing?%3Aembed=y&%3AshowVizHome=no"
+                        "&%3Atoolbar=no&%3Aredirect=auth",
+                        headers={"Accept": "application/json", "Referer": EMBED_URL},
+                        timeout=60)
+    start_resp.raise_for_status()
+    st = start_resp.json()
+    sid, sheet = st["sessionid"], st["sheetId"]
+    tab_hdr = {"X-Tsi-Active-Tab": sheet, "Accept": "text/javascript", "Referer": EMBED_URL}
+    # The response names the server node that owns this session; every later request must echo it.
+    gsh = start_resp.headers.get("global-session-header")
+    if gsh:
+        tab_hdr["global-session-header"] = gsh
 
-    Strategy: for each month bar, click to filter the Offense Category Table,
-    then read the AA count via tooltip hover on the count cell.
+    boot_form = {
+        "worksheetPortSize": '{"w":850,"h":1100}',
+        "dashboardPortSize": '{"w":850,"h":1100}',
+        "clientDimension": '{"w":1400,"h":1200}',
+        "renderMapsClientSide": "true", "isBrowserRendering": "true",
+        "browserRenderingThreshold": "100", "formatDataValueLocally": "false",
+        "clientNum": "", "navType": "Nav", "navSrc": "Top", "devicePixelRatio": "1",
+        "clientRenderPixelLimit": "16000000",
+        "allowAutogenWorksheetPhoneLayouts": "true", "sheet_id": sheet,
+        "showParams": '{"checkpoint":false,"refresh":false,"refreshUnmodified":false}',
+        "stickySessionKey": st["stickySessionKey"], "filterTileSize": "200",
+        "locale": "en_US", "language": "en", "verboseMode": "false",
+        ":session_feature_flags": st.get("features_json", "{}"),
+    }
+    r = s.post(f"{VIZ_ROOT}/bootstrapSession/sessions/{sid}", data=boot_form,
+               headers={**tab_hdr, "X-XSRF-TOKEN": "null"}, timeout=180)
+    r.raise_for_status()
+    parts = _split_sized(r.text)
+    if len(parts) < 2:
+        raise RuntimeError("Tableau bootstrap response had an unexpected shape")
+    sec = json.loads(parts[1])["secondaryInfo"]["presModelMap"]
+    boot_segs = (sec["dataDictionary"]["presModelHolder"]["genDataDictionaryPresModel"]
+                 ["dataSegments"])
+    segments = {sid: seg["dataColumns"] for sid, seg in boot_segs.items()}
+    dictionary = _build_dictionary(segments)
+    sheets = sec["vizData"]["presModelHolder"]["genPresModelMapPresModel"]["presModelMap"]
 
-    Returns {(year, month): aa_count}.
-    """
-    from playwright.sync_api import sync_playwright
+    # Month list (newest first) from the Monthly Stats worksheet.
+    vc, pc = _table_columns(sheets["Monthly Stats"]["presModelHolder"]["genVizDataPresModel"])
+    month_col = _col_index(vc, "MONTH(ReportDate)")
+    months = [(int(str(v)[:4]), int(str(v)[5:7]))
+              for v in _pane_values(vc, pc, dictionary, month_col)]
+    if len(months) < 6:
+        raise RuntimeError(f"Expected ~12 months in Monthly Stats, got {len(months)}")
+
+    # Row positions in the Offense Table (same order in every response).
+    vc, pc = _table_columns(sheets["Offense Table"]["presModelHolder"]["genVizDataPresModel"])
+    names = _pane_values(vc, pc, dictionary, _col_index(vc, "OpenDataOffense"))
+    if AA_ROW_NAME not in names or CHECK_ROW_NAME not in names:
+        raise RuntimeError("Offense Table rows changed; cannot find Aggravated Assault row")
+    aa_row, chk_row = names.index(AA_ROW_NAME), names.index(CHECK_ROW_NAME)
+    cnt_col = _col_index(vc, "SUM(OffenseCount)")
 
     aa_counts = {}
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=headless)
-        page = browser.new_page()
-        page.set_viewport_size({"width": 1600, "height": 1000})
-
-        print(f"\n  Dashboard: loading...", end=" ", flush=True)
-        page.goto(TABLEAU_DASH_URL, timeout=120_000)
-        page.wait_for_load_state("domcontentloaded", timeout=120_000)
-
-        # Wait for Tableau to render
-        try:
-            page.wait_for_selector(".tab-vizHeader", timeout=90_000)
-        except Exception:
-            pass
-        try:
-            page.wait_for_function(
-                r"() => Array.from(document.querySelectorAll('text'))"
-                r".some(t => /^[A-Z][a-z]{2} \d{4}$/.test(t.textContent.trim()))",
-                timeout=30_000,
-            )
-        except Exception:
-            pass
-        page.wait_for_timeout(4_000)
-        print("ready.")
-
-        # Find the bar chart and offense table canvases
-        bar_canvas = _find_canvas(page, "Monthly Reported Offenses")
-        count_canvas = _find_canvas(page, "Crime Category")
-
-        if not bar_canvas or not count_canvas:
-            print("  ERROR: could not locate canvases — AA scrape aborted.")
-            browser.close()
-            return {}
-
-        # Capture all month label positions before clicking
-        label_positions = _get_label_positions(page)
-        print(f"  Dashboard months: {list(label_positions.keys())}")
-
-        # For each month: click bar → wait → read AA → deselect
-        for label, label_x in label_positions.items():
-            ym = _parse_bar_label(label)
-            if not ym:
-                continue
-            yr, mo = ym
-            row_date = date(yr, mo, 1)
-            if row_date < start or row_date >= end:
-                continue
-
-            print(f"    {label}...", end=" ", flush=True)
-
-            # Click the bar to filter
-            click_y = bar_canvas["y"] + bar_canvas["h"] * 0.4
-            page.mouse.click(label_x, click_y)
-            page.wait_for_timeout(3_000)  # wait for filter to apply
-
-            # Read the AA count from tooltip
-            count = _read_aa_tooltip(page, count_canvas)
-
-            # Validate: reject obviously wrong values
-            if count is not None and AA_MIN <= count <= AA_MAX:
-                aa_counts[(yr, mo)] = count
-                print(f"AA={count}")
-            elif count is not None:
-                print(f"REJECTED AA={count} (outside {AA_MIN}-{AA_MAX})")
-                # Retry once after reset
-                page.keyboard.press("Escape")
-                page.wait_for_timeout(2_000)
-                page.mouse.click(label_x, click_y)
-                page.wait_for_timeout(3_000)
-                count = _read_aa_tooltip(page, count_canvas)
-                if count is not None and AA_MIN <= count <= AA_MAX:
-                    aa_counts[(yr, mo)] = count
-                    print(f"      Retry OK: AA={count}")
-                else:
-                    print(f"      Retry failed: AA={count}")
-            else:
-                print("(no reading)")
-
-            # Deselect: press Escape then click empty area to fully reset
-            page.keyboard.press("Escape")
-            page.wait_for_timeout(1_500)
-
-        browser.close()
-
+    for n, (yr, mo) in enumerate(months, start=1):
+        if not (start <= date(yr, mo, 1) < end):
+            continue
+        fields = {
+            "worksheet": (None, "Monthly Stats"),
+            "dashboard": (None, "Monthly Statistics"),
+            "selection": (None, json.dumps({"objectIds": [n], "selectionType": "tuples"})),
+            "selectOptions": (None, "select-options-simple"),
+            "zoneId": (None, "27"),
+            "zoneSelectionType": (None, "replace"),
+        }
+        resp = s.post(f"{VIZ_ROOT}/sessions/{sid}/commands/tabdoc/select", files=fields,
+                      headers={**tab_hdr, "X-Requested-With": "XMLHttpRequest"}, timeout=180)
+        resp.raise_for_status()
+        app = resp.json()["vqlCmdResponse"]["layoutStatus"]["applicationPresModel"]
+        # Responses carry dictionary segments by id: a new id extends the dictionary, a
+        # repeated id replaces that segment. Values index into the segments joined in id order.
+        for seg_id, seg in app["dataDictionary"]["dataSegments"].items():
+            if seg:  # a null segment means "nothing new under this id"
+                segments[seg_id] = seg["dataColumns"]
+        merged = _build_dictionary(segments)
+        table = None
+        for z in app["workbookPresModel"]["dashboardPresModel"]["zones"].values():
+            viz = ((z.get("presModelHolder") or {}).get("visual") or {}).get("vizData")
+            if viz and any(c.get("fieldCaption") == "OpenDataOffense"
+                           for c in viz["paneColumnsData"]["vizDataColumns"]):
+                table = viz
+        if table is None:
+            raise RuntimeError(f"No Offense Table in select response for {yr}-{mo:02d}")
+        tvc, tpc = _table_columns(table)
+        counts = _pane_values(tvc, tpc, merged, cnt_col)
+        if len(counts) != len(names):
+            raise RuntimeError(f"Offense Table has {len(counts)} rows, expected {len(names)}")
+        aa, burg = counts[aa_row], counts[chk_row]
+        csv_burg = (csv_data or {}).get((yr, mo), {}).get("Burglary")
+        if csv_burg is not None and abs(burg - csv_burg) > max(3, 0.03 * csv_burg):
+            raise RuntimeError(f"Month check failed for {yr}-{mo:02d}: dashboard Burglary "
+                               f"{burg} vs CSV {csv_burg}; objectId mapping may have changed")
+        aa_counts[(yr, mo)] = int(aa)
+        print(f"  {yr}-{mo:02d}: AA={aa} (Burglary check {burg})")
     return aa_counts
 
-
-def _find_canvas(page, aria_fragment):
-    """Find the bounding rect of the main canvas in a tab-zone matching aria_fragment."""
-    return page.evaluate(r"""
-        (fragment) => {
-            const fb = document.querySelector(`[aria-label*="${fragment}"]`);
-            if (!fb) return null;
-            let zone = fb;
-            while (zone && !(zone.classList && zone.classList.contains('tab-zone')))
-                zone = zone.parentElement;
-            if (!zone) return null;
-            const canvases = Array.from(zone.querySelectorAll('canvas'));
-            if (!canvases.length) return null;
-            canvases.sort((a, b) => (b.width * b.height) - (a.width * a.height));
-            const r = canvases[0].getBoundingClientRect();
-            return { x: r.x, y: r.y, w: r.width, h: r.height };
-        }
-    """, aria_fragment)
-
-
-def _get_label_positions(page):
-    """Return {label_str: x_center} for month labels on the bar chart x-axis."""
-    return page.evaluate(r"""
-        () => {
-            const pattern = /^[A-Z][a-z]{2} \d{4}$/;
-            const result = {};
-            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
-            let node;
-            while ((node = walker.nextNode())) {
-                const txt = node.textContent.trim();
-                if (pattern.test(txt) && !(txt in result)) {
-                    const r = node.parentElement.getBoundingClientRect();
-                    result[txt] = r.x + r.width / 2;
-                }
-            }
-            return result;
-        }
-    """)
-
-
-def _read_aa_tooltip(page, count_canvas):
-    """Hover over the AA row in the offense table and read the tooltip count."""
-    aa_header = (
-        page.locator(".tab-vizHeader")
-        .filter(has_text="Assault: Aggravated")
-        .first
-    )
-    try:
-        header_box = aa_header.bounding_box()
-    except Exception:
-        return None
-    if not header_box:
-        return None
-
-    hover_x = count_canvas["x"] + count_canvas["w"] / 2
-    hover_y = header_box["y"] + header_box["height"] / 2
-
-    # Move away first to ensure a fresh tooltip
-    page.mouse.move(0, 0)
-    page.wait_for_timeout(500)
-    page.mouse.move(hover_x, hover_y)
-    page.wait_for_timeout(2_000)
-
-    tooltip_text = page.evaluate(r"""
-        () => {
-            const sels = [
-                '.tab-tooltip', '.tvTooltipCss', '[class*="Tooltip"]',
-                '[role="tooltip"]', '[data-tb-test-id*="tooltip" i]',
-                '[class*="tooltip" i]'
-            ];
-            for (const sel of sels) {
-                for (const el of document.querySelectorAll(sel)) {
-                    const s = window.getComputedStyle(el);
-                    if (s.display !== 'none' && s.visibility !== 'hidden'
-                            && s.opacity !== '0' && el.innerText.trim()) {
-                        return el.innerText.trim();
-                    }
-                }
-            }
-            return null;
-        }
-    """)
-
-    if not tooltip_text:
-        return None
-
-    m = re.search(r"Number of Offenses:\s*([\d,]+)", tooltip_text)
-    if m:
-        return int(m.group(1).replace(",", ""))
-    return None
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# Output
-# ══════════════════════════════════════════════════════════════════════════════
 
 def build_json(csv_data, aa_counts):
     """Merge CSV data + AA counts into RTCI pipeline JSON format."""
@@ -397,7 +360,6 @@ def build_json(csv_data, aa_counts):
 def main():
     parser = argparse.ArgumentParser(description="Portland PD monthly crime scraper")
     parser.add_argument("--json", action="store_true", help="Output JSON to stdout")
-    parser.add_argument("--no-headless", action="store_true", help="Show browser window")
     parser.add_argument("--csv-only", action="store_true",
                         help="Skip dashboard scrape; use CSV AA counts (undercounted ~15%%)")
     args = parser.parse_args()
@@ -445,7 +407,11 @@ def main():
                 cnt = int(row.get("OffenseCount") or 1)
                 aa_counts[(yr_n, mo_n)] = aa_counts.get((yr_n, mo_n), 0) + cnt
     else:
-        aa_counts = scrape_aa_from_dashboard(start, end, headless=not args.no_headless)
+        aa_counts = scrape_aa_from_dashboard(start, end, csv_data)
+
+    if not aa_counts:
+        print("ERROR: no Aggravated Assault months scraped; not writing output", file=sys.stderr)
+        sys.exit(1)
 
     print(f"\n  AA counts: {len(aa_counts)} months")
     for (yr, mo) in sorted(aa_counts.keys()):

@@ -32,6 +32,15 @@
     "type": "City",
     "year": 2025,
     "month": 11,
+    "offense": "Aggravated Assault",
+    "count": 266
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2025,
+    "month": 11,
     "offense": "Burglary",
     "count": 307
   },
@@ -79,6 +88,15 @@
     "month": 12,
     "offense": "Robbery",
     "count": 75
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2025,
+    "month": 12,
+    "offense": "Aggravated Assault",
+    "count": 252
   },
   {
     "agency": "Portland",
@@ -140,6 +158,15 @@
     "type": "City",
     "year": 2026,
     "month": 1,
+    "offense": "Aggravated Assault",
+    "count": 223
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 1,
     "offense": "Burglary",
     "count": 279
   },
@@ -178,6 +205,15 @@
     "month": 2,
     "offense": "Robbery",
     "count": 72
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 2,
+    "offense": "Aggravated Assault",
+    "count": 199
   },
   {
     "agency": "Portland",
@@ -239,6 +275,15 @@
     "type": "City",
     "year": 2026,
     "month": 3,
+    "offense": "Aggravated Assault",
+    "count": 208
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 3,
     "offense": "Burglary",
     "count": 274
   },
@@ -277,6 +322,15 @@
     "month": 4,
     "offense": "Robbery",
     "count": 78
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 4,
+    "offense": "Aggravated Assault",
+    "count": 288
   },
   {
     "agency": "Portland",
@@ -338,6 +392,15 @@
     "type": "City",
     "year": 2026,
     "month": 5,
+    "offense": "Aggravated Assault",
+    "count": 295
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 5,
     "offense": "Burglary",
     "count": 331
   },
@@ -385,6 +448,15 @@
     "month": 6,
     "offense": "Robbery",
     "count": 71
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 6,
+    "offense": "Aggravated Assault",
+    "count": 275
   },
   {
     "agency": "Portland",
@@ -446,6 +518,15 @@
     "type": "City",
     "year": 2026,
     "month": 7,
+    "offense": "Aggravated Assault",
+    "count": 318
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 7,
     "offense": "Burglary",
     "count": 346
   },
@@ -493,6 +574,15 @@
     "month": 8,
     "offense": "Robbery",
     "count": 82
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 8,
+    "offense": "Aggravated Assault",
+    "count": 289
   },
   {
     "agency": "Portland",
@@ -554,6 +644,15 @@
     "type": "City",
     "year": 2026,
     "month": 9,
+    "offense": "Aggravated Assault",
+    "count": 289
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 9,
     "offense": "Burglary",
     "count": 272
   },
@@ -601,6 +700,15 @@
     "month": 10,
     "offense": "Robbery",
     "count": 71
+  },
+  {
+    "agency": "Portland",
+    "state": "OR",
+    "type": "City",
+    "year": 2026,
+    "month": 10,
+    "offense": "Aggravated Assault",
+    "count": 252
   },
   {
     "agency": "Portland",

@@ -22,11 +22,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r saltlakecity/requirements.txt
 
-      - name: Install Playwright browsers
-        run: playwright install chromium --with-deps
-
       - name: Run scraper
-        run: xvfb-run python saltlakecity/scrape.py
+        run: python saltlakecity/scrape.py
 
       - name: Check output before saving
         working-directory: ${{ github.workspace }}
