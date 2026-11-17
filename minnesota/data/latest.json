@@ -2220,7 +2220,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 68
+    "count": 69
   },
   {
     "agency": "Coon Rapids",
@@ -3408,7 +3408,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 69
+    "count": 68
   },
   {
     "agency": "Eagan",
@@ -5523,7 +5523,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 1124
+    "count": 1125
   },
   {
     "agency": "Minneapolis",
@@ -5586,7 +5586,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 1023
+    "count": 1025
   },
   {
     "agency": "Minnetonka",
@@ -5730,7 +5730,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Burglary",
-    "count": 9
+    "count": 10
   },
   {
     "agency": "Minnetonka",
@@ -5748,7 +5748,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 43
+    "count": 45
   },
   {
     "agency": "Minnetonka",
@@ -5757,7 +5757,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Aggravated Assault",
-    "count": 2
+    "count": 4
   },
   {
     "agency": "Minnetonka",
@@ -5784,7 +5784,7 @@
     "year": 2026,
     "month": 6,
     "offense": "Theft",
-    "count": 31
+    "count": 41
   },
   {
     "agency": "Minnetonka",
@@ -5793,7 +5793,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 6
+    "count": 7
   },
   {
     "agency": "Minnetonka",
@@ -5802,7 +5802,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Motor Vehicle Theft",
-    "count": 2
+    "count": 3
   },
   {
     "agency": "Minnetonka",
@@ -5811,7 +5811,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Theft",
-    "count": 16
+    "count": 23
   },
   {
     "agency": "Minnetonka",
@@ -5820,7 +5820,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Aggravated Assault",
-    "count": 3
+    "count": 5
   },
   {
     "agency": "Minnetonka",
@@ -5847,7 +5847,7 @@
     "year": 2026,
     "month": 8,
     "offense": "Theft",
-    "count": 29
+    "count": 34
   },
   {
     "agency": "Minnetonka",
@@ -6297,7 +6297,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Aggravated Assault",
-    "count": 3
+    "count": 4
   },
   {
     "agency": "Plymouth",
@@ -6621,7 +6621,7 @@
     "year": 2026,
     "month": 7,
     "offense": "Burglary",
-    "count": 18
+    "count": 19
   },
   {
     "agency": "Rochester",
@@ -6756,7 +6756,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Aggravated Assault",
-    "count": 23
+    "count": 24
   },
   {
     "agency": "Rochester",
@@ -6765,7 +6765,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Burglary",
-    "count": 12
+    "count": 13
   },
   {
     "agency": "Rochester",
@@ -6801,7 +6801,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 80
+    "count": 83
   },
   {
     "agency": "St. Cloud",
@@ -7836,7 +7836,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 547
+    "count": 549
   },
   {
     "agency": "Woodbury",
@@ -8232,7 +8232,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 66
+    "count": 67
   },
   {
     "agency": "Wright",
