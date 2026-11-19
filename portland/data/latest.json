@@ -204,7 +204,7 @@
     "year": 2026,
     "month": 2,
     "offense": "Robbery",
-    "count": 72
+    "count": 73
   },
   {
     "agency": "Portland",
@@ -411,7 +411,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Theft",
-    "count": 2180
+    "count": 2181
   },
   {
     "agency": "Portland",
@@ -420,7 +420,7 @@
     "year": 2026,
     "month": 5,
     "offense": "Motor Vehicle Theft",
-    "count": 243
+    "count": 244
   },
   {
     "agency": "Portland",
@@ -717,7 +717,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Burglary",
-    "count": 339
+    "count": 338
   },
   {
     "agency": "Portland",
@@ -726,7 +726,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 2010
+    "count": 2013
   },
   {
     "agency": "Portland",
