@@ -1239,7 +1239,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Aggravated Assault",
-    "count": 19
+    "count": 16
   },
   {
     "agency": "Bloomington",
@@ -4614,7 +4614,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 40
+    "count": 41
   },
   {
     "agency": "Maple Grove",
@@ -5190,7 +5190,7 @@
     "year": 2026,
     "month": 4,
     "offense": "Rape",
-    "count": 46
+    "count": 47
   },
   {
     "agency": "Minneapolis",
@@ -5523,7 +5523,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Theft",
-    "count": 1130
+    "count": 1132
   },
   {
     "agency": "Minneapolis",
@@ -5541,7 +5541,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Burglary",
-    "count": 204
+    "count": 205
   },
   {
     "agency": "Minneapolis",
@@ -6729,7 +6729,7 @@
     "year": 2026,
     "month": 9,
     "offense": "Motor Vehicle Theft",
-    "count": 5
+    "count": 6
   },
   {
     "agency": "Rochester",
@@ -6801,7 +6801,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 88
+    "count": 89
   },
   {
     "agency": "St. Cloud",
@@ -7791,7 +7791,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Burglary",
-    "count": 110
+    "count": 111
   },
   {
     "agency": "St. Paul",
@@ -7836,7 +7836,7 @@
     "year": 2026,
     "month": 10,
     "offense": "Theft",
-    "count": 551
+    "count": 552
   },
   {
     "agency": "Woodbury",
